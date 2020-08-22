@@ -1,0 +1,574 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Login_EmailSuccess" xml:space="preserve">
+    <value>Password is sent to </value>
+  </data>
+  <data name="Login_EmailVerify" xml:space="preserve">
+    <value>Please verify your User ID.</value>
+  </data>
+  <data name="Login_InvalidDB" xml:space="preserve">
+    <value>Sorry for the inconvenience. Unable to connect to the DB server.</value>
+  </data>
+  <data name="Login_InvalidEmailID" xml:space="preserve">
+    <value>Please enter your User ID.</value>
+  </data>
+  <data name="Login_Invalidemail_password" xml:space="preserve">
+    <value>Invalid User ID/Password.</value>
+  </data>
+  <data name="Login_PasswordEnter" xml:space="preserve">
+    <value>Please enter your password.</value>
+  </data>
+  <data name="Reg_ConfirmPassword" xml:space="preserve">
+    <value>Please confirm your password.</value>
+  </data>
+  <data name="Reg_EnterPhone" xml:space="preserve">
+    <value>Please enter your phone number.</value>
+  </data>
+  <data name="Reg_EnterPrefPhone" xml:space="preserve">
+    <value>Please enter your prefered phone number</value>
+  </data>
+  <data name="Reg_FirstName" xml:space="preserve">
+    <value>Please enter first name.</value>
+  </data>
+  <data name="Reg_GenderSel" xml:space="preserve">
+    <value>Please select gender.</value>
+  </data>
+  <data name="Reg_LastName" xml:space="preserve">
+    <value>Please enter last name.</value>
+  </data>
+  <data name="Reg_Mandatoryfields" xml:space="preserve">
+    <value>All fields are mandatory.</value>
+  </data>
+  <data name="Reg_NoStudentDet" xml:space="preserve">
+    <value>Student details are not found.  Please contact exam Instructor.</value>
+  </data>
+  <data name="Reg_PasswordEnter" xml:space="preserve">
+    <value>Please enter your password.</value>
+  </data>
+  <data name="Reg_PasswordMatch" xml:space="preserve">
+    <value>Password didn’t match.</value>
+  </data>
+  <data name="Reg_SecAnswerEnter" xml:space="preserve">
+    <value>Please enter answer.</value>
+  </data>
+  <data name="Reg_SecQuestionEnter" xml:space="preserve">
+    <value>Please select a security question.</value>
+  </data>
+  <data name="Reg_StudentRegFail" xml:space="preserve">
+    <value>Your registration did not go through. Please review registration instructions provided on this screen.</value>
+  </data>
+  <data name="Reg_StudentRegSuccess" xml:space="preserve">
+    <value>Student registered successfully.</value>
+  </data>
+  <data name="Reg_TimeZoneSel" xml:space="preserve">
+    <value>Please select time zone.</value>
+  </data>
+  <data name="Reg_Uploadfile" xml:space="preserve">
+    <value>Please upload your Photo ID.</value>
+  </data>
+  <data name="Reg_Uploadfileheight" xml:space="preserve">
+    <value>The height of the image is exceeding 300, please select another image with 300 x 300 dimensions.</value>
+  </data>
+  <data name="Reg_Uploadfilesize" xml:space="preserve">
+    <value>The size of the file uploaded is too large, please upload the file less than 1MB size limit.</value>
+  </data>
+  <data name="Reg_UserExists" xml:space="preserve">
+    <value>User already exists.</value>
+  </data>
+  <data name="Reg_UserName" xml:space="preserve">
+    <value>Please enter user name.</value>
+  </data>
+  <data name="Reg_Validuploadfiles" xml:space="preserve">
+    <value>Please upload .jpg,.png,.gif,.bmp,.jpeg files only.</value>
+  </data>
+  <data name="Reg_ValidUserName" xml:space="preserve">
+    <value>Please enter valid email address</value>
+  </data>
+  <data name="Student_ScheduleExam" xml:space="preserve">
+    <value>Exam scheduled successfully.</value>
+  </data>
+  <data name="MyProfile_ConfirmNewPassword" xml:space="preserve">
+    <value>Please confirm the new password.</value>
+  </data>
+  <data name="MyProfile_CurrPassword" xml:space="preserve">
+    <value>Please enter the current password.</value>
+  </data>
+  <data name="MyProfile_FileUploadSuccess" xml:space="preserve">
+    <value>Photo ID uploaded successfully.</value>
+  </data>
+  <data name="MyProfile_NewPassword" xml:space="preserve">
+    <value>Please enter the new password.</value>
+  </data>
+  <data name="Myprofile_PasswordMatch" xml:space="preserve">
+    <value>Password didn’t match.</value>
+  </data>
+  <data name="MyProfile_PasswordUpdateSuccess" xml:space="preserve">
+    <value>New password has been updated successfully.</value>
+  </data>
+  <data name="MyProfile_SecquestionsUpdateSuccess" xml:space="preserve">
+    <value>Security questions updated successfully.</value>
+  </data>
+  <data name="MyProfile_TimeZoneUpdateSuccess" xml:space="preserve">
+    <value>Account information has been updated successfully.</value>
+  </data>
+  <data name="MyProfile_ValidCurrentPassword" xml:space="preserve">
+    <value>Please enter valid current password.</value>
+  </data>
+  <data name="Student_Agreements" xml:space="preserve">
+    <value>Please accept all the agreements.</value>
+  </data>
+  <data name="Student_ExamCloseconfirm" xml:space="preserve">
+    <value>Exam completed successfully.</value>
+  </data>
+  <data name="Student_ExamDetConfirmNoTools" xml:space="preserve">
+    <value>No tools available.</value>
+  </data>
+  <data name="Student_ExamdetConfirmReSchedule" xml:space="preserve">
+    <value>Your exam has been rescheduled successfully. An email with instructions has been sent to your email address.</value>
+  </data>
+  <data name="Student_ExamdetConfirmSchedule" xml:space="preserve">
+    <value>Your exam has been scheduled successfully. An email with instructions has been sent to your email address.</value>
+  </data>
+  <data name="Student_ExamSession_Close" xml:space="preserve">
+    <value>Once the exam is completed, please click on Close Exam button.</value>
+  </data>
+  <data name="Student_ExamSession_NoClose" xml:space="preserve">
+    <value>Do not close or refresh this window during your exam, or you will lose connection with your proctor.</value>
+  </data>
+  <data name="Student_InvalidSecAns" xml:space="preserve">
+    <value>Incorrect security answers. Please try again.</value>
+  </data>
+  <data name="Student_SecAnswerEmpty" xml:space="preserve">
+    <value>Answer cannot be blank.</value>
+  </data>
+  <data name="Audit_TransApprove" xml:space="preserve">
+    <value>Selection approved successfully.</value>
+  </data>
+  <data name="Audit_TransFail" xml:space="preserve">
+    <value>Approval/Rejection failed. Please try again.</value>
+  </data>
+  <data name="Audit_TransReject" xml:space="preserve">
+    <value>Transaction is rejected successfully.</value>
+  </data>
+  <data name="Audit_TransSelect" xml:space="preserve">
+    <value>Please select to approve.</value>
+  </data>
+  <data name="Proctor_CommentsMandate" xml:space="preserve">
+    <value>Please add  comments.</value>
+  </data>
+  <data name="Proctor_ExamApprove" xml:space="preserve">
+    <value>Exam approved successfully.</value>
+  </data>
+  <data name="Provider_DeleteEnrollment" xml:space="preserve">
+    <value>Deleted successfully.</value>
+  </data>
+  <data name="Provider_EnrollStudentExam" xml:space="preserve">
+    <value>Student has been already enrolled for this exam.</value>
+  </data>
+  <data name="Provider_EnrollStudentSuccess" xml:space="preserve">
+    <value>Student has been enrolled for an exam successfully.</value>
+  </data>
+  <data name="Provider_ExamComments" xml:space="preserve">
+    <value>Please add comments.</value>
+  </data>
+  <data name="Provider_ExamDeleteSuccess" xml:space="preserve">
+    <value>Exam has been deleted successfully.</value>
+  </data>
+  <data name="Provider_ExamDetCourse" xml:space="preserve">
+    <value>Please enter course name.</value>
+  </data>
+  <data name="Provider_ExamDetExam" xml:space="preserve">
+    <value>Please enter exam name.</value>
+  </data>
+  <data name="Provider_ExamExists" xml:space="preserve">
+    <value>Exam name already exists.</value>
+  </data>
+  <data name="Provider_ExamUpdateSuccess" xml:space="preserve">
+    <value>New exam details saved successfully</value>
+  </data>
+  <data name="Provider_ExamURL" xml:space="preserve">
+    <value>Please enter valid URL.</value>
+  </data>
+  <data name="Provider_Notes" xml:space="preserve">
+    <value>Notes can not be empty.</value>
+  </data>
+  <data name="Provider_Rules" xml:space="preserve">
+    <value>Rules can not be empty.</value>
+  </data>
+  <data name="Provider_StudentEnroll" xml:space="preserve">
+    <value>Student has been enrolled successfully.</value>
+  </data>
+  <data name="Provider_StudentEnrollUpdateSuccess" xml:space="preserve">
+    <value>Email enrolled successfully.</value>
+  </data>
+  <data name="Provider_StudentExists" xml:space="preserve">
+    <value>Student already exists.</value>
+  </data>
+  <data name="Provider_StudentUpdateFail" xml:space="preserve">
+    <value>Please enter valid details.</value>
+  </data>
+  <data name="Provider_StudentUpdateSuccess" xml:space="preserve">
+    <value>Student details updated successfully.</value>
+  </data>
+  <data name="Provider_UserDelFail" xml:space="preserve">
+    <value>Student deletion failed. Please try again.</value>
+  </data>
+  <data name="Provider_UserDelPending" xml:space="preserve">
+    <value>Deletion failed as student has pending exams.</value>
+  </data>
+  <data name="Provider_UserDelSuccess" xml:space="preserve">
+    <value>Student deleted successfully.</value>
+  </data>
+  <data name="Provider_Useremailid" xml:space="preserve">
+    <value>Please enter your email address.</value>
+  </data>
+  <data name="Provider_UserFirstName" xml:space="preserve">
+    <value>Please enter student first name.</value>
+  </data>
+  <data name="Provider_UserLastName" xml:space="preserve">
+    <value>Please enter student last name.</value>
+  </data>
+  <data name="Provider_UserPhone" xml:space="preserve">
+    <value>Please enter your phone number.</value>
+  </data>
+  <data name="Provider_UserValidemail" xml:space="preserve">
+    <value>Please enter valid email address</value>
+  </data>
+  <data name="Provider_CourseExists" xml:space="preserve">
+    <value>Course ID already exists.</value>
+  </data>
+  <data name="Provider_CourseSuccess" xml:space="preserve">
+    <value>Course created successfully.</value>
+  </data>
+  <data name="Provider_CourseEditFailed" xml:space="preserve">
+    <value>Course ID already exists.</value>
+  </data>
+  <data name="Provider_CourseEditSuccess" xml:space="preserve">
+    <value>Course details  updated successfully.</value>
+  </data>
+  <data name="Provider_EnrollUpdate" xml:space="preserve">
+    <value>Enrollment details updated successfully.</value>
+  </data>
+  <data name="Proctor_ExamClose" xml:space="preserve">
+    <value>Exam has been closed by proctor successfully.</value>
+  </data>
+  <data name="Proctor_ExamIncomplete" xml:space="preserve">
+    <value>Exam is incomplete</value>
+  </data>
+  <data name="Reschedule_24hoursValidation" xml:space="preserve">
+    <value>With On-demand scheduling option exam can be rescheduled within 24 hours.</value>
+  </data>
+  <data name="Reschedule_Confirmation" xml:space="preserve">
+    <value>You've rescheduled your exam (ID:</value>
+  </data>
+  <data name="Reschedule_ExamProgressValidation" xml:space="preserve">
+    <value>Exam is already in progress. Rescheduling is not allowed.</value>
+  </data>
+  <data name="Reschedule_PriorDateValidation" xml:space="preserve">
+    <value>Exam can not be rescheduled prior to today's date.</value>
+  </data>
+  <data name="Reschedule_TimeWindowValidation" xml:space="preserve">
+    <value>Exam already scheduled in current time window. Rescheduling is not allowed.</value>
+  </data>
+  <data name="Schedule_24hoursValidation" xml:space="preserve">
+    <value>With On-demand scheduling option exam can be scheduled within 24 hours.</value>
+  </data>
+  <data name="Schedule_ExamStartEndDateValidation" xml:space="preserve">
+    <value> cannot be scheduled at this point of time. Exam can be scheduled between </value>
+  </data>
+  <data name="Schedule_PriorDateValidation" xml:space="preserve">
+    <value>Exam can not be scheduled prior to today's date.</value>
+  </data>
+  <data name="Schedule_TimeWindowValidation" xml:space="preserve">
+    <value>Exam already scheduled in current time window.</value>
+  </data>
+  <data name="Student_ExamAlreadyExists" xml:space="preserve">
+    <value>is already scheduled on</value>
+  </data>
+  <data name="Student_PopupAlert" xml:space="preserve">
+    <value>The popup was blocked. You must allow popups to use this site.</value>
+  </data>
+  <data name="Schedule_Confirmation" xml:space="preserve">
+    <value>You've scheduled your exam (ID:</value>
+  </data>
+  <data name="Schedule_Confirmation1" xml:space="preserve">
+    <value>)!</value>
+  </data>
+  <data name="Student_ExamAlreadyExistsElse" xml:space="preserve">
+    <value>is already scheduled at a different time.</value>
+  </data>
+  <data name="Reschedule_ExamStartEndDateValidation" xml:space="preserve">
+    <value>Exam reschedule date should be between </value>
+  </data>
+  <data name="Reschedule_Confirmation1" xml:space="preserve">
+    <value>)!</value>
+  </data>
+  <data name="AppointmentDelete" xml:space="preserve">
+    <value>You can only cancel the exam when it is  in scheduled status.</value>
+  </data>
+  <data name="AppointmentDeleteSuccess" xml:space="preserve">
+    <value>cancelled successfully.</value>
+  </data>
+  <data name="Student_checkStartTime" xml:space="preserve">
+    <value>You can only start the exam 15 minutes before the scheduled time.</value>
+  </data>
+  <data name="MyProfile_TimeZoneUpdateFailed" xml:space="preserve">
+    <value>Account information updation failed. Please try again.</value>
+  </data>
+  <data name="MyProfile_SecurityQuestions" xml:space="preserve">
+    <value>examiKNOW &lt;sup style="font-size:13px;"&gt;®&lt;/sup&gt;</value>
+  </data>
+  <data name="MyProfile_TimeZone" xml:space="preserve">
+    <value>Time zone</value>
+  </data>
+  <data name="MyProfile_UploadPicture" xml:space="preserve">
+    <value>examiSHOW  &lt;sup style="font-size:13px;"&gt;®&lt;/sup&gt;</value>
+  </data>
+  <data name="Student_MyprofileAllthreeAnswers" xml:space="preserve">
+    <value>Please answer all three security questions.</value>
+  </data>
+  <data name="Student_MyprofileAllthreequestions" xml:space="preserve">
+    <value>Please select all three security questions.</value>
+  </data>
+  <data name="Student_MyprofilethreeDifferentQuestions" xml:space="preserve">
+    <value>Please select three different security questions</value>
+  </data>
+  <data name="Admin_ResetPasswordSuccess" xml:space="preserve">
+    <value>Password has been reset successfully.</value>
+  </data>
+  <data name="Provider_ExamDetailsSuccess" xml:space="preserve">
+    <value>New exam details have been saved successfully.</value>
+  </data>
+  <data name="Student_MyProfileCheck" xml:space="preserve">
+    <value>Please complete your &lt;a href='MyProfile.aspx'&gt;&lt;u&gt;&lt;font color='blue'&gt;Profile &lt;/font&gt;&lt;/u&gt;&lt;/a&gt; for scheduling an exam.</value>
+  </data>
+  <data name="ReSchedule_OndemandValidation" xml:space="preserve">
+    <value>With On-demand scheduling option exam can be rescheduled within 24 hours.</value>
+  </data>
+  <data name="Schedule_OndemandValidation" xml:space="preserve">
+    <value>With On-demand scheduling option exam can be scheduled within 24 hours.</value>
+  </data>
+  <data name="Proctor_AddProctor" xml:space="preserve">
+    <value>Added successfully.</value>
+  </data>
+  <data name="Proctor_Error_AddProctor" xml:space="preserve">
+    <value>Error while adding proctor name.</value>
+  </data>
+  <data name="Admin_AddStudent_Error_AddInstructor" xml:space="preserve">
+    <value>Instructor already exist.</value>
+  </data>
+  <data name="Admin_AddStudent_Success_AddInstructor" xml:space="preserve">
+    <value>Instructor added successfully.</value>
+  </data>
+  <data name="LogOut_V" xml:space="preserve">
+    <value>You are successfully logged out of Examity.</value>
+    <comment>Please return to your  Blackboard &lt;u&gt;&lt;a href='https://learn.eku.edu'  target="_blank"&gt;site&lt;/a&gt;&lt;/u&gt;.</comment>
+  </data>
+  <data name="Session_V" xml:space="preserve">
+    <value>You are successfully logged out of Examity.</value>
+  </data>
+  <data name="Slot_Unavailable" xml:space="preserve">
+    <value>Selected date/time is Unavailable.</value>
+  </data>
+  <data name="Invalid_ClickHere" xml:space="preserve">
+    <value>Invalid Meeting Credentials &lt;u&gt;&lt;a href='https://howardcc.instructure.com/login'  target="_blank"&gt;Click here&lt;/a&gt;&lt;/u&gt;. Please try again.</value>
+  </data>
+  <data name="Proctor_Add_Error_AddMeeting" xml:space="preserve">
+    <value>Exam ID doesn't exists.</value>
+  </data>
+  <data name="Proctor_Add_Success_AddMeeting" xml:space="preserve">
+    <value>Exam session id updated successfully.</value>
+  </data>
+  <data name="Auditor_EditComments_Error_Comments" xml:space="preserve">
+    <value>Error occurs while updating comments.</value>
+  </data>
+  <data name="Auditor_Edit_Success_CommentsUpdated" xml:space="preserve">
+    <value>Comments updated successfully.</value>
+  </data>
+  <data name="Common_FairExamLevel" xml:space="preserve">
+    <value>FairExam &lt;sup style="font-size:13px;"&gt;®&lt;/sup&gt; Level</value>
+  </data>
+  <data name="AppointmentDeleteSuccess_LessThan24Hours" xml:space="preserve">
+    <value>Please Note: Cancelling your exam within 24 hours of your scheduled appointment will result in a $5 cancellation fee, and a charge equal to the cost of proctoring your new appointment.  Per university policy, a credit card will be required to pay the outstanding balance on your account when you schedule your next appointment.</value>
+  </data>
+  <data name="StartDateAndEndDateIsEmpty" xml:space="preserve">
+    <value>Exam start and/or end date is empty. Please contact &lt;u&gt;&lt;a href='mailto:support@examity.com'  target="_blank"&gt;Examity Support&lt;/a&gt;&lt;/u&gt; for further assistance.</value>
+  </data>
+  <data name="Student_AnAppointment" xml:space="preserve">
+    <value>You have already scheduled an appointment for</value>
+  </data>
+  <data name="Student_AnAppointmentForthesame" xml:space="preserve">
+    <value>An appointment for the same exam is in</value>
+  </data>
+  <data name="Student_AreyouSure" xml:space="preserve">
+    <value>You can reschedule or cancel your appointment by clicking on the buttons below.</value>
+  </data>
+  <data name="Student_YouCantSchedule" xml:space="preserve">
+    <value>You cannot schedule a new appointment at this point of time.</value>
+  </data>
+  <data name="MyProfile_ExamiKEY" xml:space="preserve">
+    <value>examiKEY &lt;sup style="font-size:13px;"&gt;®&lt;/sup&gt;</value>
+  </data>
+  <data name="MyProfile_ExamiKEYNotUpdated" xml:space="preserve">
+    <value>examiKEY &lt;sup style="font-size:13px;"&gt;®&lt;/sup&gt;  not updated.</value>
+  </data>
+  <data name="MyProfile_ExamiKEYUpdated" xml:space="preserve">
+    <value>examiKEY &lt;sup style="font-size:13px;"&gt;®&lt;/sup&gt; updated successfully.</value>
+  </data>
+  <data name="MyProfile_ExamiKEYNotUpdated1" xml:space="preserve">
+    <value>examiKEY &lt;sup style="font-size:13px;"&gt;®&lt;/sup&gt;  not updated.First Name and Last Name , Re-enter First Name and Last Name must be same.</value>
+  </data>
+  <data name="MyProfile_ExamiBADGE" xml:space="preserve">
+    <value>examiBADGE &lt;sup style="font-size:13px;"&gt;®&lt;/sup&gt;</value>
+  </data>
+  <data name="MYProfile_Exams0" xml:space="preserve">
+    <value>1 more test to earn your Bronze examiBADGE &lt;sup style="font-size:13px;"&gt;®&lt;/sup&gt;</value>
+  </data>
+  <data name="MYProfile_Exams1" xml:space="preserve">
+    <value>2 more tests to earn your Silver examiBADGE &lt;sup style="font-size:13px;"&gt;®&lt;/sup&gt;</value>
+  </data>
+  <data name="MYProfile_Exams10" xml:space="preserve">
+    <value>You have earned the distinction of a Platinum  examiBADGE &lt;sup style="font-size:13px;"&gt;®&lt;/sup&gt;</value>
+  </data>
+  <data name="MYProfile_Exams2" xml:space="preserve">
+    <value>1 more test to earn your Silver examiBADGE &lt;sup style="font-size:13px;"&gt;®&lt;/sup&gt;</value>
+  </data>
+  <data name="MYProfile_Exams3" xml:space="preserve">
+    <value>2 more tests to earn your Gold examiBADGE &lt;sup style="font-size:13px;"&gt;®&lt;/sup&gt;</value>
+  </data>
+  <data name="MYProfile_Exams4" xml:space="preserve">
+    <value>1 more test to earn your Gold examiBADGE &lt;sup style="font-size:13px;"&gt;®&lt;/sup&gt;</value>
+  </data>
+  <data name="MYProfile_Exams5" xml:space="preserve">
+    <value>5 more tests to earn your Platinum examiBADGE &lt;sup style="font-size:13px;"&gt;®&lt;/sup&gt;</value>
+  </data>
+  <data name="MYProfile_Exams6" xml:space="preserve">
+    <value>4 more tests to earn your Platinum examiBADGE &lt;sup style="font-size:13px;"&gt;®&lt;/sup&gt;</value>
+  </data>
+  <data name="MYProfile_Exams7" xml:space="preserve">
+    <value>3 more tests to earn your Platinum examiBADGE &lt;sup style="font-size:13px;"&gt;®&lt;/sup&gt;</value>
+  </data>
+  <data name="MYProfile_Exams8" xml:space="preserve">
+    <value>2 more tests to earn your Platinum examiBADGE &lt;sup style="font-size:13px;"&gt;®&lt;/sup&gt;</value>
+  </data>
+  <data name="MYProfile_Exams9" xml:space="preserve">
+    <value>1 more test to earn your Platinum examiBADGE &lt;sup style="font-size:13px;"&gt;®&lt;/sup&gt;</value>
+  </data>
+</root>

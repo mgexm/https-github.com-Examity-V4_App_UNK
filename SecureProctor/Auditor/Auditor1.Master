@@ -1,0 +1,243 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Auditor1.master.cs" Inherits="SecureProctor.Auditor.Auditor1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <link href="../CSS/ApplicationStyleSheet.css" rel="stylesheet" type="text/css" /> 
+    <link href="../CSS/Proctor_Styles.css" type="text/css" rel="Stylesheet" />
+    <link href="../CSS/help.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../Scripts/Common.js"></script>
+    <link rel="shortcut icon" href="../Images/secureproctor.ico" />
+     
+
+    <script type="text/javascript" src="../Scripts/jquery.js">
+    </script>
+    
+    <!--If you already have jquery on the page you don't need to insert this script tag-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+<link href="https://cdn.desk.com/assets/widget_embed_191.css" media="screen" rel="stylesheet" type="text/css" />
+<!--If you already have fancybox on the page this script tag should be omitted-->
+<script src="https://desk-customers.s3.amazonaws.com/shared/widget_embed_libraries_191.js" type="text/javascript"></script>
+
+</head>
+<body>
+  
+    <form id="form1" runat="server">
+    <div class="top">
+<table cellpadding="0" cellspacing="0" width="100%" align="center">
+<tr>
+<td width="5%">&nbsp;</td>
+<td valign="top" class="welcome_text_block" width="90%">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td class="logo" valign="top" width="300" height="28">&nbsp;</td>
+<td width="451" style="text-align:left; color:#FFFFFF;" valign="top" align="left">
+    <asp:Label ID="lblWelcome" runat="server" Text="Welcome:" CssClass="lblHeader"></asp:Label>&nbsp;<asp:Label ID="lblUser" runat="server" CssClass="lblHeader"></asp:Label>
+</td>
+<td width="3" style="text-align:left; color:#FFFFFF;" align="left">&nbsp;</td>
+<td width="431" style="text-align:right; color:#FFFFFF;" valign="top" align="right">
+     <%--<asp:Label ID="lblTime" runat="server" Text="Time Zone :" CssClass="lblHeader"></asp:Label>--%>
+                                            <asp:LinkButton ID="lbtnTimeZone" runat="server" CssClass="lblHeader" ForeColor="White"
+                                                OnClick="lbtnTimeZone_Click">
+                                            </asp:LinkButton>&nbsp;&nbsp;
+                                                    <%-- <asp:Label ID="lblTimeZone" runat="server"></asp:Label>&nbsp;&nbsp;--%>
+                                            <%--<asp:Label ID="lblDate" runat="server" Text="Welcome:" CssClass="lblHeader"></asp:Label>--%>
+</td>
+</tr>
+<tr>
+<td valign="midlle" colspan="2" align="left" > <img src="../Images/ImgClientlogo.png" alt="Client" border="0" /></td>
+<td style="text-align:right; color:#FFFFFF;" valign="top" align="right" colspan="2"> 
+   <a href="#"><img src="../Images/ImgProductLogo.png" alt="Examity" border="0" /></a></td>
+</tr>
+</table>
+</td>
+<td width="5%">&nbsp;</td>
+</tr>
+</table>
+
+    </div>
+    <div id="application_container">
+        <div class="container">
+            <div class="main_menu">
+                <ul>
+                    <li>
+                        <asp:LinkButton ID="lnkHome" runat="server" OnClick="lnkTab_Click" Text="<%$ Resources:SecureProctor,Tab_Auditor_Home %>"
+                            CommandName="HOME"></asp:LinkButton>
+                    </li>
+                    <li>
+                        <asp:LinkButton ID="lnkInbox" runat="server" OnClick="lnkTab_Click" Text="<%$ Resources:SecureProctor,Tab_Auditor_Inbox %>"
+                            CommandName="INBOX"></asp:LinkButton></li>
+                    <li style="display:none;">
+                        <asp:LinkButton ID="lnkProcessedExamRequests" runat="server" OnClick="lnkTab_Click"
+                            Text="<%$ Resources:SecureProctor,Tab_Auditor_ProcessedExams %>" CommandName="PROCESSEDEXAMS"></asp:LinkButton></li>
+                    <li>
+                        <asp:LinkButton ID="lnkStudentLookUp" runat="server" OnClick="lnkTab_Click" Text="<%$ Resources:SecureProctor,Tab_Auditor_StudentLookUp %>"
+                            CommandName="STUDENTLOOKUP"></asp:LinkButton></li>
+                    <li>
+                        <asp:LinkButton ID="lnkReports" runat="server" OnClick="lnkTab_Click" Text="<%$ Resources:SecureProctor,Tab_Auditor_Reports %>"
+                            CommandName="REPORTS"></asp:LinkButton></li>
+                    <li>
+                        <asp:LinkButton ID="lnkProfile" runat="server" OnClick="lnkTab_Click" Text="<%$ Resources:SecureProctor,Tab_Auditor_MyProfile %>"
+                            CommandName="MYPROFILE"></asp:LinkButton></li>
+                    <li>
+                        <asp:LinkButton ID="lnkLogout" runat="server" OnClick="lnkTab_Click" Text="<%$ Resources:SecureProctor,Tab_Auditor_Logout %>"
+                            CommandName="LOGOUT">
+                            <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/Imglogout.png" />
+                        </asp:LinkButton></li>
+                    <div id="Div1" style="float: right; width: 360px; color: #fff; font-size: 13px;">
+                          <div class="ulCss" style="float: left;">
+				<script>
+				    new DESK.Widget({
+				        version: 1,
+				        ctaLabel: "Live Chat",
+				        site: 'examity.desk.com',
+				        port: '80',
+				        type: 'chat',
+				        displayMode: 0,  //0 for popup, 1 for lightbox
+				        features: {
+				            offerAlways: true,
+				            offerAgentsOnline: false,
+				            offerRoutingAgentsAvailable: false,
+				            offerEmailIfChatUnavailable: false
+				        },
+				        fields: {
+				            ticket: {
+				                //desc: &#x27;&#x27;,
+				                // labels_new: &#x27;&#x27;,
+				                // priority: &#x27;&#x27;,
+				                // subject: &#x27;&#x27;,
+				                // custom_issue_type: &#x27;&#x27;,
+				                // custom_customer_type: &#x27;&#x27;,
+				                // custom_crm: &#x27;&#x27;
+				            },
+				            interaction: {
+				                // email: &#x27;&#x27;,
+				                // name: &#x27;&#x27;
+				            },
+				            chat: {
+				                //subject: '' 
+				            },
+				            customer: {
+				                // company: &#x27;&#x27;,
+				                // desc: &#x27;&#x27;,
+				                // first_name: &#x27;&#x27;,
+				                // last_name: &#x27;&#x27;,
+				                // locale_code: &#x27;&#x27;,
+				                // title: &#x27;&#x27;,
+				                // custom_contact_role: &#x27;&#x27;,
+				                // custom_customer_type: &#x27;&#x27;
+				            }
+				        }
+				    }).render();
+                </script>
+				</div>
+
+
+
+
+                  <div class="livechatpannel" style="float: left; cursor: pointer">
+                               <u class="ulCss">
+                            </u>&nbsp;&nbsp;|
+                      <%-- <u>Live Chat</u>&nbsp;&nbsp;|--%>
+                           </div>
+                        <div id="Div2" style="float: left; width: 100px;">
+                            <a href="mailto:support@examity.com" style="color: #fff"><u>Email Support</u></a>&nbsp;|
+                        </div>
+                        <div id="Div3" style="float: left; width: 180px">
+                            Phone Support:
+                    
+                    855-EXAMITY
+                        </div>
+
+                    </div>
+            </ul>
+        </div>
+            <div class="container_inner">
+                <div class="login_new1">
+                    <asp:ContentPlaceHolder ID="AuditorContent" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- content end -->
+    <div id="footer">
+        <div class="footer_inner">
+            <div class="fut_left">
+             Copyright &copy; 2013 - <%: DateTime.Now.Year %>  <a target="_blank" href="http://examity.com/" style="color:white;">Examity&nbsp;<sup>&reg;</sup></a>&nbsp; All Rights Reserved.
+            </div>
+            <div id="supportpanels" style="float: right; color: white; font-size: 13px; text-align:right;">
+                   <div class="ulCss" style="float: left;">
+				<script>
+				    new DESK.Widget({
+				        version: 1,
+				        ctaLabel: "Live Chat",
+				        site: 'examity.desk.com',
+				        port: '80',
+				        type: 'chat',
+				        displayMode: 0,  //0 for popup, 1 for lightbox
+				        features: {
+				            offerAlways: true,
+				            offerAgentsOnline: false,
+				            offerRoutingAgentsAvailable: false,
+				            offerEmailIfChatUnavailable: false
+				        },
+				        fields: {
+				            ticket: {
+				                //desc: &#x27;&#x27;,
+				                // labels_new: &#x27;&#x27;,
+				                // priority: &#x27;&#x27;,
+				                // subject: &#x27;&#x27;,
+				                // custom_issue_type: &#x27;&#x27;,
+				                // custom_customer_type: &#x27;&#x27;,
+				                // custom_crm: &#x27;&#x27;
+				            },
+				            interaction: {
+				                // email: &#x27;&#x27;,
+				                // name: &#x27;&#x27;
+				            },
+				            chat: {
+				                //subject: '' 
+				            },
+				            customer: {
+				                // company: &#x27;&#x27;,
+				                // desc: &#x27;&#x27;,
+				                // first_name: &#x27;&#x27;,
+				                // last_name: &#x27;&#x27;,
+				                // locale_code: &#x27;&#x27;,
+				                // title: &#x27;&#x27;,
+				                // custom_contact_role: &#x27;&#x27;,
+				                // custom_customer_type: &#x27;&#x27;
+				            }
+				        }
+				    }).render();
+                </script>
+				</div>
+
+
+
+
+                  <div class="livechatpannel" style="float: left; cursor: pointer">
+                               <u class="ulCss">
+                            </u>&nbsp;&nbsp;|
+                      <%-- <u>Live Chat</u>&nbsp;&nbsp;|--%>
+                           </div>
+                <div id="Emailsupport" style="float:left;width:100px;">
+                    <a href="mailto:support@examity.com" style="color:white"><u>Email Support</u></a>&nbsp;|
+                </div>
+                <div id="phonesupport" style="float:left;width:180px">
+                    Phone Support:
+                    
+                    855-EXAMITY
+                </div>
+                
+                </div>
+
+            <div class="clear">
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Grid_Header_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Grid_Header_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Grid_Header_ExamDate" xml:space="preserve">
+    <value>Exam Date</value>
+  </data>
+  <data name="Grid_Header_ExamName" xml:space="preserve">
+    <value>Exam Name</value>
+  </data>
+  <data name="Grid_Header_Reschedule" xml:space="preserve">
+    <value>Reschedule</value>
+  </data>
+  <data name="Grid_Header_StartTime" xml:space="preserve">
+    <value>Start Time</value>
+  </data>
+  <data name="Grid_Header_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Grid_Header_TransactionID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Tab_Auditor_Home" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="Tab_Auditor_Inbox" xml:space="preserve">
+    <value>Inbox</value>
+  </data>
+  <data name="Tab_Auditor_Logout" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="Tab_Auditor_MyProfile" xml:space="preserve">
+    <value>My Profile</value>
+  </data>
+  <data name="Tab_Auditor_Reports" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="Tab_Auditor_StudentLookUp" xml:space="preserve">
+    <value>Student Lookup</value>
+  </data>
+  <data name="Tab_Student_Home" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="Tab_Student_Logout" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="Tab_Student_MyExams" xml:space="preserve">
+    <value>Reschedule/Cancel</value>
+  </data>
+  <data name="Tab_Student_Reports" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="Tab_Student_ReScheduleExam" xml:space="preserve">
+    <value>Reschedule an Exam</value>
+  </data>
+  <data name="Tab_Student_ScheduleExam" xml:space="preserve">
+    <value>Schedule Exam</value>
+  </data>
+  <data name="Tab_Student_StartAnExam" xml:space="preserve">
+    <value>Start Exam</value>
+  </data>
+  <data name="Telerik_Grid_Skin" xml:space="preserve">
+    <value>Web20</value>
+  </data>
+  <data name="Tab_Auditor_ProcessedExams" xml:space="preserve">
+    <value>Processed Exams</value>
+  </data>
+  <data name="Grid_Header_ExamID" xml:space="preserve">
+    <value>Exam ID</value>
+  </data>
+  <data name="Grid_Header_Select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="Grid_Header_StudentName" xml:space="preserve">
+    <value>Student Name</value>
+  </data>
+  <data name="Tab_Provider_EnrollStudent" xml:space="preserve">
+    <value>Enroll student</value>
+  </data>
+  <data name="Tab_Provider_ExamDetails" xml:space="preserve">
+    <value>Exam Details</value>
+  </data>
+  <data name="Tab_Provider_ExamStatus" xml:space="preserve">
+    <value>Exam Status</value>
+  </data>
+  <data name="Tab_Provider_Home" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="Tab_Provider_Logout" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="Tab_Provider_MyProfile" xml:space="preserve">
+    <value>My Profile</value>
+  </data>
+  <data name="Tab_Provider_Reports" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="Tab_Proctor_Home" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="Tab_Proctor_Logout" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="Tab_Proctor_MyProfile" xml:space="preserve">
+    <value>My Profile</value>
+  </data>
+  <data name="Tab_Proctor_Reports" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="Tab_Proctor_StudentExamLookUp" xml:space="preserve">
+    <value>Student/Exam Lookup</value>
+  </data>
+  <data name="Tab_Proctor_ValidateProctor" xml:space="preserve">
+    <value>Validate &amp; Proctor</value>
+  </data>
+  <data name="Telerik_Button_Skin" xml:space="preserve">
+    <value>Web20</value>
+  </data>
+  <data name="Grid_Header_ProviderName" xml:space="preserve">
+    <value>Instructor Name</value>
+  </data>
+  <data name="Grid_Header_ScheduleTime" xml:space="preserve">
+    <value>Schedule Time</value>
+  </data>
+  <data name="Grid_Header_ExamStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Grid_Header_Proctor" xml:space="preserve">
+    <value>Proctor</value>
+  </data>
+  <data name="Grid_Header_EmailAddress" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="Grid_Header_View" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Telerik_ComboBox_Skin" xml:space="preserve">
+    <value>Web20</value>
+  </data>
+  <data name="Grid_Header_Green" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="Grid_Header_Orange" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="Grid_Header_Red" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="Common_Submit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Common_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Common_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Common_Upload" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="Common_NoteDesc" xml:space="preserve">
+    <value>Note Description</value>
+  </data>
+  <data name="Common_NoteID" xml:space="preserve">
+    <value>Note ID</value>
+  </data>
+  <data name="Common_RoleDesc" xml:space="preserve">
+    <value>Role Description</value>
+  </data>
+  <data name="Common_RuleID" xml:space="preserve">
+    <value>RuleID</value>
+  </data>
+  <data name="Common_AddedBy" xml:space="preserve">
+    <value>Added By</value>
+  </data>
+  <data name="Common_AddedOn" xml:space="preserve">
+    <value>Added On</value>
+  </data>
+  <data name="Common_Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="Common_Flag" xml:space="preserve">
+    <value>Flag</value>
+  </data>
+  <data name="Common_Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Common_Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Common_Approve" xml:space="preserve">
+    <value>Approve</value>
+  </data>
+  <data name="Common_Reject" xml:space="preserve">
+    <value>Reject</value>
+  </data>
+  <data name="Telerik_Student_Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Telerik_Student_Validate" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="Telerik_Student_Confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="Telerik_Student_Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Common_Confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="Common_Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="Grid_Header_StudentFirstName" xml:space="preserve">
+    <value>Student First Name</value>
+  </data>
+  <data name="Grid_Header_StudentLastName" xml:space="preserve">
+    <value>Student Last Name</value>
+  </data>
+  <data name="Tab_Provider_Students" xml:space="preserve">
+    <value>View Student</value>
+  </data>
+  <data name="Grid_Header_EnrollmentDate" xml:space="preserve">
+    <value>Enroll Date</value>
+  </data>
+  <data name="Grid_Header_EnrollmentStatus" xml:space="preserve">
+    <value>Enroll Status</value>
+  </data>
+  <data name="Telerik_Student_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Telerik_Student_Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Telerik_Student_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Telerik_ForgotButton" xml:space="preserve">
+    <value>GET PASSWORD</value>
+  </data>
+  <data name="Telerik_Login" xml:space="preserve">
+    <value>LOG IN</value>
+  </data>
+  <data name="Telerik_Registration" xml:space="preserve">
+    <value>REGISTRATION</value>
+  </data>
+  <data name="Tab_Provider_CourseDetails" xml:space="preserve">
+    <value>Course Details</value>
+  </data>
+  <data name="Grid_Header_CourseID" xml:space="preserve">
+    <value>Course ID</value>
+  </data>
+  <data name="Tab_Provider_Course" xml:space="preserve">
+    <value>View Course</value>
+  </data>
+  <data name="Grid_Header_ReschduleORCancel" xml:space="preserve">
+    <value>Reschedule/Cancel</value>
+  </data>
+  <data name="Grid_Header_ProviderFirstName" xml:space="preserve">
+    <value>Instructor First Name</value>
+  </data>
+  <data name="Grid_Header_ProviderLastName" xml:space="preserve">
+    <value>Instructor Last Name</value>
+  </data>
+  <data name="Tab_Provider_CoursesExams" xml:space="preserve">
+    <value>Courses/Exams</value>
+  </data>
+  <data name="Tab_Provider_Student" xml:space="preserve">
+    <value>Students</value>
+  </data>
+  <data name="Tab_Student_MyProfile" xml:space="preserve">
+    <value>My Profile</value>
+  </data>
+  <data name="Tab_Provider_Instructor" xml:space="preserve">
+    <value>Instructor</value>
+  </data>
+  <data name="Grid_Header_ExamSecurityLevel" xml:space="preserve">
+    <value>FairExam &lt;sup  style="font-size:12px;"&gt;®&lt;/sup&gt; Level</value>
+  </data>
+  <data name="Common_CommentTime" xml:space="preserve">
+    <value>Incident Time Stamp</value>
+  </data>
+  <data name="Tab_Student_UploadFiles" xml:space="preserve">
+    <value>Exam Tools</value>
+  </data>
+  <data name="Grid_Header_CancelNew" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Grid_Header_CancelNewDescription" xml:space="preserve">
+    <value>Cancel this Appointment</value>
+  </data>
+  <data name="Grid_Header_ReschduleNew" xml:space="preserve">
+    <value>Reschedule</value>
+  </data>
+  <data name="Grid_Header_ReschduleNewDescription" xml:space="preserve">
+    <value>Reschedule this Appointment</value>
+  </data>
+  <data name="Grid_Header_ReschduleORCancelRowDesc" xml:space="preserve">
+    <value>Reschedule or Cancel</value>
+  </data>
+  <data name="Tab_Proctor_ValidateAutoProctor" xml:space="preserve">
+    <value>Validate Auto Proctor</value>
+  </data>
+</root>

@@ -1,0 +1,68 @@
+﻿#fbtab
+{
+    background: url(../images/Like.png) no-repeat; /* Path to Image */
+    right: 1px; /* change this to left: 1px; to put it on the left of the screen */
+    top: 286px;
+    height: 23px;
+    width: 22px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    z-index: 5000;
+}
+
+#fbtab a
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#twtab
+{
+    background: url(../images/Follow.png) no-repeat; /* Path to Image */
+    right: 1px; /* change this to left: 1px; to put it on the left of the screen */
+    top: 225px;
+    height: 23px;
+    width: 22px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    z-index: 5000;
+}
+
+#twtab a
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/*#rsstab{
+
+background: url(../images/RSS.png) no-repeat; /* Path to Image
+
+right:1px;  /* change this to left: 1px; to put it on the left of the screen 
+
+top:302px;height:23px;width:22px;margin:0;padding:0;position:fixed;z-index:5000;}
+
+#rsstab a{display:block;width:100%;height:100%;}*/
+#linkedin
+{
+    background: url(../images/linkedin.png) no-repeat; /* Path to Image */
+    right: 1px; /* change this to left: 1px; to put it on the left of the screen */
+    top: 255px;
+    height: 23px;
+    width: 22px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    z-index: 5000;
+}
+
+#linkedin a
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+}

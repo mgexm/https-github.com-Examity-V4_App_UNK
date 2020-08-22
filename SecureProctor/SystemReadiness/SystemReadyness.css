@@ -1,0 +1,123 @@
+﻿body {
+}
+
+.system_settings {
+    width: 700px; height:120px; margin:0px auto;
+    padding: 5px;
+}
+
+    .system_settings ul {
+        margin: 0px;
+        display: block;
+    }
+
+    .system_settings li {
+        display: inline;
+        margin: 0px 10px;
+        float: left;
+    }
+
+ .system_settings li.flash {
+            width: 150px; position:absolute;left:150px; text-align:center; border:1px dotted #ccc;
+           
+        }
+
+ .system_settings li.camera {
+            width: 150px;position:absolute; left:300px;text-align:center;border:1px dotted #ccc;
+        }
+
+ .system_settings li.micro {
+            width: 150px;position:absolute;left:450px;text-align:center;border:1px dotted #ccc;
+        }
+
+ .system_settings li.internet {
+            width: 150px;position:absolute;left:600px;text-align:center;border:1px dotted #ccc;
+        }
+
+.clear { clear:both;}
+.flash_none {
+    background: url(../Images/flash_none.png) no-repeat center;
+    width: 150px;
+    height: 78px;  position:relative;
+}
+.flash_on {
+    background: url(../Images/flash_on.png) no-repeat center;
+    width: 150px;
+    height: 78px; position:relative;
+}
+.flash_off {
+    background: url(../Images/flash_off.png) no-repeat center;
+    width: 150px; position:relative;
+    height: 78px;
+}
+.flash_alert {
+    background: url(../Images/flash_alert.png) no-repeat center;
+    width: 150px;
+    height: 78px; position:relative;
+}
+
+.camera_none {
+    background: url(../Images/camera_none.png) no-repeat center;
+    width: 150px; position:relative;
+    height: 78px;  
+}
+.camera_on {
+    background: url(../Images/camera_on.png) no-repeat center;
+    width: 150px;position:relative;
+    height: 78px;
+}
+.camera_off {
+    background: url(../Images/camera_off.png) no-repeat center;
+    width: 150px;position:relative;
+    height: 78px;
+}
+.camera_alert {
+    background: url(../Images/camera_alert.png) no-repeat center;
+    width: 150px;position:relative;
+    height: 78px;
+}
+
+.micro_none {
+    background: url(../Images/micro_none.png) no-repeat center;
+    width: 150px;position:relative;
+    height: 78px; 
+}
+.micro_on {
+    background: url(../Images/micro_on.png) no-repeat center;
+    width: 150px;position:relative;
+    height: 78px;
+}
+.micro_off {
+    background: url(../Images/micro_off.png) no-repeat center;
+    width: 150px;position:relative;
+    height: 78px;
+}
+.micro_alert {
+    background: url(../Images/micro_alert.png) no-repeat center;
+    width: 150px;position:relative;
+    height: 78px;
+}
+
+.internet_none {
+    background: url(../Images/internet_none.png) no-repeat center;
+    width: 150px;position:relative;
+    height: 78px;   
+}
+.internet_on {
+    background: url(../Images/internet_on.png) no-repeat center;
+    width: 150px;position:relative;
+    height: 78px;
+}
+.internet_off {
+    background: url(../Images/internet_off.png) no-repeat center;
+    width: 150px;position:relative;
+    height: 78px;
+}
+.internet_alert {
+    background: url(../Images/internet_alert.png) no-repeat center;
+    width: 150px;position:relative;
+    height: 78px;
+}
+
+
+/***************************************************************************************************/

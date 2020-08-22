@@ -1,0 +1,28 @@
+﻿#slideshow
+{
+    position: relative;
+    height: 250px;
+    padding: 0;
+}
+
+#slideshow IMG
+{
+    position: absolute;
+    z-index: 8;
+    opacity: 2.0;
+}
+
+#slideshow IMG.actived
+{
+    z-index: 10;
+    opacity: 1.0;
+}
+
+#slideshow IMG.last-actived
+{
+}
+
+.HiddenText label
+{
+    display: none;
+}

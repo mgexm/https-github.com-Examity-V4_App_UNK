@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Admin_Home_CoursesAndExams_Body" xml:space="preserve">
+    <value>&lt;li&gt;&lt;a href="CourseDetails.aspx"&gt;Manage course and exam data&lt;/a&gt;&lt;/li&gt;</value>
+  </data>
+  <data name="Admin_Home_CoursesAndExams_Head" xml:space="preserve">
+    <value>Courses/Exams</value>
+  </data>
+  <data name="Admin_Home_ExamStatus_Body" xml:space="preserve">
+    <value>&lt;li&gt;&lt;a href="ExamStatus.aspx"&gt;Manage exam status&lt;/a&gt;&lt;/li&gt;</value>
+  </data>
+  <data name="Admin_Home_ExamStatus_Head" xml:space="preserve">
+    <value>Exam Status</value>
+  </data>
+  <data name="Admin_Home_ExceptionRequests_Body" xml:space="preserve">
+    <value>&lt;li&gt;&lt;a href="#"&gt;Manage exam and date exception requests&lt;/a&gt;&lt;/li&gt;</value>
+  </data>
+  <data name="Admin_Home_ExceptionRequests_Head" xml:space="preserve">
+    <value>Exception Requests</value>
+  </data>
+  <data name="Admin_Home_Providers_Body" xml:space="preserve">
+    <value>&lt;li&gt;&lt;a href="Providers.aspx"&gt;Manage Providers&lt;/a&gt;&lt;/li&gt;</value>
+  </data>
+  <data name="Admin_Home_Providers_Head" xml:space="preserve">
+    <value>Providers</value>
+  </data>
+  <data name="Admin_Home_Reports_Body" xml:space="preserve">
+    <value>&lt;li&gt;&lt;a href="Reports.aspx"&gt;Exam status report&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="Reports.aspx"&gt;Student data report&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="Reports.aspx"&gt;Course &amp; exam details report&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="Reports.aspx"&gt;Voilation report&lt;/a&gt;&lt;/li&gt;</value>
+  </data>
+  <data name="Admin_Home_Reports_Head" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="Admin_Home_Students_Body" xml:space="preserve">
+    <value>&lt;li&gt;&lt;a href="Students.aspx"&gt;Manage student data&lt;/a&gt;&lt;/li&gt;</value>
+  </data>
+  <data name="Admin_Home_Students_Head" xml:space="preserve">
+    <value>Students</value>
+  </data>
+  <data name="Auditor_MyProfile" xml:space="preserve">
+    <value>&lt;ul&gt;&lt;li&gt;Auditor can change the password by providing old and new password.&lt;/li&gt;&lt;br /&gt;&lt;/ul&gt;&lt;strong&gt;Note :&lt;/strong&gt; All the changes/updates made in this page will reflect in your original records.&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;</value>
+  </data>
+  <data name="Common_ChangePassword" xml:space="preserve">
+    <value>&lt;p&gt;&lt;strong&gt;EDUCATION&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;The next generation delivery of proctoring solutions will have a huge impact in Education provider space to enable them being competitive&lt;br /&gt;Education industry regulations are a key factor in enabling the Remote Proctoring solution.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;CERTIFICATION&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Numerous certification programs are working at enabling the remote test process to match student needs for convenience and flexibility.&lt;/p&gt;&lt;p&gt;Examity has executed education solutions for more than 15 years and has been recognized by industry as a pioneer.&lt;/p&gt;&lt;p&gt;We have brought the same expertise to build the Secure Proctor solution.&lt;/p&gt;</value>
+  </data>
+  <data name="Common_Login" xml:space="preserve">
+    <value>&lt;p&gt;&lt;strong&gt;Examity™ &lt;/strong&gt;is the leading remote proctoring service worldwide.  Our end-to-end solution includes authentication, live monitoring, recording and auditing.&lt;br /&gt;&lt;br /&gt;Test-takers enjoy a seamless experience anytime, anywhere with lot of flexibility.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;</value>
+  </data>
+  <data name="Proctor_Myprofile" xml:space="preserve">
+    <value>&lt;ul&gt;&lt;li&gt;Proctor can change the password by providing old and new password.&lt;/li&gt;&lt;br /&gt;&lt;/ul&gt;&lt;strong&gt;Note :&lt;/strong&gt; All the changes/updates made in this page will reflect in your original records.&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;</value>
+  </data>
+  <data name="Provider_Home_CoursesAndExams_Body" xml:space="preserve">
+    <value>&lt;li&gt;&lt;a href="CourseDetails.aspx"&gt;Manage course and exam data&lt;/a&gt;&lt;/li&gt;</value>
+  </data>
+  <data name="Provider_Home_CoursesAndExams_Head" xml:space="preserve">
+    <value>Courses/Exams</value>
+  </data>
+  <data name="Provider_Home_ExamStatus_Body" xml:space="preserve">
+    <value>&lt;li&gt;&lt;a href="ExamStatus.aspx"&gt;Manage exam status&lt;/a&gt;&lt;/li&gt;</value>
+  </data>
+  <data name="Provider_Home_ExamStatus_Head" xml:space="preserve">
+    <value>Exam Status</value>
+  </data>
+  <data name="Provider_Home_ExceptionRequests_Body" xml:space="preserve">
+    <value>&lt;li&gt;&lt;a href="#"&gt;Manage exam and date exception requests&lt;/a&gt;&lt;/li&gt;</value>
+  </data>
+  <data name="Provider_Home_ExceptionRequests_Head" xml:space="preserve">
+    <value>Exception Requests</value>
+  </data>
+  <data name="Provider_Home_Reports_Body" xml:space="preserve">
+    <value>&lt;li&gt;&lt;a href="Reports.aspx"&gt;Exam status report&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="Reports.aspx"&gt;Student data report&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="Reports.aspx"&gt;Course &amp; exam details report&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="Reports.aspx"&gt;Voilation report&lt;/a&gt;&lt;/li&gt;</value>
+  </data>
+  <data name="Provider_Home_Reports_Head" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="Provider_Home_Students_Body" xml:space="preserve">
+    <value>&lt;li&gt;&lt;a href="Students.aspx"&gt;Manage student data&lt;/a&gt;&lt;/li&gt;</value>
+  </data>
+  <data name="Provider_Home_Students_Head" xml:space="preserve">
+    <value>Students</value>
+  </data>
+  <data name="Student_Agreements" xml:space="preserve">
+    <value>&lt;ul&gt;&lt;li&gt;Please select " I agree " option to agree with all the agreements and click on “Next” button.&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;&lt;li&gt;"Next" button will redirect to the webcam configuration page.&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="Student_ExamDetailsConfirmation" xml:space="preserve">
+    <value>&lt;strong&gt;How do I schedule for an exam ?&lt;/strong&gt;&lt;ul&gt;&lt;li&gt;You can schedule at any timeslot that best suits you&lt;/li&gt;&lt;li&gt;You can schedule for an exam 48 hours before the exam&lt;/li&gt;&lt;li&gt;If a slot is grayed out, its not a system issue. It just means that slot is full&lt;/li&gt;&lt;li&gt;Select a preferred date (grayed dates mean they can't be selected)&lt;/li&gt;&lt;li&gt;Select the time that suits you best.&lt;/li&gt;&lt;/ul&gt;&lt;strong&gt;What happens after I schedule ?&lt;/strong&gt;&lt;ul&gt;&lt;li&gt;You will get an email confirming your schedule&lt;/li&gt;&lt;li&gt;In the email, you will have instructions what to do before and during the exam&lt;/li&gt;&lt;/ul&gt;&lt;strong&gt;How do Reschedule/cancel ?&lt;/strong&gt;&lt;ul&gt;&lt;li&gt;You can Reschedule at any time slot that best suits you&lt;/li&gt;&lt;li&gt;You can Reschedule for an exam 24 hours before the previous scheduled time slot&lt;/li&gt;&lt;li&gt;If a slot is grayed out, its not a system issue. It just means that slot is full&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="Student_Home_ControlPanel_Body" xml:space="preserve">
+    <value>&lt;li&gt;&lt;a href="#"&gt;System readiness&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="#"&gt;Upload ID&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="#"&gt;Enter Security Questions&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="#"&gt;Confirm Time Zone&lt;/a&gt;&lt;/li&gt;</value>
+  </data>
+  <data name="Student_Home_ControlPanel_Head" xml:space="preserve">
+    <value>Control Panel</value>
+  </data>
+  <data name="Student_Home_ExamPanel_Body" xml:space="preserve">
+    <value>&lt;li&gt;&lt;a href="ScheduleExam.aspx"&gt;Make appointment&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="MyExams.aspx"&gt;Change appointment&lt;/a&gt;&lt;/li&gt;</value>
+  </data>
+  <data name="Student_Home_ExamPanel_Head" xml:space="preserve">
+    <value>Exam Panel</value>
+  </data>
+  <data name="Student_MyExams" xml:space="preserve">
+    <value>&lt;ul&gt;&lt;li&gt;Overall information of all the exams scheduled by a student can be found here.&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;&lt;li&gt;“ID” and “Exam Name” search fields can be used to search for an exam from the list.&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;&lt;li&gt;Each column can be sorted by clicking on the column name either in the ascending or descending order. &lt;/li&gt;&lt;br /&gt;&lt;br /&gt;&lt;li&gt;"Page Size" field can be used for either expanding or contracting the list of exams.&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;&lt;li&gt;Clicking on a transaction id provides brief information about the exam.&lt;/li&gt;&lt;/ul&gt;</value>
+  </data>
+  <data name="Student_MyProfile" xml:space="preserve">
+    <value>&lt;ul&gt;&lt;li&gt;You can edit/update the Security Questions provided during Registration.&lt;/li&gt;&lt;br /&gt;&lt;li&gt;You can change the password by providing old and new password.&lt;/li&gt;&lt;br /&gt;&lt;li&gt;You can Upload the new Identity.&lt;/li&gt;&lt;br/&gt;&lt;/ul&gt;&lt;strong&gt;Note :&lt;/strong&gt; All the changes/updates made in this page will reflect in your original records and will be continued for the present and future exams that will be created.&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;</value>
+  </data>
+  <data name="Student_MyProfile_ExamInfo" xml:space="preserve">
+    <value>Please make sure you save your information before continuing.&lt;br/&gt;Once you have completed the above steps, you can &lt;a href= 'ScheduleExam.aspx'&gt;&lt;u&gt;&lt;font color ='blue'&gt;Schedule an Exam&lt;/font&gt;&lt;/u&gt;&lt;/a&gt;</value>
+  </data>
+  <data name="Student_Registration" xml:space="preserve">
+    <value>&lt;p&gt;&lt;strong&gt;Before Your Register :&lt;/strong&gt;&lt;ul&gt;&lt;li&gt;You will be notified by your school once you are enrolled.&lt;/li&gt;&lt;li&gt;Check with your school and ensure your enrollment is completed.&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;During Registration :&lt;/strong&gt;&lt;ul&gt;&lt;li&gt;Enter all information required for Registration&lt;/li&gt;&lt;li&gt;Your email address will be your user ID&lt;/li&gt;&lt;li&gt;You will set your preferred secure password and security questions&lt;/li&gt;&lt;li&gt;Once you register successfully, you will be notified via email by Examity&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;After Registration :&lt;/strong&gt;&lt;ul&gt;&lt;li&gt;You can login to Secure Proctor using your ID (email address) and password&lt;/li&gt;&lt;li&gt;You can schedule/re-schedule and/or cancel exams in the system&lt;/li&gt;&lt;li&gt;You can take exams that you scheduled.&lt;/li&gt;&lt;li&gt;You can check status of exams for proctoring results.&lt;/li&gt;&lt;li&gt;The actual grades/exam results will be provided by your school&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Student_StartAnExam" xml:space="preserve">
+    <value>&lt;strong&gt;How do I start taking an exam ?&lt;/strong&gt;&lt;ul&gt;&lt;li&gt;You will see a list of all scheduled/completed exams on the screen.&lt;/li&gt;&lt;br /&gt;&lt;li&gt;Look for the exam that you want to start and click on the green play button.&lt;/li&gt;&lt;br /&gt;
+&lt;li&gt;Follow instructions as prompted by the system.&lt;/li&gt;&lt;br /&gt;&lt;li&gt;Good Luck for your exam !&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;</value>
+  </data>
+</root>

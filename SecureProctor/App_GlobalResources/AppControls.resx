@@ -1,0 +1,2745 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Common_Login_Button_GetPassword" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Common_Login_Button_Login" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Common_Login_Button_Registration" xml:space="preserve">
+    <value>REGISTRATION</value>
+  </data>
+  <data name="Common_Login_Label_ForgotPassword" xml:space="preserve">
+    <value>Enter Your User ID</value>
+  </data>
+  <data name="Common_Login_Label_Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Common_Login_Label_UserName" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="ControlPanel_Messages_Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Proctor_IdentityVerification_Button_Validate" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Provider_DeleteEnrollment_Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Provider_EditEnrollment_Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Student_Agreements_Button_Validate" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="Student_Home_Label_MyExams" xml:space="preserve">
+    <value>Student can view his / her exams.</value>
+  </data>
+  <data name="Student_Home_Label_MyProfileInfo" xml:space="preserve">
+    <value>Student can manage account information (ID, security questions and password).</value>
+  </data>
+  <data name="Student_Home_Label_ScheduleExam" xml:space="preserve">
+    <value>Student can schedule an exam by selecting the course, exam and time.</value>
+  </data>
+  <data name="Student_Home_Label_StartExam" xml:space="preserve">
+    <value>Student may start an exam by clicking the start exam button.</value>
+  </data>
+  <data name="Student_MyProfile_Label_FullName" xml:space="preserve">
+    <value>Full Name</value>
+  </data>
+  <data name="Student_Step1_Button_Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Student_Step2_Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Student_Step2_Button_Validate" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="Student_Step3_Button_Validate" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="Tab_Auditor_Home" xml:space="preserve">
+    <value>DASHBOARD</value>
+  </data>
+  <data name="Tab_Auditor_Inbox" xml:space="preserve">
+    <value>INBOX</value>
+  </data>
+  <data name="Tab_Auditor_Logout" xml:space="preserve">
+    <value>LOGOUT</value>
+  </data>
+  <data name="Tab_Auditor_MyProfile" xml:space="preserve">
+    <value>MY PROFILE</value>
+  </data>
+  <data name="Tab_Auditor_ProcessedExams" xml:space="preserve">
+    <value>PROCESSED EXAMS</value>
+  </data>
+  <data name="Tab_Auditor_Reports" xml:space="preserve">
+    <value>REPORTS</value>
+  </data>
+  <data name="Tab_Auditor_StudentLookUp" xml:space="preserve">
+    <value>STUDENT LOOK UP</value>
+  </data>
+  <data name="Tab_Proctor_Home" xml:space="preserve">
+    <value>DASHBOARD</value>
+  </data>
+  <data name="Tab_Proctor_Logout" xml:space="preserve">
+    <value>LOGOUT</value>
+  </data>
+  <data name="Tab_Proctor_MyProfile" xml:space="preserve">
+    <value>MY PROFILE</value>
+  </data>
+  <data name="Tab_Proctor_Reports" xml:space="preserve">
+    <value>REPORTS</value>
+  </data>
+  <data name="Tab_Proctor_StudentExamLookUp" xml:space="preserve">
+    <value>STUDENT/EXAM LOOKUP</value>
+  </data>
+  <data name="Tab_Proctor_ValidateProctor" xml:space="preserve">
+    <value>VALIDATE &amp; PROCTOR</value>
+  </data>
+  <data name="Tab_Provider_Home" xml:space="preserve">
+    <value>DASHBOARD</value>
+  </data>
+  <data name="Tab_Provider_Logout" xml:space="preserve">
+    <value>LOGOUT</value>
+  </data>
+  <data name="Tab_Student_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Tab_Student_Logout" xml:space="preserve">
+    <value>LOGOUT</value>
+  </data>
+  <data name="Common_Common_Flags_General" xml:space="preserve">
+    <value>No Violation</value>
+  </data>
+  <data name="Common_Common_Flags_PossibleViolation" xml:space="preserve">
+    <value>Possible Violation</value>
+  </data>
+  <data name="Common_Common_Flags_Violation" xml:space="preserve">
+    <value>Violation</value>
+  </data>
+  <data name="Proctor_ViewExamScreens_Button_Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Proctor_ViewExamScreens_Button_Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="Proctor_ViewExamScreens_Button_Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Proctor_ViewExamScreens_GridHeader_AddComments" xml:space="preserve">
+    <value>Add Comments</value>
+  </data>
+  <data name="Proctor_ViewExamScreens_GridHeader_AddedBy" xml:space="preserve">
+    <value>Added By</value>
+  </data>
+  <data name="Proctor_ViewExamScreens_GridHeader_AddedOn" xml:space="preserve">
+    <value>Added On</value>
+  </data>
+  <data name="Proctor_ViewExamScreens_GridHeader_Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="Proctor_ViewExamScreens_GridHeader_Flag" xml:space="preserve">
+    <value>Flag</value>
+  </data>
+  <data name="Proctor_ViewExamScreens_GridHeader_NoRec" xml:space="preserve">
+    <value>No records to display.</value>
+  </data>
+  <data name="Proctor_ViewExamScreens_GridHeader_NoteDesc" xml:space="preserve">
+    <value>Note Description</value>
+  </data>
+  <data name="Proctor_ViewExamScreens_GridHeader_NoteID" xml:space="preserve">
+    <value>Note ID</value>
+  </data>
+  <data name="Proctor_ViewUserDetails_Button_Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="Proctor_ViewUserDetails_GridHeader_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Proctor_ViewUserDetails_GridHeader_ExamName" xml:space="preserve">
+    <value>Exam Name</value>
+  </data>
+  <data name="Proctor_ViewUserDetails_GridHeader_ExamStatus" xml:space="preserve">
+    <value>Exam Status</value>
+  </data>
+  <data name="Proctor_ViewUserDetails_GridHeader_NoRec" xml:space="preserve">
+    <value>No records to display.</value>
+  </data>
+  <data name="Proctor_ViewUserDetails_GridHeader_ScheduleTime" xml:space="preserve">
+    <value>Schedule Time</value>
+  </data>
+  <data name="Proctor_ViewUserDetails_GridHeader_TransID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Proctor_ViewUserDetails_GridHeader_View" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Proctor_ViewUserDetails_Label_Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="Proctor_ViewUserDetails_Label_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Proctor_ViewUserDetails_Label_ExamDate" xml:space="preserve">
+    <value>Exam Date</value>
+  </data>
+  <data name="Proctor_ViewUserDetails_Label_ExamDetails" xml:space="preserve">
+    <value>Exam Details</value>
+  </data>
+  <data name="Proctor_ViewUserDetails_Label_ExamName" xml:space="preserve">
+    <value>Exam Name</value>
+  </data>
+  <data name="Proctor_ViewUserDetails_Label_ExamTime" xml:space="preserve">
+    <value>Exam Time</value>
+  </data>
+  <data name="Proctor_ViewUserDetails_Label_ExamTools" xml:space="preserve">
+    <value>Exam Tools</value>
+  </data>
+  <data name="Proctor_ViewUserDetails_Label_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Proctor_ViewUserDetails_Label_PhoneNumber" xml:space="preserve">
+    <value>Phone Number</value>
+  </data>
+  <data name="Proctor_ViewUserDetails_Label_SpecialNeeds" xml:space="preserve">
+    <value>Special Accommodations</value>
+  </data>
+  <data name="Proctor_ViewUserDetails_Label_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Proctor_ViewUserDetails_Label_StudentProfile" xml:space="preserve">
+    <value>Student Profile</value>
+  </data>
+  <data name="Proctor_ViewUserDetails_Label_TimeZone" xml:space="preserve">
+    <value>Time Zone</value>
+  </data>
+  <data name="Provider_CourseDetails_Button_Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Provider_CourseDetails_Button_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Provider_CourseDetails_GridHeader_Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Provider_CourseDetails_GridHeader_CourseID" xml:space="preserve">
+    <value>Course ID</value>
+  </data>
+  <data name="Provider_CourseDetails_GridHeader_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Provider_CourseDetails_GridHeader_CreatedDate" xml:space="preserve">
+    <value>Date Created</value>
+  </data>
+  <data name="Provider_CourseDetails_GridHeader_ModifiedDate" xml:space="preserve">
+    <value>Modified Date</value>
+  </data>
+  <data name="Provider_CourseDetails_Label_CourseID" xml:space="preserve">
+    <value>Course ID</value>
+  </data>
+  <data name="Provider_CourseDetails_Label_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Provider_AddExam_Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Provider_AddExam_Button_SaveExam" xml:space="preserve">
+    <value>Save Exam</value>
+  </data>
+  <data name="Provider_AddExam_Button_Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Provider_CourseDetails_GridHeader_Duration" xml:space="preserve">
+    <value>Duration (in Hrs)</value>
+  </data>
+  <data name="Provider_CourseDetails_GridHeader_EndDate" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="Provider_CourseDetails_GridHeader_ExamName" xml:space="preserve">
+    <value>Exam Name</value>
+  </data>
+  <data name="Provider_AddExam_GridHeader_GridCount" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="Provider_AddExam_GridHeader_NotesForProdAndAud" xml:space="preserve">
+    <value>Notes for Proctors and Auditors</value>
+  </data>
+  <data name="Provider_AddExam_GridHeader_RulesForStudent" xml:space="preserve">
+    <value>Rules for Student</value>
+  </data>
+  <data name="Provider_CourseDetails_GridHeader_StartDate" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="Provider_AddExam_Label_BufferTime" xml:space="preserve">
+    <value>Any need for extended time and/or special accommodations?</value>
+  </data>
+  <data name="Provider_AddExam_Label_DurationOfExam" xml:space="preserve">
+    <value>Duration of the Exam (hrs)</value>
+  </data>
+  <data name="Provider_AddExam_Label_ExamEndDate" xml:space="preserve">
+    <value>Exam End Date</value>
+  </data>
+  <data name="Provider_AddExam_Label_ExamLinkToAccess" xml:space="preserve">
+    <value>Link to access Exam</value>
+  </data>
+  <data name="Provider_AddExam_Label_ExamStartDate" xml:space="preserve">
+    <value>Exam Start Date</value>
+  </data>
+  <data name="Provider_AddExam_Label_MM" xml:space="preserve">
+    <value>Minutes</value>
+  </data>
+  <data name="Provider_AddExam_Label_RulesForStudent" xml:space="preserve">
+    <value>Rules for Student</value>
+  </data>
+  <data name="Provider_AddExam_Label_UploadFile" xml:space="preserve">
+    <value>Upload a file</value>
+  </data>
+  <data name="Provider_ExamStatus_GridHeader_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Provider_ExamStatus_GridHeader_ExamName" xml:space="preserve">
+    <value>Exam Name</value>
+  </data>
+  <data name="Provider_ExamStatus_GridHeader_ScheduleTime" xml:space="preserve">
+    <value>Schedule Time</value>
+  </data>
+  <data name="Provider_ExamStatus_GridHeader_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Provider_ExamStatus_GridHeader_StudentName" xml:space="preserve">
+    <value>Student Name</value>
+  </data>
+  <data name="Provider_ExamStatus_GridHeader_TransID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Provider_ExamStatus_GridHeader_View" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Provider_Students_Button_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Provider_Students_CheckBox_SpecialNeeds" xml:space="preserve">
+    <value>Special accommodations</value>
+  </data>
+  <data name="Provider_Students_GridHeader_Actions" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Provider_Students_GridHeader_EmailAddress" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="Provider_Students_GridHeader_Gender" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="Provider_Students_GridHeader_Registration" xml:space="preserve">
+    <value>Registration</value>
+  </data>
+  <data name="Provider_Students_GridHeader_SpecialNeeds" xml:space="preserve">
+    <value>Special accommodations</value>
+  </data>
+  <data name="Provider_Students_GridHeader_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Provider_Students_GridHeader_StudentName" xml:space="preserve">
+    <value>Student Name</value>
+  </data>
+  <data name="Provider_Students_Label_Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="Provider_Students_Label_EmailID" xml:space="preserve">
+    <value>Email ID</value>
+  </data>
+  <data name="Provider_Students_Label_FirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="Provider_Students_Label_LastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="Provider_ViewExamScreens_GridHeader_AddedBy" xml:space="preserve">
+    <value>Added By</value>
+  </data>
+  <data name="Provider_ViewExamScreens_GridHeader_AddedOn" xml:space="preserve">
+    <value>Added On</value>
+  </data>
+  <data name="Provider_ViewExamScreens_GridHeader_Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="Provider_ViewExamScreens_GridHeader_Flag" xml:space="preserve">
+    <value>Flag</value>
+  </data>
+  <data name="Provider_ViewExamScreens_GridHeader_NoRec" xml:space="preserve">
+    <value>No records to display.</value>
+  </data>
+  <data name="Provider_ViewExamScreens_Label_AddComents" xml:space="preserve">
+    <value>Add Comments</value>
+  </data>
+  <data name="Provider_ViewExamScreens_Label_Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="Provider_ViewExamScreens_Label_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Provider_ViewExamScreens_Label_ExamDate" xml:space="preserve">
+    <value>Exam Date</value>
+  </data>
+  <data name="Provider_ViewExamScreens_Label_ExamDetails" xml:space="preserve">
+    <value>Exam Details</value>
+  </data>
+  <data name="Provider_ViewExamScreens_Label_ExamName" xml:space="preserve">
+    <value>Exam Name</value>
+  </data>
+  <data name="Provider_ViewExamScreens_Label_ExamTime" xml:space="preserve">
+    <value>Exam Time</value>
+  </data>
+  <data name="Provider_ViewExamScreens_Label_ExamTools" xml:space="preserve">
+    <value>Exam Tools</value>
+  </data>
+  <data name="Provider_ViewExamScreens_Label_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Provider_ViewExamScreens_Label_SpecialNeeds" xml:space="preserve">
+    <value>Special Accommodations</value>
+  </data>
+  <data name="Provider_ViewExamScreens_Label_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Provider_ViewExamScreens_Button_Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Provider_ViewExamScreens_Button_Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Provider_ViewExamScreens_Label_BufferTime" xml:space="preserve">
+    <value>Extended time for special accommodations students</value>
+  </data>
+  <data name="Student_ExamDetailsConfirmation_GridHeader_NoRec" xml:space="preserve">
+    <value>No records to display.</value>
+  </data>
+  <data name="Student_ExamDetailsConfirmation_GridHeader_RuleDesc" xml:space="preserve">
+    <value>Rule Description</value>
+  </data>
+  <data name="Student_ExamDetailsConfirmation_GridHeader_RuleID" xml:space="preserve">
+    <value>Rule ID</value>
+  </data>
+  <data name="Student_ExamDetailsConfirmation_Label_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Student_ExamDetailsConfirmation_Label_ExamDate" xml:space="preserve">
+    <value>Exam Date</value>
+  </data>
+  <data name="Student_ExamDetailsConfirmation_Label_ExamID" xml:space="preserve">
+    <value>Exam ID</value>
+  </data>
+  <data name="Student_ExamDetailsConfirmation_Label_ExamTime" xml:space="preserve">
+    <value>Exam Time</value>
+  </data>
+  <data name="Student_ExamDetailsConfirmation_Label_ExamTools" xml:space="preserve">
+    <value>Exam Tools</value>
+  </data>
+  <data name="Student_ExamDetailsConfirmation_Label_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Student_ExamDetailsConfirmation_Label_StudentName" xml:space="preserve">
+    <value>Student Name</value>
+  </data>
+  <data name="Student_ExamDetailsConfirmation_Label_UploadFile" xml:space="preserve">
+    <value>Uploaded file</value>
+  </data>
+  <data name="Student_MyExams_GridHeader_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Student_MyExams_GridHeader_ExamDate" xml:space="preserve">
+    <value>Exam Date</value>
+  </data>
+  <data name="Student_MyExams_GridHeader_ExamID" xml:space="preserve">
+    <value>ExamID</value>
+  </data>
+  <data name="Student_MyExams_GridHeader_ExamName" xml:space="preserve">
+    <value>Exam Name</value>
+  </data>
+  <data name="Student_MyExams_GridHeader_ReschduleORCancel" xml:space="preserve">
+    <value>Reschedule/Cancel</value>
+  </data>
+  <data name="Student_MyExams_GridHeader_StartTime" xml:space="preserve">
+    <value>Start Time</value>
+  </data>
+  <data name="Student_MyExams_GridHeader_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Student_StartAnExam_GridHeader_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Student_StartAnExam_GridHeader_ExamDate" xml:space="preserve">
+    <value>Exam Date</value>
+  </data>
+  <data name="Student_StartAnExam_GridHeader_ExamID" xml:space="preserve">
+    <value>Exam ID</value>
+  </data>
+  <data name="Student_StartAnExam_GridHeader_ExamName" xml:space="preserve">
+    <value>Exam Name</value>
+  </data>
+  <data name="Student_StartAnExam_GridHeader_ExamTime" xml:space="preserve">
+    <value>Exam Time</value>
+  </data>
+  <data name="Student_StartAnExam_GridHeader_StartExam" xml:space="preserve">
+    <value>Start Exam</value>
+  </data>
+  <data name="Student_ViewExamScreens_GridHeader_NoteDesc" xml:space="preserve">
+    <value>Note Description</value>
+  </data>
+  <data name="Student_ViewExamScreens_GridHeader_NoteID" xml:space="preserve">
+    <value>Note ID</value>
+  </data>
+  <data name="Auditor_AuditorConfirmation_Label_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Auditor_AuditorConfirmation_Label_ExamDate" xml:space="preserve">
+    <value>Exam Date</value>
+  </data>
+  <data name="Auditor_AuditorConfirmation_Label_ExamID" xml:space="preserve">
+    <value>Exam ID</value>
+  </data>
+  <data name="Auditor_AuditorConfirmation_Label_ExamName" xml:space="preserve">
+    <value>Exam Name</value>
+  </data>
+  <data name="Auditor_AuditorConfirmation_Label_ExamTime" xml:space="preserve">
+    <value>Exam Time</value>
+  </data>
+  <data name="Auditor_AuditorConfirmation_Label_StudentName" xml:space="preserve">
+    <value>Student Name</value>
+  </data>
+  <data name="Auditor_ExamDetails_Button_Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Auditor_ExamDetails_Button_Approve" xml:space="preserve">
+    <value>Approve</value>
+  </data>
+  <data name="Auditor_ExamDetails_Button_Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="Auditor_ExamDetails_Button_Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Auditor_ExamDetails_Button_Reject" xml:space="preserve">
+    <value>Reject</value>
+  </data>
+  <data name="Auditor_ExamDetails_GridHeader_AddedBy" xml:space="preserve">
+    <value>Added By</value>
+  </data>
+  <data name="Auditor_ExamDetails_GridHeader_AddedOn" xml:space="preserve">
+    <value>Added On</value>
+  </data>
+  <data name="Auditor_ExamDetails_GridHeader_Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="Auditor_ExamDetails_GridHeader_Flag" xml:space="preserve">
+    <value>Flag</value>
+  </data>
+  <data name="Auditor_ExamDetails_GridHeader_NoRec" xml:space="preserve">
+    <value>No records to display.</value>
+  </data>
+  <data name="Auditor_ExamDetails_GridHeader_NoteDesc" xml:space="preserve">
+    <value>Note Description</value>
+  </data>
+  <data name="Auditor_ExamDetails_GridHeader_NoteID" xml:space="preserve">
+    <value>Note ID</value>
+  </data>
+  <data name="Auditor_ExamDetails_Label_Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="Auditor_ExamDetails_Label_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Auditor_ExamDetails_Label_ExamDate" xml:space="preserve">
+    <value>Exam Date</value>
+  </data>
+  <data name="Auditor_ExamDetails_Label_ExamDetails" xml:space="preserve">
+    <value>Exam Details</value>
+  </data>
+  <data name="Auditor_ExamDetails_Label_ExamName" xml:space="preserve">
+    <value>Exam Name</value>
+  </data>
+  <data name="Auditor_ExamDetails_Label_ExamTime" xml:space="preserve">
+    <value>Exam Time</value>
+  </data>
+  <data name="Auditor_ExamDetails_Label_ExamTools" xml:space="preserve">
+    <value>Exam Tools</value>
+  </data>
+  <data name="Auditor_ExamDetails_Label_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Auditor_ExamDetails_Label_ProviderName" xml:space="preserve">
+    <value>Instructor Name</value>
+  </data>
+  <data name="Auditor_ExamDetails_Label_SpecialNeeds" xml:space="preserve">
+    <value>Special Accommodations</value>
+  </data>
+  <data name="Auditor_ExamDetails_Label_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Auditor_Exametails_Label_AddComments" xml:space="preserve">
+    <value>Add Comments</value>
+  </data>
+  <data name="Auditor_Inbox_Button_Approve" xml:space="preserve">
+    <value>APPROVE</value>
+  </data>
+  <data name="Auditor_Inbox_GridHeader_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Auditor_Inbox_GridHeader_ExamDate" xml:space="preserve">
+    <value>Exam Date</value>
+  </data>
+  <data name="Auditor_Inbox_GridHeader_ExamName" xml:space="preserve">
+    <value>Exam Name</value>
+  </data>
+  <data name="Auditor_Inbox_GridHeader_NoRec" xml:space="preserve">
+    <value>No records to display.</value>
+  </data>
+  <data name="Auditor_Inbox_GridHeader_ProviderName" xml:space="preserve">
+    <value>Instructor Name</value>
+  </data>
+  <data name="Auditor_Inbox_GridHeader_StudentName" xml:space="preserve">
+    <value>Student Name</value>
+  </data>
+  <data name="Auditor_Inbox_GridHeader_TransID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Auditor_Inbox_GridHeader_View" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Auditor_ProcessedExamRequests_GridHeader_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Auditor_ProcessedExamRequests_GridHeader_ExamName" xml:space="preserve">
+    <value>Exam Name</value>
+  </data>
+  <data name="Auditor_ProcessedExamRequests_GridHeader_ProviderName" xml:space="preserve">
+    <value>Instructor Name</value>
+  </data>
+  <data name="Auditor_ProcessedExamRequests_GridHeader_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Auditor_ProcessedExamRequests_GridHeader_StudentName" xml:space="preserve">
+    <value>Student Name</value>
+  </data>
+  <data name="Auditor_ProcessedExamRequests_GridHeader_TransID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Auditor_ProcessedExamRequests_GridHeader_View" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Auditor_StudentLookUp_GridHeader_EmailAddr" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="Auditor_StudentLookUp_GridHeader_FirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="Auditor_StudentLookUp_GridHeader_LastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="Auditor_ViewStudentDetails_GridHeader_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Auditor_ViewStudentDetails_GridHeader_ExamName" xml:space="preserve">
+    <value>Exam Name</value>
+  </data>
+  <data name="Auditor_ViewStudentDetails_GridHeader_ExamStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Auditor_ViewStudentDetails_GridHeader_ProviderName" xml:space="preserve">
+    <value>Instructor Name</value>
+  </data>
+  <data name="Auditor_ViewStudentDetails_GridHeader_TransID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Auditor_ViewStudentDetails_GridHeader_View" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Auditor_ViewStudentDetails_Label_Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="Auditor_ViewStudentDetails_Label_PhoneNumber" xml:space="preserve">
+    <value>Phone Number</value>
+  </data>
+  <data name="Auditor_ViewStudentDetails_Label_SpecialNeeds" xml:space="preserve">
+    <value>Special Accommodations</value>
+  </data>
+  <data name="Auditor_ViewStudentDetails_Label_StudentProfile" xml:space="preserve">
+    <value>Student Profile</value>
+  </data>
+  <data name="Auditor_ViewStudentDetails_Label_TimeZone" xml:space="preserve">
+    <value>Time Zone</value>
+  </data>
+  <data name="Proctor_ExamDetails_GridHeader_NoRec" xml:space="preserve">
+    <value>No records to display.</value>
+  </data>
+  <data name="Proctor_ExamDetails_GridHeader_NoteDesc" xml:space="preserve">
+    <value>Note Desc</value>
+  </data>
+  <data name="Proctor_ExamDetails_GridHeader_NoteID" xml:space="preserve">
+    <value>Note ID</value>
+  </data>
+  <data name="Proctor_ExamDetails_Label_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Proctor_ExamDetails_Label_EndTime" xml:space="preserve">
+    <value>End Time</value>
+  </data>
+  <data name="Proctor_ExamDetails_Label_ExamDate" xml:space="preserve">
+    <value>Exam Date</value>
+  </data>
+  <data name="Proctor_ExamDetails_Label_ExamDuration" xml:space="preserve">
+    <value>Exam Duration</value>
+  </data>
+  <data name="Proctor_ExamDetails_Label_ExamID" xml:space="preserve">
+    <value>Exam ID</value>
+  </data>
+  <data name="Proctor_ExamDetails_Label_ExamName" xml:space="preserve">
+    <value>Exam Name</value>
+  </data>
+  <data name="Proctor_ExamDetails_Label_ExamURL" xml:space="preserve">
+    <value>Exam URL</value>
+  </data>
+  <data name="Proctor_ExamDetails_Label_HH" xml:space="preserve">
+    <value>Hours</value>
+  </data>
+  <data name="Proctor_ExamDetails_Label_MM" xml:space="preserve">
+    <value>Minutes</value>
+  </data>
+  <data name="Proctor_ExamDetails_Label_ProviderFile" xml:space="preserve">
+    <value>Faculty File</value>
+  </data>
+  <data name="Proctor_ExamDetails_Label_StartTime" xml:space="preserve">
+    <value>Start Time</value>
+  </data>
+  <data name="Proctor_ExamStatus_GridHeader_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Proctor_ExamStatus_GridHeader_ExamName" xml:space="preserve">
+    <value>Exam Name</value>
+  </data>
+  <data name="Proctor_ExamStatus_GridHeader_ExamStatus" xml:space="preserve">
+    <value>Exam Status</value>
+  </data>
+  <data name="Proctor_ExamStatus_GridHeader_NoRec" xml:space="preserve">
+    <value>No records to display.</value>
+  </data>
+  <data name="Proctor_ExamStatus_GridHeader_ScheduleTime" xml:space="preserve">
+    <value>Schedule Time</value>
+  </data>
+  <data name="Proctor_ExamStatus_GridHeader_StudentName" xml:space="preserve">
+    <value>Student Name</value>
+  </data>
+  <data name="Proctor_ExamStatus_GridHeader_TransID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Proctor_ExamStatus_GridHeader_View" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Proctor_ExamView_Button_Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Proctor_ExamView_Button_Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Proctor_ExamView_GridHeader_AddedBy" xml:space="preserve">
+    <value>Added By</value>
+  </data>
+  <data name="Proctor_ExamView_GridHeader_AddedOn" xml:space="preserve">
+    <value>Added On</value>
+  </data>
+  <data name="Proctor_ExamView_GridHeader_Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="Proctor_ExamView_GridHeader_Flag" xml:space="preserve">
+    <value>Flag</value>
+  </data>
+  <data name="Proctor_ExamView_GridHeader_NoRec" xml:space="preserve">
+    <value>No records to display.</value>
+  </data>
+  <data name="Proctor_ExamView_GridHeader_NoteDesc" xml:space="preserve">
+    <value>Note Description</value>
+  </data>
+  <data name="Proctor_ExamView_GridHeader_NoteID" xml:space="preserve">
+    <value>Note ID</value>
+  </data>
+  <data name="Proctor_ExamView_Label_AddComments" xml:space="preserve">
+    <value>Add Comments</value>
+  </data>
+  <data name="Proctor_ExamView_Label_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Proctor_ExamView_Label_EndTime" xml:space="preserve">
+    <value>End Time</value>
+  </data>
+  <data name="Proctor_ExamView_Label_ExamDate" xml:space="preserve">
+    <value>Exam Date</value>
+  </data>
+  <data name="Proctor_ExamView_Label_ExamDuration" xml:space="preserve">
+    <value>Exam Duration</value>
+  </data>
+  <data name="Proctor_ExamView_Label_ExamID" xml:space="preserve">
+    <value>Exam ID</value>
+  </data>
+  <data name="Proctor_ExamView_Label_ExamLink" xml:space="preserve">
+    <value>examiLINK&lt;sup&gt;®&lt;/sup&gt;</value>
+  </data>
+  <data name="Proctor_ExamView_Label_ExamName" xml:space="preserve">
+    <value>EXam Name</value>
+  </data>
+  <data name="Proctor_ExamView_label_ExamNotes" xml:space="preserve">
+    <value>Exam Notes</value>
+  </data>
+  <data name="Proctor_ExamView_Label_Phone" xml:space="preserve">
+    <value>Phone #</value>
+  </data>
+  <data name="Proctor_ExamView_Label_ProviderName" xml:space="preserve">
+    <value>Instructor Name</value>
+  </data>
+  <data name="Proctor_ExamView_Label_SpecialNeeds" xml:space="preserve">
+    <value>Special Accommodations</value>
+  </data>
+  <data name="Proctor_ExamView_Label_StartTime" xml:space="preserve">
+    <value>Start Time</value>
+  </data>
+  <data name="Proctor_ExamView_Label_Tools" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="Proctor_ValidateStudentIdentity_GridHeader_ExamName" xml:space="preserve">
+    <value>Exam Name</value>
+  </data>
+  <data name="Proctor_ValidateStudentIdentity_GridHeader_ExamStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Proctor_ValidateStudentIdentity_GridHeader_NoRec" xml:space="preserve">
+    <value>No records to display.</value>
+  </data>
+  <data name="Proctor_ValidateStudentIdentity_GridHeader_Proctor" xml:space="preserve">
+    <value>Proctor</value>
+  </data>
+  <data name="Proctor_ValidateStudentIdentity_GridHeader_ProviderName" xml:space="preserve">
+    <value>Instructor Name</value>
+  </data>
+  <data name="Proctor_ValidateStudentIdentity_GridHeader_SchduleTime" xml:space="preserve">
+    <value>Schedule Time</value>
+  </data>
+  <data name="Proctor_ValidateStudentIdentity_GridHeader_StudentName" xml:space="preserve">
+    <value>Student Name</value>
+  </data>
+  <data name="Proctor_ValidateStudentIdentity_GridHeader_TransID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Provider_DeleteEnrollment_Label_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Provider_DeleteEnrollment_Label_EmailAddress" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="Provider_DeleteEnrollment_Label_Gender" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="Provider_DeleteEnrollment_Label_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Provider_DeleteEnrollment_Label_StudentName" xml:space="preserve">
+    <value>Student Name</value>
+  </data>
+  <data name="Provider_EditCourse_Label_CourseID" xml:space="preserve">
+    <value>Course ID</value>
+  </data>
+  <data name="Provider_EditCourse_Label_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Provider_EditCourse_Label_CreatedDate" xml:space="preserve">
+    <value>Date Created</value>
+  </data>
+  <data name="Provider_EditCourse_Label_ModifiedDate" xml:space="preserve">
+    <value>Modified Date</value>
+  </data>
+  <data name="Provider_EditEnrollment_Button_Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Provider_EditEnrollment_Label_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Provider_EditEnrollment_Label_EmailAddr" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="Provider_EditEnrollment_Label_Gender" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="Provider_EditEnrollment_Label_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Provider_EditEnrollment_Label_StudentName" xml:space="preserve">
+    <value>Student Name</value>
+  </data>
+  <data name="Student_ScheduleExam_Button_Confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="Student_ScheduleExam_Button_Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Student_ScheduleExam_GridHeader_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Student_ScheduleExam_GridHeader_ExamDuration" xml:space="preserve">
+    <value>Exam Duration</value>
+  </data>
+  <data name="Student_ScheduleExam_GridHeader_ExamID" xml:space="preserve">
+    <value>Exam ID</value>
+  </data>
+  <data name="Student_ScheduleExam_GridHeader_ExamName" xml:space="preserve">
+    <value>Exam Name</value>
+  </data>
+  <data name="Student_ScheduleExam_GridHeader_Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="Student_ScheduleExam_Label_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Student_ScheduleExam_Label_ExamName" xml:space="preserve">
+    <value>Exam Name</value>
+  </data>
+  <data name="Student_ScheduleExam_Label_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Student_ScheduleExam_Label_Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="Student_ScheduleExam_Label_StudentName" xml:space="preserve">
+    <value>Student Name</value>
+  </data>
+  <data name="Student_Step5_Button_Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="Student_Step5_Button_Confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="Student_Step5_Label_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Student_Step5_Label_ExamDate" xml:space="preserve">
+    <value>Exam Date</value>
+  </data>
+  <data name="Student_Step5_Label_ExamName" xml:space="preserve">
+    <value>Exam Name</value>
+  </data>
+  <data name="Student_Step5_Label_ExamTime" xml:space="preserve">
+    <value>Exam Time</value>
+  </data>
+  <data name="Student_Step5_Label_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Student_Step5_Label_StudentName" xml:space="preserve">
+    <value>Student Name</value>
+  </data>
+  <data name="Provider_DeleteEnrollment_Button_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Auditor_AuditorConfirmation_Button_Approve" xml:space="preserve">
+    <value>APPROVE</value>
+  </data>
+  <data name="Auditor_AuditorConfirmation_Button_Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="Auditor_AuditorConfirmation_Button_Inbox" xml:space="preserve">
+    <value>Inbox</value>
+  </data>
+  <data name="Auditor_AuditorConfirmation_Button_Reject" xml:space="preserve">
+    <value>REJECT</value>
+  </data>
+  <data name="Auditor_MyProfile_Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Auditor_MyProfile_Button_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Auditor_MyProfile_Button_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Auditor_MyProfile_Button_Submit" xml:space="preserve">
+    <value>SUBMIT</value>
+  </data>
+  <data name="Common_ChangePassword_Button_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Proctor_MyProfile_Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Proctor_MyProfile_Button_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Proctor_MyProfile_Button_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Proctor_MyProfile_Button_Submit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="Provider_EditCourse_Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Provider_EditCourse_Button_Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Provider_MyProfile_Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Provider_MyProfile_Button_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Provider_MyProfile_Button_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Provider_MyProfile_Button_Submit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="Provider_ViewExamScreens_Button_Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="Student_MyProfile_Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Student_MyProfile_Button_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Student_MyProfile_Button_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Student_Registration_Button_Submit" xml:space="preserve">
+    <value>SUBMIT</value>
+  </data>
+  <data name="Student_ScheduleExam_Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Auditor_Inbox_GridHeader_Select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="Student_MyProfile_Button_Upload" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="Common_Login_Button_Home" xml:space="preserve">
+    <value>HOME</value>
+  </data>
+  <data name="Student_MyProfile_Label_SecurityQuestions" xml:space="preserve">
+    <value>Security questions</value>
+  </data>
+  <data name="Student_MyProfile_Label_UploadPicture" xml:space="preserve">
+    <value>Upload picture</value>
+  </data>
+  <data name="Student_MyProfile_Label_TimeZone" xml:space="preserve">
+    <value>Time zone</value>
+  </data>
+  <data name="Student_Step4_Label_CloseExam" xml:space="preserve">
+    <value>Once the exam is completed, please click on Close Exam button.</value>
+  </data>
+  <data name="Student_Step4_Label_DoNotCloseWindow" xml:space="preserve">
+    <value>Do not close/refresh this window</value>
+  </data>
+  <data name="Auditor_AuditorConfirmation_Label_ApprovedExam" xml:space="preserve">
+    <value>Approved Exam Details</value>
+  </data>
+  <data name="Auditor_AuditorConfirmation_Label_RejectedExam" xml:space="preserve">
+    <value>Rejected Exam Details</value>
+  </data>
+  <data name="Provider_MasterPage_Label_TimeZone" xml:space="preserve">
+    <value>Time Zone :</value>
+  </data>
+  <data name="Provider_MasterPage_Label_WelcomeMsg" xml:space="preserve">
+    <value>Welcome:</value>
+  </data>
+  <data name="Auditor_MasterPage_Label_TimeZone" xml:space="preserve">
+    <value>Time Zone :</value>
+  </data>
+  <data name="Auditor_MasterPage_Label_WelcomeMsg" xml:space="preserve">
+    <value>Welcome:</value>
+  </data>
+  <data name="Auditor_MyProfile_Label_ConfirmNewPassword" xml:space="preserve">
+    <value>Confirm New Password</value>
+  </data>
+  <data name="Auditor_MyProfile_Label_CurrentPassword" xml:space="preserve">
+    <value>Current Password</value>
+  </data>
+  <data name="Auditor_MyProfile_Label_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Auditor_MyProfile_Label_FirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="Auditor_MyProfile_Label_Gender" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="Auditor_MyProfile_Label_LastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="Auditor_MyProfile_Label_NewPassword" xml:space="preserve">
+    <value>New Password</value>
+  </data>
+  <data name="Auditor_MyProfile_Label_TimeZone" xml:space="preserve">
+    <value>Time Zone</value>
+  </data>
+  <data name="Common_CurrentPassword_Label_ConfirmNewPassword" xml:space="preserve">
+    <value>Confirm New Password</value>
+  </data>
+  <data name="Common_CurrentPassword_Label_CurrentPassword" xml:space="preserve">
+    <value>Current Password</value>
+  </data>
+  <data name="Common_CurrentPassword_Label_NewPassword" xml:space="preserve">
+    <value>New Password </value>
+  </data>
+  <data name="Proctor_ExamView_Label_ExamDetails" xml:space="preserve">
+    <value>Exam Details</value>
+  </data>
+  <data name="Proctor_ExamView_Label_ExamNotStarted" xml:space="preserve">
+    <value>Exam not started yet</value>
+  </data>
+  <data name="Proctor_ExamView_Label_HH" xml:space="preserve">
+    <value>Hours</value>
+  </data>
+  <data name="Proctor_ExamView_Label_MM" xml:space="preserve">
+    <value>Minutes</value>
+  </data>
+  <data name="Proctor_ExamView_Label_ProctorComments" xml:space="preserve">
+    <value>Proctor Comments</value>
+  </data>
+  <data name="Proctor_MasterPage_Label_TimeZone" xml:space="preserve">
+    <value>Time Zone :</value>
+  </data>
+  <data name="Proctor_MasterPage_Label_WelcomeMsg" xml:space="preserve">
+    <value>Welcome:</value>
+  </data>
+  <data name="Proctor_MyProfile_Label_ConfirmNewPassword" xml:space="preserve">
+    <value>Confirm New Password</value>
+  </data>
+  <data name="Proctor_MyProfile_Label_CurrentPassword" xml:space="preserve">
+    <value>Current Password</value>
+  </data>
+  <data name="Proctor_MyProfile_Label_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Proctor_MyProfile_Label_FirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="Proctor_MyProfile_Label_Gender" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="Proctor_MyProfile_Label_LastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="Proctor_MyProfile_Label_NewPassword" xml:space="preserve">
+    <value>New Password</value>
+  </data>
+  <data name="Proctor_MyProfile_Label_TimeZone" xml:space="preserve">
+    <value>Time Zone</value>
+  </data>
+  <data name="Provider_AddExam_Label_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Provider_AddExam_Label_ExamName" xml:space="preserve">
+    <value>Exam Name</value>
+  </data>
+  <data name="Provider_AddExam_Label_ExamTools" xml:space="preserve">
+    <value>Exam Tools</value>
+  </data>
+  <data name="Provider_AddExam_Label_HH" xml:space="preserve">
+    <value>Hours</value>
+  </data>
+  <data name="Provider_AddExam_Label_NotesFor" xml:space="preserve">
+    <value>Notes for Proctors</value>
+  </data>
+  <data name="Provider_MyProfile_Label_ConfirmNewPassword" xml:space="preserve">
+    <value>Confirm New Password</value>
+  </data>
+  <data name="Provider_MyProfile_Label_CurrentPassword" xml:space="preserve">
+    <value>Current Password</value>
+  </data>
+  <data name="Provider_MyProfile_Label_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Provider_MyProfile_Label_FirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="Provider_MyProfile_Label_Gender" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="Provider_MyProfile_Label_LastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="Provider_MyProfile_Label_NewPassword" xml:space="preserve">
+    <value>New Password</value>
+  </data>
+  <data name="Provider_MyProfile_Label_TimeZone" xml:space="preserve">
+    <value>Time Zone</value>
+  </data>
+  <data name="Student_ExamDetailsConfirmation_Label_ExamDetails" xml:space="preserve">
+    <value>Student Exam Details</value>
+  </data>
+  <data name="Auditor_ExamDetails_Label_ConfirmNoTools" xml:space="preserve">
+    <value>No Tools available</value>
+  </data>
+  <data name="Student_MyProfile_Label_Ans" xml:space="preserve">
+    <value>Answer</value>
+  </data>
+  <data name="Student_MyProfile_Label_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Student_MyProfile_Label_PhoneEx" xml:space="preserve">
+    <value>(ex:202-000-0000)</value>
+  </data>
+  <data name="Student_MyProfile_Label_PhoneNumber" xml:space="preserve">
+    <value>Phone Number</value>
+  </data>
+  <data name="Student_MyProfile_Label_SecQ1" xml:space="preserve">
+    <value>Security Question #1</value>
+  </data>
+  <data name="Student_MyProfile_Label_SecQ2" xml:space="preserve">
+    <value>Security Question #2</value>
+  </data>
+  <data name="Student_MyProfile_Label_SecQ3" xml:space="preserve">
+    <value>Security Question #3</value>
+  </data>
+  <data name="Proctor_ExamView_Label_ConfirmNoTools" xml:space="preserve">
+    <value>No Tools available</value>
+  </data>
+  <data name="Proctor_ViewExamScreens_Label_ConfirmNoTools" xml:space="preserve">
+    <value>No Tools available</value>
+  </data>
+  <data name="Provider_ViewExamScreens_Label_ConfirmNoTools" xml:space="preserve">
+    <value>No Tools available</value>
+  </data>
+  <data name="Student_ExamDetailsConfirmation_Label_ConfirmNoTools" xml:space="preserve">
+    <value>No Tools available</value>
+  </data>
+  <data name="Student_Master_Label_TimeZone" xml:space="preserve">
+    <value>Time Zone :</value>
+  </data>
+  <data name="Student_Master_Label_Welcome" xml:space="preserve">
+    <value>Welcome:</value>
+  </data>
+  <data name="Student_Registration_Label_Answer" xml:space="preserve">
+    <value>Answer</value>
+  </data>
+  <data name="Student_Registration_Label_ConfirmPassword" xml:space="preserve">
+    <value>Confirm Password</value>
+  </data>
+  <data name="Student_Registration_Label_FirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="Student_Registration_Label_Gender" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="Student_Registration_Label_LastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="Student_Registration_Label_Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Student_Registration_Label_PhoneNumber" xml:space="preserve">
+    <value>Phone Number</value>
+  </data>
+  <data name="Student_Registration_Label_PhotoIdentification" xml:space="preserve">
+    <value>Photo Identification</value>
+  </data>
+  <data name="Student_Registration_Label_PrePhoneNumber" xml:space="preserve">
+    <value>Preferred Phone number</value>
+  </data>
+  <data name="Student_Registration_Label_SecQ1" xml:space="preserve">
+    <value>Security Question #1</value>
+  </data>
+  <data name="Student_Registration_Label_SecQ2" xml:space="preserve">
+    <value>Security Question #2</value>
+  </data>
+  <data name="Student_Registration_Label_SecQ3" xml:space="preserve">
+    <value>Security Question #3</value>
+  </data>
+  <data name="Student_Registration_Label_TimeZone" xml:space="preserve">
+    <value>Time Zone</value>
+  </data>
+  <data name="Student_Registration_Label_UserName" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="Student_Step1_Label_ProctorApprove" xml:space="preserve">
+    <value>Please wait for the proctor to verify your identity before clicking Next.</value>
+  </data>
+  <data name="Provider_CourseDetails_GridHeader_AddCourse" xml:space="preserve">
+    <value>Add Course</value>
+  </data>
+  <data name="Provider_AddCourse_Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Provider_AddCourse_Button_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Provider_AddCourse_Label_CourseID" xml:space="preserve">
+    <value>Course ID</value>
+  </data>
+  <data name="Provider_AddCourse_Label_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Provider_EditCourse_Label_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Provider_AddExam_GridHeader_Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Provider_AddExam_Label_Calculator" xml:space="preserve">
+    <value>Calculator</value>
+  </data>
+  <data name="Provider_AddExam_Label_Stickynotes" xml:space="preserve">
+    <value>Stickynotes</value>
+  </data>
+  <data name="Provider_EditExam_Button_Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Provider_EditExam_Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Provider_EditExam_Button_Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Provider_EditExam_Button_SaveExam" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Provider_EditExam_Button_Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Provider_EditExam_GridHeader_Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Provider_EditExam_GridHeader_GridCount" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="Provider_EditExam_GridHeader_NotesForProdAndAud" xml:space="preserve">
+    <value>Notes for Proctors and Auditors</value>
+  </data>
+  <data name="Provider_EditExam_GridHeader_RulesForStudent" xml:space="preserve">
+    <value>Rules for Student</value>
+  </data>
+  <data name="Provider_EditExam_Label_BufferTime" xml:space="preserve">
+    <value>Extended time for special accommodations students</value>
+  </data>
+  <data name="Provider_EditExam_Label_DurationOfExam" xml:space="preserve">
+    <value>Duration of the Exam (hrs)</value>
+  </data>
+  <data name="Provider_EditExam_Label_ExamEndDate" xml:space="preserve">
+    <value>Exam End Date</value>
+  </data>
+  <data name="Provider_EditExam_Label_ExamLinkToAccess" xml:space="preserve">
+    <value>Link to access Exam</value>
+  </data>
+  <data name="Provider_EditExam_Label_ExamStartDate" xml:space="preserve">
+    <value>Exam Start Date</value>
+  </data>
+  <data name="Provider_EditExam_Label_MM" xml:space="preserve">
+    <value>Minutes</value>
+  </data>
+  <data name="Provider_EditExam_Label_RulesForStudent" xml:space="preserve">
+    <value>Rules for Student</value>
+  </data>
+  <data name="Provider_EditExam_Label_UploadFile" xml:space="preserve">
+    <value>Upload File</value>
+  </data>
+  <data name="Provider_EditExam_Label_Calculator" xml:space="preserve">
+    <value>Calculator</value>
+  </data>
+  <data name="Provider_EditExam_Label_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Provider_EditExam_Label_ExamName" xml:space="preserve">
+    <value>Exam Name</value>
+  </data>
+  <data name="Provider_EditExam_Label_ExamTools" xml:space="preserve">
+    <value>Exam Tools</value>
+  </data>
+  <data name="Provider_EditExam_Label_HH" xml:space="preserve">
+    <value>Hours</value>
+  </data>
+  <data name="Provider_EditExam_Label_NotesFor" xml:space="preserve">
+    <value>Notes for Proctors and Auditors</value>
+  </data>
+  <data name="Provider_EditExam_Label_Stickynotes" xml:space="preserve">
+    <value>Stickynotes</value>
+  </data>
+  <data name="Provider_ViewExam_Label_BufferTime" xml:space="preserve">
+    <value>Extended time for special accommodations students</value>
+  </data>
+  <data name="Provider_ViewExam_Label_DurationOfExam" xml:space="preserve">
+    <value>Duration of the Exam (hrs)</value>
+  </data>
+  <data name="Provider_ViewExam_Label_MM" xml:space="preserve">
+    <value>Minutes</value>
+  </data>
+  <data name="Provider_ViewExam_Label_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Provider_ViewExam_Label_ExamName" xml:space="preserve">
+    <value>Exam Name</value>
+  </data>
+  <data name="Provider_ViewExam_Label_HH" xml:space="preserve">
+    <value>Hours</value>
+  </data>
+  <data name="Provider_ViewExam_GridHeader_GridCount" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="Provider_ViewExam_GridHeader_NotesForProdAndAud" xml:space="preserve">
+    <value>Notes for Proctors and Auditors</value>
+  </data>
+  <data name="Provider_ViewExam_GridHeader_RulesForStudent" xml:space="preserve">
+    <value>Rules for Student</value>
+  </data>
+  <data name="Provider_ViewExam_Label_ExamEndDate" xml:space="preserve">
+    <value>Exam End Date</value>
+  </data>
+  <data name="Provider_ViewExam_Label_ExamLinkToAccess" xml:space="preserve">
+    <value>Link to access Exam</value>
+  </data>
+  <data name="Provider_ViewExam_Label_ExamStartDate" xml:space="preserve">
+    <value>Exam Start Date</value>
+  </data>
+  <data name="Provider_ViewExam_Label_UploadFile" xml:space="preserve">
+    <value>Upload File</value>
+  </data>
+  <data name="Provider_ViewExam_Label_Calculator" xml:space="preserve">
+    <value>Calculator</value>
+  </data>
+  <data name="Provider_ViewExam_Label_ExamTools" xml:space="preserve">
+    <value>Exam Tools</value>
+  </data>
+  <data name="Provider_ViewExam_Label_Stickynotes" xml:space="preserve">
+    <value>Stickynotes</value>
+  </data>
+  <data name="Provider_DeleteExam_Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Provider_DeleteExam_Button_Update" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Provider_DeleteExam_Label_ExamName" xml:space="preserve">
+    <value>Exam Name</value>
+  </data>
+  <data name="Provider_DeleteExam_Label_ExamStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Provider_Students_GridHeader_Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Provider_Students_GridHeader_AddStudent" xml:space="preserve">
+    <value>Add Student</value>
+  </data>
+  <data name="Provider_Students_GridHeader_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Provider_Students_GridHeader_EnrollmentDate" xml:space="preserve">
+    <value>Enrollment Date</value>
+  </data>
+  <data name="Provider_Students_GridHeader_EnrollmentStatus" xml:space="preserve">
+    <value>Enrollment Status</value>
+  </data>
+  <data name="Provider_AddStudent_Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Provider_AddStudent_Button_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Provider_AddStudent_Label_Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="Provider_AddStudent_Label_EmailAddress" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="Provider_AddStudent_Label_FirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="Provider_AddStudent_Label_LastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="ControlPanel_Messages_Button_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Tab_Admin_Home" xml:space="preserve">
+    <value>DASHBOARD</value>
+  </data>
+  <data name="Tab_Admin_Logout" xml:space="preserve">
+    <value>LOGOUT</value>
+  </data>
+  <data name="Provider_ViewStudent_GridHeader_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Provider_ViewStudent_GridHeader_ExamName" xml:space="preserve">
+    <value>Exam Name</value>
+  </data>
+  <data name="Provider_ViewStudent_GridHeader_ExamStatus" xml:space="preserve">
+    <value>Exam Status</value>
+  </data>
+  <data name="Provider_ViewStudent_GridHeader_ScheduleTime" xml:space="preserve">
+    <value>Schedule Time</value>
+  </data>
+  <data name="Provider_ViewStudent_GridHeader_TransID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Provider_ViewStudent_GridHeader_View" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Provider_ViewStudent_Label_Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="Provider_ViewStudent_Label_PhoneNumber" xml:space="preserve">
+    <value>Phone Number</value>
+  </data>
+  <data name="Provider_ViewStudent_Label_SpecialNeeds" xml:space="preserve">
+    <value>Special Accommodations</value>
+  </data>
+  <data name="Provider_ViewStudent_Label_StudentProfile" xml:space="preserve">
+    <value>Student Profile</value>
+  </data>
+  <data name="Provider_ViewStudent_Label_TimeZone" xml:space="preserve">
+    <value>Time Zone</value>
+  </data>
+  <data name="Provider_AddStudent_Label_SpecialNeeds" xml:space="preserve">
+    <value>Special Accommodations</value>
+  </data>
+  <data name="Provider_AddEnrollment_Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Provider_AddEnrollment_Button_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Provider_AddEnrollment_Label_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Provider_AddEnrollment_Label_StudentName" xml:space="preserve">
+    <value>Student Name</value>
+  </data>
+  <data name="Provider_EditStudent_Label_StudentFirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="Provider_EditStudent_Label_StudentLastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="Provider_EditStudent_Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Provider_EditStudent_Button_Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Provider_EditStudent_Label_Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="Provider_EditStudent_Label_EmailAddr" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="Provider_EditStudent_Label_PhoneNumber" xml:space="preserve">
+    <value>Phone Number</value>
+  </data>
+  <data name="Provider_EditStudent_Label_SpecialNeeds" xml:space="preserve">
+    <value>Special accommodations</value>
+  </data>
+  <data name="Provider_EditStudent_Label_TimeZone" xml:space="preserve">
+    <value>Time Zone</value>
+  </data>
+  <data name="Provider_EditEnrollment_Label_EmailAddress" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="Provider_DeleteStudent_Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Provider_DeleteStudent_Button_Confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="Provider_DeleteStudent_Label_Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="Provider_DeleteStudent_Label_EmailAddress" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="Provider_DeleteStudent_Label_PhoneNumber" xml:space="preserve">
+    <value>Phone Number</value>
+  </data>
+  <data name="Provider_DeleteStudent_Label_Role" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="Provider_DeleteStudent_Label_SpecilalNeeds" xml:space="preserve">
+    <value>Special Accommodations</value>
+  </data>
+  <data name="Provider_DeleteStudent_Label_StudentFirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="Provider_DeleteStudent_Label_StudentLastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="Provider_DeleteStudent_Label_TimeZone" xml:space="preserve">
+    <value>Time Zone</value>
+  </data>
+  <data name="Provider_CourseDetails_GridHeader_AddPlus" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="Provider_AddExam_Label_AddExam" xml:space="preserve">
+    <value>Add Exam</value>
+  </data>
+  <data name="Provider_EditStudent_Label_EditStudent" xml:space="preserve">
+    <value>Edit Student</value>
+  </data>
+  <data name="Provider_DeleteStudent_Label_DeleteStudent" xml:space="preserve">
+    <value>Delete Student</value>
+  </data>
+  <data name="Provider_AddEnrollment_Label_EnrollStudent" xml:space="preserve">
+    <value>Enroll Student</value>
+  </data>
+  <data name="Provider_EditEnrollment_Label_EditStudentExamEnrollment" xml:space="preserve">
+    <value>Edit Enrollment</value>
+  </data>
+  <data name="Provider_DeleteEnrollment_Label_DeleteStudentExamEnrollment" xml:space="preserve">
+    <value>Delete Enrollment</value>
+  </data>
+  <data name="Provider_EditCourse_Label_EditCourse" xml:space="preserve">
+    <value>Edit Course</value>
+  </data>
+  <data name="Provider_ViewExam_Label_ViewExam" xml:space="preserve">
+    <value>View Exam</value>
+  </data>
+  <data name="Provider_DeleteExam_Label_DeleteExam" xml:space="preserve">
+    <value>Delete Exam</value>
+  </data>
+  <data name="Provider_EditExam_Label_EditExam" xml:space="preserve">
+    <value>Edit Exam</value>
+  </data>
+  <data name="Admin_AddCourse_Button_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Admin_AddCourse_Label_CourseID" xml:space="preserve">
+    <value>Course ID</value>
+  </data>
+  <data name="Admin_AddCourse_Label_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Admin_AddEnrollment_Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Admin_AddEnrollment_Button_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Admin_AddEnrollment_Label_AddEnrollment" xml:space="preserve">
+    <value>Add Enrollment</value>
+  </data>
+  <data name="Admin_AddEnrollment_Label_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Admin_AddEnrollment_Label_StudentName" xml:space="preserve">
+    <value>Student Name</value>
+  </data>
+  <data name="Admin_AddExam_Button_Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Admin_AddExam_Button_SaveExam" xml:space="preserve">
+    <value>Save Exam</value>
+  </data>
+  <data name="Admin_AddExam_Button_Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Admin_AddExam_GridHeader_Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Admin_AddExam_GridHeader_GridCount" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="Admin_AddExam_GridHeader_NotesForProdAndAud" xml:space="preserve">
+    <value>Notes for Proctors and Auditors</value>
+  </data>
+  <data name="Admin_AddExam_GridHeader_RulesForStudent" xml:space="preserve">
+    <value>Rules for Student</value>
+  </data>
+  <data name="Admin_AddExam_Label_AddExam" xml:space="preserve">
+    <value>Add Exam</value>
+  </data>
+  <data name="Admin_AddExam_Label_BufferTime" xml:space="preserve">
+    <value>Any need for extended time and/or special accommodations?</value>
+  </data>
+  <data name="Admin_AddExam_Label_Calculator" xml:space="preserve">
+    <value>Calculator</value>
+  </data>
+  <data name="Admin_AddExam_Label_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Admin_AddExam_Label_DurationOfExam" xml:space="preserve">
+    <value>Duration of the Exam (hrs)</value>
+  </data>
+  <data name="Admin_AddExam_Label_ExamEndDate" xml:space="preserve">
+    <value>Exam End Date</value>
+  </data>
+  <data name="Admin_AddExam_Label_ExamLinkToAccess" xml:space="preserve">
+    <value>Link to access Exam</value>
+  </data>
+  <data name="Admin_AddExam_Label_ExamName" xml:space="preserve">
+    <value>Exam Name</value>
+  </data>
+  <data name="Admin_AddExam_Label_ExamStartDate" xml:space="preserve">
+    <value>Exam Start Date</value>
+  </data>
+  <data name="Admin_AddExam_Label_ExamTools" xml:space="preserve">
+    <value>Exam Tools</value>
+  </data>
+  <data name="Admin_AddExam_Label_HH" xml:space="preserve">
+    <value>Hours</value>
+  </data>
+  <data name="Admin_AddExam_Label_MM" xml:space="preserve">
+    <value>Minutes</value>
+  </data>
+  <data name="Admin_AddExam_Label_NotesFor" xml:space="preserve">
+    <value>Notes for Proctors</value>
+  </data>
+  <data name="Admin_AddExam_Label_RulesForStudent" xml:space="preserve">
+    <value>Rules for Student</value>
+  </data>
+  <data name="Admin_AddExam_Label_Stickynotes" xml:space="preserve">
+    <value>Stickynotes</value>
+  </data>
+  <data name="Admin_AddExam_Label_UploadFile" xml:space="preserve">
+    <value>Upload a file</value>
+  </data>
+  <data name="Admin_AddStudent_Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Admin_AddStudent_Button_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Admin_AddStudent_Label_Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="Admin_AddStudent_Label_EmailAddress" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="Admin_AddStudent_Label_FirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="Admin_AddStudent_Label_LastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="Admin_AddStudent_Label_SpecialNeeds" xml:space="preserve">
+    <value>Special Accommodations</value>
+  </data>
+  <data name="Admin_CourseDetails_Button_Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Admin_CourseDetails_Button_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Admin_CourseDetails_GridHeader_Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Admin_CourseDetails_GridHeader_AddCourse" xml:space="preserve">
+    <value>Add Course</value>
+  </data>
+  <data name="Admin_CourseDetails_GridHeader_AddPlus" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="Admin_CourseDetails_GridHeader_CourseID" xml:space="preserve">
+    <value>Course ID</value>
+  </data>
+  <data name="Admin_CourseDetails_GridHeader_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Admin_CourseDetails_GridHeader_CreatedDate" xml:space="preserve">
+    <value>Date Created</value>
+  </data>
+  <data name="Admin_CourseDetails_GridHeader_Duration" xml:space="preserve">
+    <value>Duration (in Hrs)</value>
+  </data>
+  <data name="Admin_CourseDetails_GridHeader_EndDate" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="Admin_CourseDetails_GridHeader_ExamName" xml:space="preserve">
+    <value>Exam Name</value>
+  </data>
+  <data name="Admin_CourseDetails_GridHeader_ModifiedDate" xml:space="preserve">
+    <value>Modified Date</value>
+  </data>
+  <data name="Admin_CourseDetails_GridHeader_StartDate" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="Admin_CourseDetails_Label_CourseID" xml:space="preserve">
+    <value>Course ID</value>
+  </data>
+  <data name="Admin_CourseDetails_Label_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Admin_DeleteEnrollment_Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Admin_DeleteEnrollment_Button_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Admin_DeleteEnrollment_Label_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Admin_DeleteEnrollment_Label_DeleteStudentExamEnrollment" xml:space="preserve">
+    <value>Delete Student Exam Enrollment</value>
+  </data>
+  <data name="Admin_DeleteEnrollment_Label_EmailAddress" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="Admin_DeleteEnrollment_Label_Gender" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="Admin_DeleteEnrollment_Label_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Admin_DeleteEnrollment_Label_StudentName" xml:space="preserve">
+    <value>Student Name</value>
+  </data>
+  <data name="Admin_DeleteExam_Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Admin_DeleteExam_Button_Update" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Admin_DeleteExam_Label_ExamName" xml:space="preserve">
+    <value>Exam Name</value>
+  </data>
+  <data name="Admin_DeleteExam_Label_ExamStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Admin_DeleteStudent_Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Admin_DeleteStudent_Button_Confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="Admin_DeleteStudent_Label_Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="Admin_DeleteStudent_Label_DeleteStudent" xml:space="preserve">
+    <value>Delete Student</value>
+  </data>
+  <data name="Admin_DeleteStudent_Label_EmailAddress" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="Admin_DeleteStudent_Label_PhoneNumber" xml:space="preserve">
+    <value>Phone Number</value>
+  </data>
+  <data name="Admin_DeleteStudent_Label_Role" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="Admin_DeleteStudent_Label_SpecilalNeeds" xml:space="preserve">
+    <value>Special Accommodations</value>
+  </data>
+  <data name="Admin_DeleteStudent_Label_StudentFirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="Admin_DeleteStudent_Label_StudentLastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="Admin_DeleteStudent_Label_TimeZone" xml:space="preserve">
+    <value>Time Zone</value>
+  </data>
+  <data name="Admin_EditCourse_Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Admin_EditCourse_Button_Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Admin_EditCourse_Label_CourseID" xml:space="preserve">
+    <value>Course ID</value>
+  </data>
+  <data name="Admin_EditCourse_Label_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Admin_EditCourse_Label_CreatedDate" xml:space="preserve">
+    <value>Date Created</value>
+  </data>
+  <data name="Admin_EditCourse_Label_EditCourse" xml:space="preserve">
+    <value>Edit Course</value>
+  </data>
+  <data name="Admin_EditCourse_Label_ModifiedDate" xml:space="preserve">
+    <value>Modified Date</value>
+  </data>
+  <data name="Admin_EditCourse_Label_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Admin_EditEnrollment_Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Admin_EditEnrollment_Button_Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Admin_EditEnrollment_Label_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Admin_EditEnrollment_Label_EditStudentExamEnrollment" xml:space="preserve">
+    <value>Edit Student Exam Enrollment</value>
+  </data>
+  <data name="Admin_EditEnrollment_Label_EmailAddr" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="Admin_EditEnrollment_Label_EmailAddress" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="Admin_EditEnrollment_Label_Gender" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="Admin_EditEnrollment_Label_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Admin_EditEnrollment_Label_StudentName" xml:space="preserve">
+    <value>Student Name</value>
+  </data>
+  <data name="Admin_EditExam_Button_Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Admin_EditExam_Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Admin_EditExam_Button_Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Admin_EditExam_Button_SaveExam" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Admin_EditExam_Button_Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Admin_EditExam_GridHeader_Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Admin_EditExam_GridHeader_GridCount" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="Admin_EditExam_GridHeader_NotesForProdAndAud" xml:space="preserve">
+    <value>Notes for Proctors and Auditors</value>
+  </data>
+  <data name="Admin_EditExam_GridHeader_RulesForStudent" xml:space="preserve">
+    <value>Rules for Student</value>
+  </data>
+  <data name="Admin_EditExam_Label_BufferTime" xml:space="preserve">
+    <value>Extended time for special accommodations students</value>
+  </data>
+  <data name="Admin_EditExam_Label_Calculator" xml:space="preserve">
+    <value>Calculator</value>
+  </data>
+  <data name="Admin_EditExam_Label_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Admin_EditExam_Label_DurationOfExam" xml:space="preserve">
+    <value>Duration of the Exam (hrs)</value>
+  </data>
+  <data name="Admin_EditExam_Label_ExamEndDate" xml:space="preserve">
+    <value>Exam End Date</value>
+  </data>
+  <data name="Admin_EditExam_Label_ExamLinkToAccess" xml:space="preserve">
+    <value>Link to access Exam</value>
+  </data>
+  <data name="Admin_EditExam_Label_ExamName" xml:space="preserve">
+    <value>Exam Name</value>
+  </data>
+  <data name="Admin_EditExam_Label_ExamStartDate" xml:space="preserve">
+    <value>Exam Start Date</value>
+  </data>
+  <data name="Admin_EditExam_Label_ExamTools" xml:space="preserve">
+    <value>Exam Tools</value>
+  </data>
+  <data name="Admin_EditExam_Label_HH" xml:space="preserve">
+    <value>Hours</value>
+  </data>
+  <data name="Admin_EditExam_Label_MM" xml:space="preserve">
+    <value>Minutes</value>
+  </data>
+  <data name="Admin_EditExam_Label_NotesFor" xml:space="preserve">
+    <value>Notes for Proctors</value>
+  </data>
+  <data name="Admin_EditExam_Label_RulesForStudent" xml:space="preserve">
+    <value>Rules for Student</value>
+  </data>
+  <data name="Admin_EditExam_Label_Stickynotes" xml:space="preserve">
+    <value>Stickynotes</value>
+  </data>
+  <data name="Admin_EditExam_Label_UploadFile" xml:space="preserve">
+    <value>Upload File</value>
+  </data>
+  <data name="Admin_EditStudent_Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Admin_EditStudent_Button_Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Admin_EditStudent_Label_Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="Admin_EditStudent_Label_EditStudent" xml:space="preserve">
+    <value>Edit Student</value>
+  </data>
+  <data name="Admin_EditStudent_Label_EmailAddr" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="Admin_EditStudent_Label_PhoneNumber" xml:space="preserve">
+    <value>Phone Number</value>
+  </data>
+  <data name="Admin_EditStudent_Label_SpecialNeeds" xml:space="preserve">
+    <value>Special Accommodations</value>
+  </data>
+  <data name="Admin_EditStudent_Label_StudentFirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="Admin_EditStudent_Label_StudentLastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="Admin_EditStudent_Label_TimeZone" xml:space="preserve">
+    <value>Time Zone</value>
+  </data>
+  <data name="Admin_ExamStatus_GridHeader_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Admin_ExamStatus_GridHeader_ExamName" xml:space="preserve">
+    <value>Exam Name</value>
+  </data>
+  <data name="Admin_ExamStatus_GridHeader_ScheduleTime" xml:space="preserve">
+    <value>Schedule Time</value>
+  </data>
+  <data name="Admin_ExamStatus_GridHeader_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Admin_ExamStatus_GridHeader_StudentName" xml:space="preserve">
+    <value>Student Name</value>
+  </data>
+  <data name="Admin_ExamStatus_GridHeader_TransID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Admin_ExamStatus_GridHeader_View" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Admin_MasterPage_Label_TimeZone" xml:space="preserve">
+    <value>Time Zone :</value>
+  </data>
+  <data name="Admin_MasterPage_Label_WelcomeMsg" xml:space="preserve">
+    <value>Welcome:</value>
+  </data>
+  <data name="Admin_MyProfile_Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Admin_MyProfile_Button_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Admin_MyProfile_Button_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Admin_MyProfile_Button_Submit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="Admin_MyProfile_Label_ConfirmNewPassword" xml:space="preserve">
+    <value>Confirm New Password</value>
+  </data>
+  <data name="Admin_MyProfile_Label_CurrentPassword" xml:space="preserve">
+    <value>Current Password</value>
+  </data>
+  <data name="Admin_MyProfile_Label_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Admin_MyProfile_Label_FirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="Admin_MyProfile_Label_Gender" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="Admin_MyProfile_Label_LastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="Admin_MyProfile_Label_NewPassword" xml:space="preserve">
+    <value>New Password</value>
+  </data>
+  <data name="Admin_MyProfile_Label_TimeZone" xml:space="preserve">
+    <value>Time Zone</value>
+  </data>
+  <data name="Admin_Students_Button_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Admin_Students_CheckBox_SpecialNeeds" xml:space="preserve">
+    <value>Special Accommodations</value>
+  </data>
+  <data name="Admin_Students_GridHeader_Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Admin_Students_GridHeader_Actions" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Admin_Students_GridHeader_AddStudent" xml:space="preserve">
+    <value>Add Student</value>
+  </data>
+  <data name="Admin_Students_GridHeader_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Admin_Students_GridHeader_EmailAddress" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="Admin_Students_GridHeader_EnrollmentDate" xml:space="preserve">
+    <value>Enrollment Date</value>
+  </data>
+  <data name="Admin_Students_GridHeader_EnrollmentStatus" xml:space="preserve">
+    <value>Enrollment Status</value>
+  </data>
+  <data name="Admin_Students_GridHeader_Gender" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="Admin_Students_GridHeader_Registration" xml:space="preserve">
+    <value>Registration</value>
+  </data>
+  <data name="Admin_Students_GridHeader_SpecialNeeds" xml:space="preserve">
+    <value>Special Accommodations</value>
+  </data>
+  <data name="Admin_Students_GridHeader_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Admin_Students_GridHeader_StudentName" xml:space="preserve">
+    <value>Student Name</value>
+  </data>
+  <data name="Admin_Students_Label_Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="Admin_Students_Label_EmailID" xml:space="preserve">
+    <value>Email ID</value>
+  </data>
+  <data name="Admin_Students_Label_FirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="Admin_Students_Label_LastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="Admin_ViewExamScreens_Button_Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Admin_ViewExamScreens_Button_Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="Admin_ViewExamScreens_Button_Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Admin_ViewExamScreens_GridHeader_AddedBy" xml:space="preserve">
+    <value>Added By</value>
+  </data>
+  <data name="Admin_ViewExamScreens_GridHeader_AddedOn" xml:space="preserve">
+    <value>Added On</value>
+  </data>
+  <data name="Admin_ViewExamScreens_GridHeader_Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="Admin_ViewExamScreens_GridHeader_Flag" xml:space="preserve">
+    <value>Flag</value>
+  </data>
+  <data name="Admin_ViewExamScreens_GridHeader_NoRec" xml:space="preserve">
+    <value>No records to display.</value>
+  </data>
+  <data name="Admin_ViewExamScreens_Label_AddComents" xml:space="preserve">
+    <value>Add Comments</value>
+  </data>
+  <data name="Admin_ViewExamScreens_Label_BufferTime" xml:space="preserve">
+    <value>Extended time for special accommodations students</value>
+  </data>
+  <data name="Admin_ViewExamScreens_Label_Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="Admin_ViewExamScreens_Label_ConfirmNoTools" xml:space="preserve">
+    <value>No Tools available</value>
+  </data>
+  <data name="Admin_ViewExamScreens_Label_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Admin_ViewExamScreens_Label_ExamDate" xml:space="preserve">
+    <value>Exam Date</value>
+  </data>
+  <data name="Admin_ViewExamScreens_Label_ExamDetails" xml:space="preserve">
+    <value>Exam Details</value>
+  </data>
+  <data name="Admin_ViewExamScreens_Label_ExamName" xml:space="preserve">
+    <value>Exam Name</value>
+  </data>
+  <data name="Admin_ViewExamScreens_Label_ExamTime" xml:space="preserve">
+    <value>Exam Time</value>
+  </data>
+  <data name="Admin_ViewExamScreens_Label_ExamTools" xml:space="preserve">
+    <value>Exam Tools</value>
+  </data>
+  <data name="Admin_ViewExamScreens_Label_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Admin_ViewExamScreens_Label_SpecialNeeds" xml:space="preserve">
+    <value>Special Accommodations</value>
+  </data>
+  <data name="Admin_ViewExamScreens_Label_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Admin_ViewExam_GridHeader_GridCount" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="Admin_ViewExam_GridHeader_NotesForProdAndAud" xml:space="preserve">
+    <value>Notes for Proctors and Auditors</value>
+  </data>
+  <data name="Admin_ViewExam_GridHeader_RulesForStudent" xml:space="preserve">
+    <value>Rules for Student</value>
+  </data>
+  <data name="Admin_ViewExam_Label_BufferTime" xml:space="preserve">
+    <value>Extended time for special accommodations students</value>
+  </data>
+  <data name="Admin_ViewExam_Label_Calculator" xml:space="preserve">
+    <value>Calculator</value>
+  </data>
+  <data name="Admin_ViewExam_Label_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Admin_ViewExam_Label_DurationOfExam" xml:space="preserve">
+    <value>Duration of the Exam (hrs)</value>
+  </data>
+  <data name="Admin_ViewExam_Label_ExamEndDate" xml:space="preserve">
+    <value>Exam End Date</value>
+  </data>
+  <data name="Admin_ViewExam_Label_ExamLinkToAccess" xml:space="preserve">
+    <value>Link to access Exam</value>
+  </data>
+  <data name="Admin_ViewExam_Label_ExamName" xml:space="preserve">
+    <value>Exam Name</value>
+  </data>
+  <data name="Admin_ViewExam_Label_ExamStartDate" xml:space="preserve">
+    <value>Exam Start Date</value>
+  </data>
+  <data name="Admin_ViewExam_Label_ExamTools" xml:space="preserve">
+    <value>Exam Tools</value>
+  </data>
+  <data name="Admin_ViewExam_Label_HH" xml:space="preserve">
+    <value>Hours</value>
+  </data>
+  <data name="Admin_ViewExam_Label_MM" xml:space="preserve">
+    <value>Minutes</value>
+  </data>
+  <data name="Admin_ViewExam_Label_Stickynotes" xml:space="preserve">
+    <value>Stickynotes</value>
+  </data>
+  <data name="Admin_ViewExam_Label_UploadFile" xml:space="preserve">
+    <value>Upload File</value>
+  </data>
+  <data name="Admin_ViewStudent_GridHeader_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Admin_ViewStudent_GridHeader_ExamName" xml:space="preserve">
+    <value>Exam Name</value>
+  </data>
+  <data name="Admin_ViewStudent_GridHeader_ExamStatus" xml:space="preserve">
+    <value>Exam Status</value>
+  </data>
+  <data name="Admin_ViewStudent_GridHeader_ScheduleTime" xml:space="preserve">
+    <value>Schedule Time</value>
+  </data>
+  <data name="Admin_ViewStudent_GridHeader_TransID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Admin_ViewStudent_GridHeader_View" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Admin_ViewStudent_Label_Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="Admin_ViewStudent_Label_PhoneNumber" xml:space="preserve">
+    <value>Phone Number</value>
+  </data>
+  <data name="Admin_ViewStudent_Label_SpecialNeeds" xml:space="preserve">
+    <value>Special Accommodations</value>
+  </data>
+  <data name="Admin_ViewStudent_Label_StudentProfile" xml:space="preserve">
+    <value>Student Profile</value>
+  </data>
+  <data name="Admin_ViewStudent_Label_TimeZone" xml:space="preserve">
+    <value>Time Zone</value>
+  </data>
+  <data name="Provider_AddExam_Label_SecurityLevel" xml:space="preserve">
+    <value>FairExam &lt;sup  style="font-size:13px;"&gt;®&lt;/sup&gt; Level</value>
+  </data>
+  <data name="Provider_ViewExam_Label_ExamSecurityLevel" xml:space="preserve">
+    <value>FairExam &lt;sup  style="font-size:13px;"&gt;®&lt;/sup&gt; Level</value>
+  </data>
+  <data name="Provider_AddStudent_Label_AddStudent" xml:space="preserve">
+    <value>Add Student</value>
+  </data>
+  <data name="Provider_AddCourse_Label_AddCourse" xml:space="preserve">
+    <value>Add Course</value>
+  </data>
+  <data name="Provider_EditExam_Label_ExamSecurityLevel" xml:space="preserve">
+    <value>FairExam &lt;sup  style="font-size:13px;"&gt;®&lt;/sup&gt; Level</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Admin_AddCourse_Label_ProviderName" xml:space="preserve">
+    <value>Faculty Name</value>
+  </data>
+  <data name="Provider_CourseDetails_GridHeader_ProviderName" xml:space="preserve">
+    <value>Instructor Name</value>
+  </data>
+  <data name="Admin_CourseDetails_GridHeader_ProviderName" xml:space="preserve">
+    <value>Faculty Name</value>
+  </data>
+  <data name="Provider_DeleteCourse_Button_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Admin_AddCourse_Label_AddCourse" xml:space="preserve">
+    <value>Add Course</value>
+  </data>
+  <data name="Provider_EditStudent_Label_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Admin_AddExam_Label_SecurityLevel" xml:space="preserve">
+    <value>FairExam &lt;sup  style="font-size:13px;"&gt;®&lt;/sup&gt; Level</value>
+  </data>
+  <data name="Provider_CourseDetails_GridHeader_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Provider_DeleteCourse_Label_CourseID" xml:space="preserve">
+    <value>Course ID</value>
+  </data>
+  <data name="Provider_DeleteCourse_Label_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Provider_DeleteCourse_Label_DeleteCourse" xml:space="preserve">
+    <value>Delete Course</value>
+  </data>
+  <data name="Provider_EditExam_Label_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Admin_CourseDetails_GridHeader_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Admin_AddCourse_Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Admin_EditStudent_Label_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Admin_DeleteCourse_Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Admin_DeleteCourse_Button_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Admin_DeleteCourse_Label_CourseID" xml:space="preserve">
+    <value>Course ID</value>
+  </data>
+  <data name="Admin_DeleteCourse_Label_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Admin_DeleteCourse_Label_DeleteCourse" xml:space="preserve">
+    <value>Delete Course</value>
+  </data>
+  <data name="Provider_DeleteCourse_Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Admin_ViewExam_Label_ExamSecurityLevel" xml:space="preserve">
+    <value>FairExam &lt;sup  style="font-size:13px;"&gt;®&lt;/sup&gt; Level</value>
+  </data>
+  <data name="Admin_ViewExam_Label_ViewExam" xml:space="preserve">
+    <value>View Exam</value>
+  </data>
+  <data name="Admin_DeleteExam_Label_DeleteExam" xml:space="preserve">
+    <value>Delete Exam</value>
+  </data>
+  <data name="Admin_AddStudent_Label_AddStudent" xml:space="preserve">
+    <value>Add Student</value>
+  </data>
+  <data name="Admin_DeleteExam_Button_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Admin_AddEnrollment_Label_InstuctorName" xml:space="preserve">
+    <value>Instructor Name</value>
+  </data>
+  <data name="Admin_ExamStatus_GridHeader_ProviderName" xml:space="preserve">
+    <value>Faculty Name</value>
+  </data>
+  <data name="Admin_AddEnrollment_Label_EnrollStudent" xml:space="preserve">
+    <value>Enroll Student</value>
+  </data>
+  <data name="Admin_EditExam_Label_EditExam" xml:space="preserve">
+    <value>Edit Exam</value>
+  </data>
+  <data name="Admin_EditExam_Label_ExamSecurityLevel" xml:space="preserve">
+    <value>FairExam &lt;sup  style="font-size:13px;"&gt;®&lt;/sup&gt; Level</value>
+  </data>
+  <data name="Admin_EditExam_Label_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Provider_ChangePassword_Button_Submit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="Provider_ChangePassword_Label_ConfirmNewPassword" xml:space="preserve">
+    <value>Confirm New Password</value>
+  </data>
+  <data name="Provider_ChangePassword_Label_CurrentPassword" xml:space="preserve">
+    <value>Current Password</value>
+  </data>
+  <data name="Provider_ChangePassword_Label_NewPassword" xml:space="preserve">
+    <value>New Password</value>
+  </data>
+  <data name="Tab_Provider_ChangePassword" xml:space="preserve">
+    <value>CHANGE PASSWORD</value>
+  </data>
+  <data name="Admin_Providers_GridHeader_Actions" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Admin_Providers_GridHeader_AddProvider" xml:space="preserve">
+    <value>Add Faculty</value>
+  </data>
+  <data name="Admin_Providers_GridHeader_EmailAddress" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="Admin_Providers_GridHeader_ProviderName" xml:space="preserve">
+    <value>Faculty Name</value>
+  </data>
+  <data name="Admin_Providers_GridHeader_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Admin_Students_GridHeader_ProviderName" xml:space="preserve">
+    <value>Instructor Name</value>
+  </data>
+  <data name="Admin_AddProvider_Label_AddProvider" xml:space="preserve">
+    <value>Add Faculty</value>
+  </data>
+  <data name="Admin_AddProvider_Label_EmailAddress" xml:space="preserve">
+    <value>Eamil Address</value>
+  </data>
+  <data name="Admin_AddProvider_Label_FirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="Admin_AddProvider_Label_LastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="Admin_EditProvider_Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Admin_EditProvider_Button_Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Admin_EditProvider_Label_EditProvider" xml:space="preserve">
+    <value>Edit Faculty</value>
+  </data>
+  <data name="Admin_EditProvider_Label_EmailAddr" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="Admin_EditProvider_Label_ProviderFirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="Admin_EditProvider_Label_ProviderLastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="Admin_EditProvider_Label_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Admin_DeleteProvider_Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Admin_DeleteProvider_Button_Confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="Admin_DeleteProvider_Label_DeleteProvider" xml:space="preserve">
+    <value>Delete Faculty</value>
+  </data>
+  <data name="Admin_DeleteProvider_Label_EmailAddress" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="Admin_DeleteProvider_Label_FirstName" xml:space="preserve">
+    <value>First name</value>
+  </data>
+  <data name="Admin_DeleteProvider_Label_LastName" xml:space="preserve">
+    <value>Last name</value>
+  </data>
+  <data name="Provider_Reports_Label_SelectReport" xml:space="preserve">
+    <value>Select Report Type</value>
+  </data>
+  <data name="Admin_Reset_Button_Reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="Admin_Reset_Label_EmailAddress" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="Provider_Reports_Label_EndDate" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="Provider_Reports_Label_StartDate" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="Provider_Reports_Button_Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Admin_ResetProvider_Button_Reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="Admin_ResetProvider_Label_EmailAddress" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="Provider_Home_Label_Dashboard" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="Tab_Admin_ChangePassword" xml:space="preserve">
+    <value>CHANGE PASSWORD</value>
+  </data>
+  <data name="Admin_Home_Label_Dashboard" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="Admin_Reports_Button_Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Admin_Reports_Label_EndDate" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="Admin_Reports_Label_SelectReport" xml:space="preserve">
+    <value>Select Report Type:</value>
+  </data>
+  <data name="Admin_Reports_Label_StartDate" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="Provider_ViewStudent_Label_StudentDetails" xml:space="preserve">
+    <value>Student Details</value>
+  </data>
+  <data name="Provider_ChangePassword_Label_ChangePassword" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="Provider_Reports_Label_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Provider_Reports_Label_ExamName" xml:space="preserve">
+    <value>Exam Name</value>
+  </data>
+  <data name="Provider_Reports_Label_FirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="Provider_Reports_Label_LastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="Admin_Reports_Label_CourseName" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Admin_Reports_Label_ExamName" xml:space="preserve">
+    <value>Exam Name</value>
+  </data>
+  <data name="Admin_Reports_Label_FirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="Admin_Reports_Label_LastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="Tab_Student_ChangePassword" xml:space="preserve">
+    <value>CHANGE PASSWORD</value>
+  </data>
+  <data name="Student_ChangePassword_Button_Submit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="Student_ChangePassword_Label_ChangePassword" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="Student_ChangePassword_Label_ConfirmNewPassword" xml:space="preserve">
+    <value>Confirm New Password</value>
+  </data>
+  <data name="Student_ChangePassword_Label_CurrentPassword" xml:space="preserve">
+    <value>Current Password</value>
+  </data>
+  <data name="Student_ChangePassword_Label_NewPassword" xml:space="preserve">
+    <value>New Password</value>
+  </data>
+  <data name="Provider_Students_GridHeader_StudentFirstName" xml:space="preserve">
+    <value>Student First Name</value>
+  </data>
+  <data name="Provider_Students_GridHeader_StudentLastName" xml:space="preserve">
+    <value>Student Last Name</value>
+  </data>
+  <data name="Admin_Students_GridHeader_StudentFirstName" xml:space="preserve">
+    <value>Student First Name</value>
+  </data>
+  <data name="Admin_Students_GridHeader_StudentLastName" xml:space="preserve">
+    <value>Student Last Name</value>
+  </data>
+  <data name="Provider_AddExam_Label_ExamPassword" xml:space="preserve">
+    <value>Exam Password</value>
+  </data>
+  <data name="Provider_AddExam_Allowed" xml:space="preserve">
+    <value>Allowed Rules</value>
+  </data>
+  <data name="Provider_AddExam_Standard" xml:space="preserve">
+    <value>Standard Rules</value>
+  </data>
+  <data name="Provider_AddExam_Label_LockDownBrowser" xml:space="preserve">
+    <value>Enable examiLOCK  &lt;sup style="font-size:13px;"&gt;®&lt;/sup&gt;  for this test ?</value>
+  </data>
+  <data name="Admin_Students_GridHeader_AddInstructor" xml:space="preserve">
+    <value>Instructor</value>
+  </data>
+  <data name="Admin_Instructor_GridHeader_InstructorFirstName" xml:space="preserve">
+    <value>Instructor First Name</value>
+  </data>
+  <data name="Admin_Instructor_GridHeader_InstructorLastName" xml:space="preserve">
+    <value>Instructor Last Name</value>
+  </data>
+  <data name="Admin_AddInstructor_Label_AddInstructor" xml:space="preserve">
+    <value>Add Instructor</value>
+  </data>
+  <data name="Admin_AddProctor_Label_FirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="Admin_AddProctor_Label_LastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="Provider_AddExam_Label_StudentUploadFile" xml:space="preserve">
+    <value>Student upload file</value>
+  </data>
+  <data name="Provider_AddExam_Label_ExamByFile" xml:space="preserve">
+    <value>Exam By File</value>
+  </data>
+  <data name="Auditor_EditCourse_Label_EditComments" xml:space="preserve">
+    <value>Edit Comments</value>
+  </data>
+  <data name="Provider_AddExam_Label_ExamEndDateAndTime" xml:space="preserve">
+    <value>Exam end date and time(mm/dd/yyyy)</value>
+  </data>
+  <data name="Provider_AddExam_Label_ExamStartDateAndTime" xml:space="preserve">
+    <value>Exam start date and time (mm/dd/yyyy)</value>
+  </data>
+  <data name="LMS" xml:space="preserve">
+    <value>examiLINK  &lt;sup&gt;®&lt;/sup&gt;</value>
+  </data>
+  <data name="Admin_Students_GridHeader_SearchStudent" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="CourseAdmin_Students_GridHeader_SearchStudent" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Provider_Students_GridHeader_SearchStudent" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Provider_AddExam_Label_ExamEndDateAndTimeN" xml:space="preserve">
+    <value>Exam end date and time</value>
+  </data>
+  <data name="Provider_AddExam_Label_ExamStartDateAndTimeN" xml:space="preserve">
+    <value>Exam start date and time</value>
+  </data>
+  <data name="Deleted_Text" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="Admin_AddStudent_Label_UserID" xml:space="preserve">
+    <value>User ID</value>
+  </data>
+  <data name="Tab_Proctor_ValidateAutoProctor" xml:space="preserve">
+    <value>VALIDATE AUTO PROCTOR</value>
+  </data>
+  <data name="Admin_AddExam_Label_Reusespecialinstructions" xml:space="preserve">
+    <value>Would you like to re-use additional rules and &lt;br&gt;special instructions from a past exam?</value>
+  </data>
+</root>

@@ -1,0 +1,333 @@
+﻿body {
+}
+
+.system_settings {
+    width: 700px;
+    height: 120px;
+    margin: 0px auto;
+    padding: 5px;
+}
+
+    .system_settings ul {
+        margin: 0px;
+        display: block;
+    }
+
+    .system_settings li {
+        display: inline;
+        margin: 0px 10px;
+        float: left;
+    }
+
+        .system_settings li.flash {
+            width: 150px;
+            position: absolute;
+            left: 150px;
+            text-align: center;
+            border: 1px dotted #ccc;
+        }
+
+        .system_settings li.camera {
+            width: 150px;
+            position: absolute;
+            left: 300px;
+            text-align: center;
+            border: 1px dotted #ccc;
+        }
+
+        .system_settings li.micro {
+            width: 150px;
+            position: absolute;
+            left: 450px;
+            text-align: center;
+            border: 1px dotted #ccc;
+        }
+
+        .system_settings li.internet {
+            width: 150px;
+            position: absolute;
+            left: 600px;
+            text-align: center;
+            border: 1px dotted #ccc;
+        }
+
+.clear {
+    clear: both;
+}
+
+.flash_main {
+    background: url(../Images/flash.png) no-repeat center;
+    width: 150px;
+    height: 120px;
+    position: relative;
+}
+
+.flash_none {
+    background: url(../Images/flash_none.png) no-repeat center;
+    width: 150px;
+    height: 78px;
+    position: relative;
+}
+
+.flash_on {
+    background: url(../Images/flash_on.png) no-repeat center;
+    width: 150px;
+    height: 78px;
+    position: relative;
+}
+
+.flash_off {
+    background: url(../Images/flash_off.png) no-repeat center;
+    width: 150px;
+    position: relative;
+    height: 78px;
+}
+
+.flash_alert {
+    background: url(../Images/flash_alert.png) no-repeat center;
+    width: 150px;
+    height: 78px;
+    position: relative;
+}
+
+.camera_main {
+    background: url(../Images/webcam1.png) no-repeat center center;
+    width: 150px;
+    height: 120px;
+    position: relative;
+}
+
+.camera_none {
+    background: url(../Images/camera_none.png) no-repeat center;
+    width: 150px;
+    position: relative;
+    height: 78px;
+}
+
+.camera_on {
+    background: url(../Images/camera_on.png) no-repeat center;
+    width: 150px;
+    position: relative;
+    height: 78px;
+}
+
+.camera_off {
+    background: url(../Images/camera_off.png) no-repeat center;
+    width: 150px;
+    position: relative;
+    height: 78px;
+}
+
+.camera_alert {
+    background: url(../Images/camera_alert.png) no-repeat center;
+    width: 150px;
+    position: relative;
+    height: 78px;
+}
+
+.micro_main {
+    background: url(../Images/microphone.png) no-repeat center;
+    width: 150px;
+    height: 120px;
+    position: relative;
+}
+
+.micro_none {
+    background: url(../Images/micro_none.png) no-repeat center;
+    width: 150px;
+    position: relative;
+    height: 78px;
+}
+
+.micro_on {
+    background: url(../Images/micro_on.png) no-repeat center;
+    width: 150px;
+    position: relative;
+    height: 78px;
+}
+
+.micro_off {
+    background: url(../Images/micro_off.png) no-repeat center;
+    width: 150px;
+    position: relative;
+    height: 78px;
+}
+
+.micro_alert {
+    background: url(../Images/micro_alert.png) no-repeat center;
+    width: 150px;
+    position: relative;
+    height: 78px;
+}
+
+.internet_main {
+    background: url(../Images/bandwidth.png) no-repeat center;
+    width: 150px;
+    height: 120px;
+    position: relative;
+}
+
+.internet_none {
+    background: url(../Images/internet_none.png) no-repeat center;
+    width: 150px;
+    position: relative;
+    height: 78px;
+}
+
+.internet_on {
+    background: url(../Images/internet_on.png) no-repeat center;
+    width: 150px;
+    position: relative;
+    height: 78px;
+}
+
+.internet_off {
+    background: url(../Images/internet_off.png) no-repeat center;
+    width: 150px;
+    position: relative;
+    height: 78px;
+}
+
+.internet_alert {
+    background: url(../Images/internet_alert.png) no-repeat center;
+    width: 150px;
+    position: relative;
+    height: 78px;
+}
+
+.browser_main {
+    background: url(../Images/browsers.png) no-repeat center;
+    width: 150px;
+    height: 120px;
+    position: relative;
+}
+
+.browser_none {
+    background: url(../Images/browsers_none.png) no-repeat center;
+    width: 150px;
+    position: relative;
+    height: 78px;
+}
+
+.browser_on {
+    background: url(../Images/browsers_on.png) no-repeat center;
+    width: 150px;
+    position: relative;
+    height: 78px;
+}
+
+.browser_off {
+    background: url(../Images/browsers_off.png) no-repeat center;
+    width: 150px;
+    position: relative;
+    height: 78px;
+}
+
+.browser_alert {
+    background: url(../Images/browsers_alert.png) no-repeat center;
+    width: 150px;
+    position: relative;
+    height: 78px;
+}
+
+
+.os_main {
+    background: url(../Images/Mac.png) no-repeat center;
+    width: 150px;
+    height: 120px;
+    position: relative;
+}
+.status {
+    width: 40px;
+    position: relative;
+    height: 40px;
+    margin-left: 35%; color:#000; 
+}
+
+.found {
+   /*background: url(../Images/yes_N.png) no-repeat center;*/
+    /*width: 100px;*/
+    position: relative;
+    height: 40px;
+    /*margin-left: 36%;*/
+    text-align:center;color:#000;font-size:14px;
+    
+}
+.notfound {
+   /*background: url(../Images/no_N.png) no-repeat center;*/
+    /*width: 100px;*/
+    position: relative;
+    height: 40px;
+    /*margin-left: 36%;*/
+    text-align:center;color:#000;font-size:14px;
+}
+.problem {
+      /*background: url(../Images/alert_N.png) no-repeat center;*/
+    
+    position: relative;
+    height: 40px;
+    text-align:center;
+    /*margin-left: 36%;*/
+    font-size:14px;
+    width:100px; margin:0px auto;
+}
+.next a
+{
+    color:#fff;
+}
+.next a:link
+{
+    color:#fff;
+}
+.next a:hover
+{
+    color:#000;
+}
+
+/***************************************************************************************************/
+
+
+
+a, a:link{ text-decoration:none; outline:none; color:#fff;}a:hover{ color:#000;}
+#Sapplication_container {width:100%;min-height: 79%; max-height:100%; margin: 0px auto; background:#f4f4f4;}
+* html #Sapplication_container {height: 100%;}
+.System_container{ margin:0px auto;/*font-size:22px;*/ color:#000;}
+.System_container ul{ display:block; padding:0px; margin:0px auto;}
+.System_container li{ display:inline; padding-left:25px;}
+.System_container .flash{ width:170px; margin-left:25px; float:left; text-align:center; text-shadow: 1px 1px #000;}
+.System_container .webcam{ width:170px; margin-left:25px;float:left; text-align:center; text-shadow: 1px 1px #000;}
+.System_container .microphone{width:170px;  margin-left:25px;float:left; text-align:center; text-shadow: 1px 1px #000;}
+.System_container .bandwidth{width:170px;  margin-left:25px;float:left; text-align:center; text-shadow: 1px 1px #000;}
+
+.System_container .flash_t{ width:170px; margin-left:25px; float:left; text-align:center; text-shadow: 1px 1px #000; margin-top:15px;}
+.System_container .webcam_t{ width:170px; margin-left:25px;float:left; text-align:center; text-shadow: 1px 1px #000;margin-top:15px;}
+.System_container .microphone_t{width:170px;  margin-left:25px;float:left; text-align:center; text-shadow: 1px 1px #000;margin-top:15px;}
+.System_container .bandwidth_t{width:170px;  margin-left:25px;float:left; text-align:center; text-shadow: 1px 1px #000;margin-top:15px;}
+.System_container .browser_t{width:170px; margin-left:25px;float:left; text-align:center; text-shadow: 1px 1px #000;margin-top:15px;}
+
+.System_container .bandwidth1_t{width:170px;  margin-left:25px;float:left; text-align:left; text-shadow: 1px 1px #000;margin-top:15px;}
+.System_container .bandwidth1_t ul{ display:block; width:170px;}
+.System_container .bandwidth1_t li{ display:inline-block;vertical-align:middle; font-size:16px;margin-left:-10px;}
+.System_container .bandwidth2{width:170px;  margin-left:25px;float:left; text-align:left; text-shadow: 1px 1px #000;}
+.System_container .bandwidth2 ul{ display:block; float:left; width:170px;}
+.System_container .bandwidth2 li{ display:inline-block;vertical-align:middle; font-size:16px; margin-left:-10px;}
+.System_container .browser{width:170px; margin-left:25px;float:left; text-align:center; text-shadow: 1px 1px #000;}
+.container_inner{ padding:5px; background:#FFFFFF;}
+.logo_right{ margin:0px 15px; float:left;}
+.Examitylogo{ width:243px; float:right; padding:10px; text-align:left; position:relative;}
+.Clientlogo{ width:60%; float:left; padding-top:20px; text-align:left; padding-left:120px;font-size:35px; color:#fc930d; /*text-shadow: 1px 1px #000;*/}
+.Login{ margin:0px auto; padding:6px 25px; background:#f2f2f2; border-bottom-left-radius:5px;border-bottom-right-radius:5px;}
+.Login ul{ display:block; margin:0px; padding:0px;}
+.Login ul li{ display:inline; padding:0px 10px; font-family: 'Open Sans', sans-serif; font-size:16px;}
+.buttons{ margin-top:65px; text-align:right;}
+
+ul.menu{list-style-type:none;margin:0;padding:0px 5px 0px 5px; font-size:15px; }
+.menu li{display:inline;}
+.menu a:link,.menu a:visited{color:#32689b;background-color:#fff;text-align:center;padding:7px 20px 5px 20px;text-decoration:none;border-bottom-left-radius:2px;border-bottom-right-radius:2px; }
+.menu a:hover{background-color:#ccc; color:#FFFFFF;border-bottom-left-radius:2px;border-bottom-right-radius:2px; }
+.menu li .active{ padding:0px 0px; color:#fff; background:#b9b9b9;text-align:center;padding:7px 20px 5px 20px;border-bottom-left-radius:2px;border-bottom-right-radius:2px; }
+.Login_info{ padding:3px 10px; background:#f2f2f2; border-bottom-left-radius:2px;border-bottom-right-radius:2px; text-align:right;}
+
+
+
+.curve{ background:url(../images/curve.png) no-repeat; position:absolute; right:156px; top:100px; width:86px; height:25px;margin:0px auto;}

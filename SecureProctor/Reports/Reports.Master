@@ -1,0 +1,98 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Reports.master.cs" Inherits="SecureProctor.Reports.Reports" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="shortcut icon" href="../Images/secureproctor.ico" />
+    <link href="../CSS/ApplicationStyleSheet.css" type="text/css" rel="Stylesheet" />
+    <link rel="shortcut icon" href="../Images/secureproctor.ico" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <telerik:RadStyleSheetManager ID="RadStyleSheetManager1" runat="server">
+    </telerik:RadStyleSheetManager>
+    <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
+    </telerik:RadScriptManager>
+ <div class="top">
+        <table cellpadding="0" cellspacing="0" width="90%" align="center">
+            <tr>
+                <td class="logo" valign="top" align="left">
+                                
+                                <br />
+                                <br />
+                                <br /> <br />
+                                    <img src="../Images/ImgClientlogo.png" alt="Client" border="0" />
+                </td>
+                <td valign="top">
+                    <table cellpadding="2" cellspacing="2" width="100%">
+                        <tr>
+                            <td style="text-align: left; color: #FFFFFF;">
+                                <table width="100%" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td align="left">
+                                        <asp:Label ID="lblWelcome" runat="server" Text="Welcome:" CssClass="lblHeader"></asp:Label>&nbsp;<asp:Label
+                                                ID="lblUser" runat="server" CssClass="lblHeader"></asp:Label>
+                                        </td>
+                                        <td align="right">
+                                            <asp:UpdatePanel ID="upInfo" runat="server" UpdateMode="Always">
+                                                <ContentTemplate>
+                                                <asp:Label ID="lblTime" runat="server" Text="Time Zone :" CssClass="lblHeader"></asp:Label>
+                                                <asp:LinkButton ID="lbtnTimeZone" runat="server" CssClass="lblHeader" ForeColor="White"
+                                                        onclick="lbtnTimeZone_Click">
+                                                      </asp:LinkButton>&nbsp;&nbsp;
+                                               
+                                                   <%-- <asp:Label ID="lblTimeZone" runat="server"></asp:Label>&nbsp;&nbsp;--%>
+                                                    <asp:Label ID="lblDate" runat="server" Text="Welcome:" CssClass="lblHeader"></asp:Label>
+                                                </ContentTemplate>
+                                            </asp:UpdatePanel>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                          <tr>
+                            <td valign="baseline" align="right">
+                                <a href="#">
+                        <img src="../Images/ImgProductLogo.png" alt="SecureProctor" border="0" /></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+        <table><tr><td><br /></td></tr></table>
+    <!-- content start -->
+    <div id="application_container">
+        <div class="container">
+            <div class="main_menu">
+               
+            </div>
+            <div class="container_inner">
+                <div class="login_new1">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- content end -->
+    <div id="footer">
+        <div class="footer_inner">
+            <div class="fut_left">
+                Copyright © 2013 Secure Proctor LLC. All Rights Reserved.
+            </div>
+            <div class="fut_right">
+                <a href="mailto:support@secureproctor.com">support@secureproctor.com</a>
+            </div>
+            <div class="clear">
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,41 @@
+﻿
+/*.container_box{ width:800px; margin:50px auto;}
+.campaign_box{  width:350px; height:490px; border:1px solid #d0d5cb; border-radius:3px;  box-shadow: 0px 0px 6px 5px rgba(11,25,2,0.10);border:3px solid darken(@color, 50%); 
+float:left; background:#fff; margin-left:20px; }
+.campaign_image{ padding:3px;}*/
+
+.container_box{ width:800px; margin:20px auto;border: 1px solid #ccc; border-radius: 5px; padding: 30px 30px 90px 30px; background: #e2e2e2;}
+.container_box1{ width:100%; margin:20px auto;}
+.campaign_box{  width:350px; height:330px; border:1px solid #d0d5cb; border-radius:5px;  box-shadow: 0px 0px 6px 5px rgba(237,237,237,0.10);/*border:3px solid darken(@color, 50%);*/ 
+float:left; background:#fff; }
+.campaign_box1{  width:350px; height:330px; border:1px solid #d0d5cb; border-radius:5px;  box-shadow: 0px 0px 6px 5px rgba(237,237,237,0.10);
+                /*border:3px solid darken(@color, 50%);*/ 
+float:left; background:#fff; }
+.campaign_image{ padding:3px;}
+.box_header{ font-size:16px; background:#2b6296; padding:10px; color:#fff; text-align:center; border-top-left-radius: 5px; border-top-right-radius: 5px;}
+.button_div{ width:200px; margin:0px auto; text-align:center;}
+.button_div1{ width:300px; margin:0px auto; text-align:center; color:#000; }
+.button a, .button a:link{outline: none; color:#FFFFFF;cursor: pointer;text-align: center;	text-decoration: none;}
+.button:hover {text-decoration: none;}
+.orange {
+	color: #fef4e9;
+	border: solid 1px #da7c0c;
+	background: #f78d1d;
+	background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+	background: -moz-linear-gradient(top,  #faa51a,  #f47a20);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+}
+.orange:hover {
+	background: #f47c20;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(#f06015));
+	background: -moz-linear-gradient(top,  #f88e11,  #f06015);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f88e11', endColorstr='#f06015');
+}
+.orange:active {
+	color: #fcd3a5;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f47a20), to(#faa51a));
+	background: -moz-linear-gradient(top,  #f47a20,  #faa51a);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a');
+}
+/*.button_div{ width:200px; margin:5px auto; text-align:center;}
+.button_div1{ width:350px; margin:5px auto; text-align:center;}*/

@@ -1,0 +1,76 @@
+﻿body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+    margin: 0;
+}
+.CommonHeader
+{
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #505050;
+}
+.gridviewRowstyle
+{
+    line-height: 25px;
+}
+.gridviewAlternatestyle
+{
+    line-height: 25px;
+}
+.lblInfo
+{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+.LineBreak
+{
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.customfont1
+{
+    font-family: 'Open Sans' , sans-serif;
+    font-size: 18px; 
+    color: #333;
+    text-align: left;
+}
+.customfont2
+{
+    font-family: 'Open Sans' , sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #333;
+    padding: 10px 25px;
+    text-align: left;
+}
+.heading
+{
+    padding: 6px 5px 10px 10px;
+}
+.PopupLable
+{
+    padding-left:10px;
+    vertical-align:top;
+    text-align:left;
+}
+.PopupButtons
+{
+    text-align:left;
+    vertical-align:middle;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.PopupButtons1
+{
+    text-align:center;
+    vertical-align:middle;
+    padding-top:10px;
+    padding-bottom:10px;
+}
