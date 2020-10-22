@@ -82,7 +82,7 @@ namespace SecureProctor.Proctor
 
             }
 
-            catch (Exception Ex)
+            catch (Exception )
             {
 
 

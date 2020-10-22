@@ -32,7 +32,7 @@ namespace SecureProctor.CourseAdmin
                     this.BindDropdowns();
                 }
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
             }
         }
@@ -58,7 +58,7 @@ namespace SecureProctor.CourseAdmin
 
                 Response.Redirect("ViewUserDetails.aspx?Type=R&" + AppSecurity.Encrypt("StudentID=" + StudentID), false);
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
             }
         }
@@ -72,7 +72,7 @@ namespace SecureProctor.CourseAdmin
 
                 Response.Redirect("EditEnrollment.aspx?EnrollID=" + AppSecurity.Encrypt(StudentID.ToString()), false);
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
             }
         }
@@ -86,7 +86,7 @@ namespace SecureProctor.CourseAdmin
 
                 Response.Redirect("DeleteEnrollment.aspx?EnrollID=" + AppSecurity.Encrypt(StudentID.ToString()), false);
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
             }
         }
@@ -201,7 +201,7 @@ namespace SecureProctor.CourseAdmin
                     //gvExamStatus.DataBind();
                 }
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
             }
         }

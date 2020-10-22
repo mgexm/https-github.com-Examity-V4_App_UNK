@@ -200,12 +200,12 @@ namespace SecureProctor.CourseAdmin
                         lblTimeZone.Text = objBEUser.DsResult.Tables[1].Rows[0]["TimeZone2"].ToString();
                     }
                 }
-                catch (Exception Ex)
+                catch (Exception )
                 {
                     // ErrorLog.WriteError(Ex);
                 }
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
                 //ErrorLog.WriteError(Ex);
             }

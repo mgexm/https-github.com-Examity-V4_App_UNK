@@ -39,7 +39,7 @@ namespace SecureProctor
 
                 }
             }
-            catch (Exception e)
+            catch (Exception )
             {
 
             }

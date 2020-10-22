@@ -47,7 +47,7 @@
                                                                             </tr>
                                                                             <tr>
                                                                                 <td align="center">
-                                                                                    <div onkeypress="return ValidateSec(event)">
+                                                                                    <div>
                                                                                         <table width="100%" cellpadding="5" cellspacing="5">
                                                                                             <tr>
                                                                                                 <td align="left" style="padding-left: 50px;">

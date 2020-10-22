@@ -152,7 +152,7 @@ namespace SecureProctor.Admin
 
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
 
 

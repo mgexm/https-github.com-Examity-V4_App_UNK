@@ -72,7 +72,7 @@ namespace SecureProctor.Student
                 }
             }
 
-            catch (Exception Ex)
+            catch (Exception )
             {
                 //ErrorLog.WriteError(Ex);
             }
@@ -96,7 +96,7 @@ namespace SecureProctor.Student
                     ddlGender.DataBind();
                 }
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
                 //  ErrorLog.WriteError(Ex);
             }
@@ -121,7 +121,7 @@ namespace SecureProctor.Student
                     ddlTimeZone.DataBind();
                 }
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
                 // ErrorLog.WriteError(Ex);
             }
@@ -153,7 +153,7 @@ namespace SecureProctor.Student
 
                 }
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
                 // ErrorLog.WriteError(Ex);
             }
@@ -282,7 +282,7 @@ namespace SecureProctor.Student
                     }
                 }
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
                 // ErrorLog.WriteError(Ex);
             }
@@ -307,7 +307,7 @@ namespace SecureProctor.Student
                 txtPhoneNumber.Text = "";
                 txtPrefferedPhoneNumber.Text = "";
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
 
                 //  ErrorLog.WriteError(Ex);

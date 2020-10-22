@@ -11,6 +11,7 @@
     <script src="../Scripts/clipboard.min.js"></script>
     <script type="text/javascript">
         var transID = '<%= HttpUtility.UrlEncode(Request.QueryString["TransID"].ToString())%>';
+        var timerValue = 60000;
 
         function ValidateIdentity(status) {
             var txt;
@@ -300,6 +301,7 @@
                         else if (data == "3") {
                             $('#ctl00_ProctorContent_tbcExistingExamDetails_TabPanel1_tdStatus').attr('style', 'background-color:Green;');
                             $('#ctl00_ProctorContent_tbcExistingExamDetails_TabPanel1_lblStatus').text('Completed');
+                            clearInterval(timer);
                         }
                         else if (data == "15") {
                             $('#ctl00_ProctorContent_tbcExistingExamDetails_TabPanel1_tdStatus').attr('style', 'background-color:Orange;');
@@ -316,15 +318,16 @@
                         else if (data == "0") {
                             $('#ctl00_ProctorContent_tbcExistingExamDetails_TabPanel1_tdStatus').attr('style', 'background-color:Red;');
                             $('#ctl00_ProctorContent_tbcExistingExamDetails_TabPanel1_lblStatus').text("Exam Cancelled");
+                            clearInterval(timer);
                         }
 
 
-                        else {
-                            $('#' + trID).attr('style', 'display:none');
-                        }
+                        //else {
+                        //    $('#' + trID).attr('style', 'display:none');
+                        //}
                     });
                 },
-		1000,
+                timerValue,
 		true
 	);
         //timer.set({ time : 3000, autostart : true });
@@ -359,6 +362,7 @@
                             else {
                                 $('#ctl00_ProctorContent_tbcExistingExamDetails_TabPanel1_ImgMeetingType').attr("src", "../Images/ImgIconWebEx.png")
                             }
+                            clearInterval(timer);
 
                         }
                     });
@@ -375,6 +379,7 @@
                                 $('#ctl00_ProctorContent_ImgBrowser').attr("src", "../Images/ImgMyProfileno.png");
                                 $('#ctl00_ProctorContent_lblBrowser').attr('style', 'color:Red;');
                             }
+                            clearInterval(timer);
                         }
                         else {
                             $('#ctl00_ProctorContent_lblBrowser').text('');
@@ -383,7 +388,7 @@
                     });
 
                 },
-		1000,
+                timerValue,
 		true
 	);
         //timer.set({ time : 3000, autostart : true });
@@ -411,11 +416,11 @@
                             //$('#ctl00_ProctorContent_tdexamikey').attr('style', 'background-color:Yellow;');
 
                             $('#ctl00_ProctorContent_tbcExistingExamDetails_tbpComments_lblKeyScore').text(data + '%');
-
+                            clearInterval(timer);
                         }
                     });
                 },
-		1000,
+                timerValue,
 		true
 	);
 

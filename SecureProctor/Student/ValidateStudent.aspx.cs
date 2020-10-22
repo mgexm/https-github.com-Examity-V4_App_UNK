@@ -44,7 +44,7 @@ namespace SecureProctor.Student
                 objBStudent = null;
                 objBEStudent = null;
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
               //  ErrorLog.WriteError(Ex);
             }
@@ -74,7 +74,7 @@ namespace SecureProctor.Student
                         lblFailed.Text = Resources.ResMessages.Student_InvalidSecAns;
                 }
 
-                catch (Exception Ex)
+                catch (Exception )
                 {
                     // ErrorLog.WriteError(Ex);
                 }
@@ -88,7 +88,7 @@ namespace SecureProctor.Student
                 txtAnswer2.Text = string.Empty;
                 txtAnswer3.Text = string.Empty;
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
 
                // ErrorLog.WriteError(Ex);

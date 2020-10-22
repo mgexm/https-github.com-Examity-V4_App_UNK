@@ -39,7 +39,7 @@ namespace SecureProctor
                 }
                
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
                 // ErrorLog.WriteError(Ex);
             }

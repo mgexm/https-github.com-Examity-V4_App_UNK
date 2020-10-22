@@ -1009,7 +1009,7 @@ namespace SecureProctor.CourseAdmin
 
              
             }
-            catch (Exception e)
+            catch (Exception )
             {
 
             }

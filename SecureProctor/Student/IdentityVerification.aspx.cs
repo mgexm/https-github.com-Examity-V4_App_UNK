@@ -49,7 +49,7 @@ namespace SecureProctor.Student
                 else
                     lblError.Visible = true;
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
                 //ErrorLog.WriteError(Ex);
             }

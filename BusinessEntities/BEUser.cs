@@ -11,7 +11,7 @@ namespace BusinessEntities
         public int intDualRole { get; set; }
         public int IntTimeZoneID { get; set; }
         public int IntRoleID { get; set; }
-        public string strTimeZone { get; set; }
+        //public string strTimeZone { get; set; }
         public string StringTimeZone { get; set; }
         public string StrPasswordReset { get; set; }
         public string strOldPassword { get; set; }

@@ -6,8 +6,8 @@ namespace BusinessEntities
     public class BEStudent : BEBase
     {
         public string strExamDate { get; set; }
-        public int IntProviderID { get; set; }
-        public string strExamName { get; set; }
+        //public int IntProviderID { get; set; }
+        //public string strExamName { get; set; }
         public string strAnswer1 { get; set; }
         public string strAnswer2 { get; set; }
         public string strAnswer3 { get; set; }
@@ -20,7 +20,7 @@ namespace BusinessEntities
         public string strLastName { get; set; }
         public string strPassword { get; set; }
         public string strConfirmPassword { get; set; }
-        public string strUserName { get; set; }
+        //public string strUserName { get; set; }
         public string strGender { get; set; }
         public string strphoneNumber { get; set; }
         public string strPrefferedPhoneNumber { get; set; }
@@ -34,7 +34,7 @@ namespace BusinessEntities
         public int intFlagPhoneNUmber { get; set; }
 
         public string strSessionID { get; set; }
-        public int IntResult { get; set; }
+        //public int IntResult { get; set; }
 
         public int intOndemand { get; set; }
 

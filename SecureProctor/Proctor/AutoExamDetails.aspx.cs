@@ -255,7 +255,7 @@ namespace SecureProctor.Proctor
 
             }
 
-            catch (Exception Ex)
+            catch (Exception )
             {
                 // ErrorLog.WriteError(Ex);
             }
@@ -609,7 +609,7 @@ namespace SecureProctor.Proctor
 
 
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
                 //ErrorLog.WriteError(Ex);
             }

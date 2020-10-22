@@ -135,7 +135,7 @@ namespace SecureProctor.Student
                 objBStudent = null;
                 objBEStudent = null;
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
                 //  ErrorLog.WriteError(Ex);
             }

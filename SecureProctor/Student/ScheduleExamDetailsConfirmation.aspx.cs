@@ -115,7 +115,7 @@ namespace SecureProctor.Student
                     //    }
                 }
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
                 // ErrorLog.WriteError(Ex);
             }
@@ -357,7 +357,7 @@ namespace SecureProctor.Student
                 }
 
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
                 //  ErrorLog.WriteError(Ex);
             }

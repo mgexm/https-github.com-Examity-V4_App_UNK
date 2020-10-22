@@ -394,7 +394,7 @@ namespace SecureProctor.Admin
 
                 }
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
                 // ErrorLog.WriteError(Ex);
             }
@@ -425,7 +425,7 @@ namespace SecureProctor.Admin
                 }
 
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
                 //ErrorLog.WriteError(Ex);
             }

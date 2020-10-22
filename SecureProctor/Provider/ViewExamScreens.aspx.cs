@@ -300,7 +300,7 @@ namespace SecureProctor.Provider
 
                 }
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
                 // ErrorLog.WriteError(Ex);
             }
@@ -332,7 +332,7 @@ namespace SecureProctor.Provider
                 }
 
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
                 //ErrorLog.WriteError(Ex);
             }

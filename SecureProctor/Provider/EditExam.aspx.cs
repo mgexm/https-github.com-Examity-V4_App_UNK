@@ -1171,7 +1171,7 @@ namespace SecureProctor.Provider
 
 
             }
-            catch (Exception e)
+            catch (Exception )
             {
 
             }

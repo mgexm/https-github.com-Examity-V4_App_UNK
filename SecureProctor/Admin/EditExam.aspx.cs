@@ -853,7 +853,7 @@ namespace SecureProctor.Admin
                 //    imgCancel.Visible = false;
                 //}
             }
-            catch (Exception e)
+            catch (Exception )
             {
 
             }

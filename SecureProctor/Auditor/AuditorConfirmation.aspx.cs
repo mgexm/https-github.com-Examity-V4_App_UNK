@@ -59,7 +59,7 @@ namespace SecureProctor.Auditor
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
 
             }
@@ -136,7 +136,7 @@ namespace SecureProctor.Auditor
                 
 
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
 
             }
@@ -265,7 +265,7 @@ namespace SecureProctor.Auditor
 
 
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
             }
 

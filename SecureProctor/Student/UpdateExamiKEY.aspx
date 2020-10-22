@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="UpdateExamiKEY.aspx.cs" Inherits="SecureProctor.Student.UpdateExamiKEY" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="UpdateExamiKEY.aspx.cs" Inherits="SecureProctor.Student.UpdateExamiKEY" %>
 
 <!DOCTYPE html>
 
@@ -296,7 +296,7 @@
             </div>
             <div id="supportpanels" style="float:right;width:360px;color:white;font-size:13px;">
                 <div class="livechatpannel" style="float:left;width:70px;cursor:pointer">
-                    <u>Live Chat</u>&nbsp;|
+                     <!--u>Live Chat</u>&nbsp;&nbsp;|-->
                 </div>
                 <div id="Emailsupport" style="float:left;width:100px;">
                     <a href="mailto:support@examity.com" style="color:white"><u>Email Support</u></a>&nbsp;|
@@ -316,6 +316,51 @@
 
 
      
-    </form>
+    <!-- New code for Sales Force starts chat -->
+<style type='text/css'>
+.embeddedServiceHelpButton .helpButton .uiButton {
+background-color: #f89520;
+font-family: Arial, sans-serif;
+}
+.embeddedServiceHelpButton .helpButton .uiButton:focus {
+ outline: 1px solid #f89520;
+}
+</style>
+<script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
+<script type='text/javascript'>
+var initESW = function (gslbBaseURL) {
+embedded_svc.settings.displayHelpButton = true; //Or false
+embedded_svc.settings.language = 'en-US'; //For example, enter 'en' or 'en-US'
+embedded_svc.settings.enabledFeatures = ['LiveAgent'];
+embedded_svc.settings.entryFeature = 'LiveAgent';
+embedded_svc.init(
+'https://examity.my.salesforce.com',
+'https://chats2.secure.force.com/liveAgentSetupFlow',
+gslbBaseURL,
+'00Di0000000HhYO',
+'Agent_Chat',
+{
+ baseLiveAgentContentURL: 'https://c.la1-c2-ord.salesforceliveagent.com/content',
+deploymentId: '5720H000000XZPJ',
+buttonId: '5730H000000XZoy',
+baseLiveAgentURL: 'https://d.la1-c2-ord.salesforceliveagent.com/chat',
+eswLiveAgentDevName: 'Agent_Chat',
+isOfflineSupportEnabled: true
+}
+);
+};
+if (!window.embedded_svc) {
+var s = document.createElement('script');
+s.setAttribute('src', 'https://examity.my.salesforce.com/embeddedservice/5.0/esw.min.js');
+s.onload = function () {
+initESW(null);
+};
+document.body.appendChild(s);
+} else {
+initESW('https://service.force.com');
+}
+</script>
+<!-- New code for Sales Force chat -->
+</form>
 </body>
 </html>

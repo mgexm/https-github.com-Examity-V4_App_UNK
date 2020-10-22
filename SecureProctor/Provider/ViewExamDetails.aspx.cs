@@ -223,7 +223,7 @@ namespace SecureProctor.Provider
                                     lblMinutes.Text = b[1].ToString();
                                     lblExamName.Text = objBEExamProvider.DsResult.Tables[0].Rows[0]["ExamName"].ToString();
                                     lblCourseName.Text = objBEExamProvider.DsResult.Tables[0].Rows[0]["CourseName"].ToString();
-                                    if (objBEExamProvider.DsResult.Tables[0].Rows[0]["Security Description"] != DBNull.Value && objBEExamProvider.DsResult.Tables[0].Rows[0]["Security Description"] != "")
+                                    if (objBEExamProvider.DsResult.Tables[0].Rows[0]["Security Description"] != DBNull.Value && objBEExamProvider.DsResult.Tables[0].Rows[0]["Security Description"].ToString() != "")
                                     {
                                         lblExamSecurity.Text = objBEExamProvider.DsResult.Tables[0].Rows[0]["Security Description"].ToString();
                                     }
@@ -293,7 +293,7 @@ namespace SecureProctor.Provider
                     }
                 }
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
                
             }
@@ -407,7 +407,7 @@ namespace SecureProctor.Provider
 
             }
 
-            catch (Exception e)
+            catch (Exception )
             {
 
 

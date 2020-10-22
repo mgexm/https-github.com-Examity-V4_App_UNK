@@ -105,7 +105,7 @@ namespace SecureProctor.Proctor
                             objBMail.BSendEmail(objBEMail);
 
                         }
-                        catch (Exception ex)
+                        catch (Exception )
                         {
                             //throw ex;
                         }
@@ -143,7 +143,7 @@ namespace SecureProctor.Proctor
                             objBMail.BSendEmail(objBEMail);
 
                         }
-                        catch (Exception ex)
+                        catch (Exception )
                         {
                             //throw ex;
                         }
@@ -181,7 +181,7 @@ namespace SecureProctor.Proctor
                             objBMail.BSendEmail(objBEMail);
 
                         }
-                        catch (Exception ex)
+                        catch (Exception )
                         {
                             //throw ex;
                         }

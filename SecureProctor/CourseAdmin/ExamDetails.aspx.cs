@@ -461,7 +461,7 @@ namespace SecureProctor.CourseAdmin
                     objBExamProvider = null;
                 }
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
 
             }
@@ -550,7 +550,7 @@ namespace SecureProctor.CourseAdmin
                 gvExamDetails.DataSource = objBEExamProvider.DtResult;
 
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
 
             }

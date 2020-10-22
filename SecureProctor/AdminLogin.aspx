@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AdminLogin.aspx.cs" Inherits="SecureProctor.AdminLogin" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AdminLogin.aspx.cs" Inherits="SecureProctor.AdminLogin" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -12,9 +12,9 @@
     </script>
    <!--If you already have jquery on the page you don't need to insert this script tag-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
-<link href="https://cdn.desk.com/assets/widget_embed_191.css" media="screen" rel="stylesheet" type="text/css" />
+<%--<link href="https://cdn.desk.com/assets/widget_embed_191.css" media="screen" rel="stylesheet" type="text/css" />--%>
 <!--If you already have fancybox on the page this script tag should be omitted-->
-<script src="https://desk-customers.s3.amazonaws.com/shared/widget_embed_libraries_191.js" type="text/javascript"></script>
+<%--<script src="https://desk-customers.s3.amazonaws.com/shared/widget_embed_libraries_191.js" type="text/javascript"></script>--%>
 
 </head>
 <body>
@@ -200,7 +200,7 @@
                 <div id="supportpanels" style="float: right; color: white; font-size: 13px; text-align: right;">
                      <div class="ulCss" style="float: left;">
 				<script>
-				    new DESK.Widget({
+				    /* new DESK.Widget({
 				        version: 1,
 				        ctaLabel: "Live Chat",
 				        site: 'examity.desk.com',
@@ -241,7 +241,7 @@
 				                // custom_customer_type: &#x27;&#x27;
 				            }
 				        }
-				    }).render();
+				    }).render();*/
                 </script>
 				</div>
 
@@ -251,7 +251,7 @@
                   <div class="livechatpannel" style="float: left; cursor: pointer">
                                <u class="ulCss">
                             </u>&nbsp;&nbsp;|
-                      <%-- <u>Live Chat</u>&nbsp;&nbsp;|--%>
+                      <%--  <!--u>Live Chat</u>&nbsp;&nbsp;|-->--%>
                            </div>
                     <div id="Emailsupport" style="float: left;">
                         &nbsp;&nbsp;<a href="mailto:support@examity.com" style="color: white"><u><asp:Label ID="Label2" Text="Email Support" runat="server" TabIndex="7"></asp:Label></u></a>&nbsp;&nbsp;|&nbsp;&nbsp;
@@ -264,6 +264,51 @@
                 </div>
             </div>
         </div>
-    </form>
+    <!-- New code for Sales Force starts chat -->
+<style type='text/css'>
+.embeddedServiceHelpButton .helpButton .uiButton {
+background-color: #f89520;
+font-family: Arial, sans-serif;
+}
+.embeddedServiceHelpButton .helpButton .uiButton:focus {
+ outline: 1px solid #f89520;
+}
+</style>
+<script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
+<script type='text/javascript'>
+var initESW = function (gslbBaseURL) {
+embedded_svc.settings.displayHelpButton = true; //Or false
+embedded_svc.settings.language = 'en-US'; //For example, enter 'en' or 'en-US'
+embedded_svc.settings.enabledFeatures = ['LiveAgent'];
+embedded_svc.settings.entryFeature = 'LiveAgent';
+embedded_svc.init(
+'https://examity.my.salesforce.com',
+'https://chats2.secure.force.com/liveAgentSetupFlow',
+gslbBaseURL,
+'00Di0000000HhYO',
+'Agent_Chat',
+{
+ baseLiveAgentContentURL: 'https://c.la1-c2-ord.salesforceliveagent.com/content',
+deploymentId: '5720H000000XZPJ',
+buttonId: '5730H000000XZoy',
+baseLiveAgentURL: 'https://d.la1-c2-ord.salesforceliveagent.com/chat',
+eswLiveAgentDevName: 'Agent_Chat',
+isOfflineSupportEnabled: true
+}
+);
+};
+if (!window.embedded_svc) {
+var s = document.createElement('script');
+s.setAttribute('src', 'https://examity.my.salesforce.com/embeddedservice/5.0/esw.min.js');
+s.onload = function () {
+initESW(null);
+};
+document.body.appendChild(s);
+} else {
+initESW('https://service.force.com');
+}
+</script>
+<!-- New code for Sales Force chat -->
+</form>
 </body>
 </html>

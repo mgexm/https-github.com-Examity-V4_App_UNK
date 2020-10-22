@@ -35,7 +35,7 @@ namespace SecureProctor.CourseAdmin
             {
                 GetStudents();
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
                 //ErrorHandlers.ErrorLog.WriteError(Ex);
             }

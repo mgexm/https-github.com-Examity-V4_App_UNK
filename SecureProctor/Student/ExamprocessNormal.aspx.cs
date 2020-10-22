@@ -69,7 +69,7 @@ namespace SecureProctor.Student
 
                 }
 
-                catch (Exception e)
+                catch (Exception )
                 {
 
                     objBECommon.iID = Convert.ToInt32(Request.QueryString["ExamID"].ToString());
@@ -177,7 +177,7 @@ namespace SecureProctor.Student
                 objBStudent = null;
                 objBEStudent = null;
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
                 //  ErrorLog.WriteError(Ex);
             }
@@ -284,7 +284,7 @@ namespace SecureProctor.Student
                 objBStudent = null;
                 objBEStudent = null;
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
                 //  ErrorLog.WriteError(Ex);
             }

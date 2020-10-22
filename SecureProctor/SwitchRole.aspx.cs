@@ -12,7 +12,7 @@ namespace SecureProctor
     public partial class SwitchRole : BaseClass
     {
 
-        protected void Page_PreInit(object sender, EventArgs e)
+        protected new void Page_PreInit(object sender, EventArgs e)
         {
             //this code is added by adarsh for finding the browser name to handle the webcam functionality with html5            
             System.Web.HttpBrowserCapabilities browser = Request.Browser;
@@ -122,7 +122,7 @@ namespace SecureProctor
                     Response.Redirect("logout.aspx?ID=" + Request.QueryString["ID"].ToString(), false);
                 }
             }
-            catch(Exception ex)
+            catch(Exception )
             {
                 Response.Redirect("logout.aspx?ID=" + Request.QueryString["ID"].ToString(), false);
             }

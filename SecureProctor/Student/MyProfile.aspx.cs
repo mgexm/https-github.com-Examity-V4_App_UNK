@@ -309,7 +309,7 @@ namespace SecureProctor.Student
 
                 }
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
                 //  ErrorLog.WriteError(Ex);
             }
@@ -341,7 +341,7 @@ namespace SecureProctor.Student
                     ddlTimeZone.SelectedValue = objBEUser.DsResult.Tables[1].Rows[0]["TimeZone1"].ToString().Trim();
                 }
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
                 // ErrorLog.WriteError(Ex);
             }
@@ -510,7 +510,7 @@ namespace SecureProctor.Student
                     txtAnswer3.Text = CommonFunctions.CheckNullValue(objBEStudent.DsResult.Tables[1].Rows[2]["QAnswer1"].ToString());
                 }
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
                 //ErrorLog.WriteError(Ex);
             }
@@ -574,7 +574,7 @@ namespace SecureProctor.Student
 
             }
 
-            catch (Exception e)
+            catch (Exception )
             {
 
 

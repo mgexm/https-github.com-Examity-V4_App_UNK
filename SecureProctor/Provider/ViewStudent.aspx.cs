@@ -77,7 +77,7 @@ namespace SecureProctor.Provider
                 objBProvider.BGetStudentTransactionsForCurrentProvider(objBEProvider);
                 gvTransDetails.DataSource = objBEProvider.DtResult;
             }
-            catch (Exception Ex) { }
+            catch (Exception ) { }
         }
 
         protected void gvTransDetails_SortCommand(object sender, GridSortCommandEventArgs e)

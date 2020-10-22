@@ -63,7 +63,7 @@ namespace SecureProctor.Auditor
                     }
                 }
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
             }
         }
@@ -148,7 +148,7 @@ namespace SecureProctor.Auditor
                 }
                 
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
                 //ErrorLog.WriteError(Ex);
             }

@@ -95,7 +95,7 @@ namespace SecureProctor.Provider
                 if (!Convert.ToBoolean((objBECommon.DtResult.Rows[0]["instructor"])))
                 {
                     lblstudentfirstname.ReadOnly = Convert.ToBoolean((objBECommon.DtResult.Rows[0]["FirstName"]));
-                    if (Convert.ToBoolean((objBECommon.DtResult.Rows[0]["FirstName"]))) ;
+                    if (Convert.ToBoolean((objBECommon.DtResult.Rows[0]["FirstName"])))
                     {
                         lblstudentfirstname.CssClass = "readonly";
                         RequiredFieldValidator1.Enabled = false;

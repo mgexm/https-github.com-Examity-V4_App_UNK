@@ -96,7 +96,7 @@ namespace SecureProctor.Proctor
                 }
 
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
                 //ErrorLog.WriteError(Ex);
             }
@@ -249,7 +249,7 @@ namespace SecureProctor.Proctor
 
                 }
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
                 // ErrorLog.WriteError(Ex);
             }
@@ -698,7 +698,7 @@ namespace SecureProctor.Proctor
 
             }
 
-            catch (Exception e)
+            catch (Exception )
             {
 
 
@@ -1043,7 +1043,7 @@ namespace SecureProctor.Proctor
                 objG2M_Properties = null;
 
             }
-            catch (Exception ex)
+            catch (Exception )
             {
 
             }

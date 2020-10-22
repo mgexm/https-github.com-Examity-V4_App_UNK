@@ -282,7 +282,7 @@ namespace SecureProctor.Admin
                     }
                 }
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
 
             }
@@ -348,7 +348,7 @@ namespace SecureProctor.Admin
 
             }
 
-            catch (Exception e)
+            catch (Exception )
             {
 
 

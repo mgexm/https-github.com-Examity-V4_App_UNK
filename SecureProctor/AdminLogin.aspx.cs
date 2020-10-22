@@ -11,7 +11,7 @@ namespace SecureProctor
         const int Length = 8;
         #endregion
         #region PageLoad
-        protected void Page_PreInit(object sender, EventArgs e)
+        protected new void Page_PreInit(object sender, EventArgs e)
         {
             //this code is added by adarsh for finding the browser name to handle the webcam functionality with html5            
             System.Web.HttpBrowserCapabilities browser = Request.Browser;
@@ -280,7 +280,7 @@ namespace SecureProctor
                     this.Clear();
                 }
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
                 // ErrorLog.WriteError(Ex);
             }

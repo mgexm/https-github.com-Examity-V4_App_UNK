@@ -426,7 +426,7 @@ namespace DAL
                     userlist.Add(ms);
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             { }
             finally
             { //ConnectionUtil.Close(con); 
@@ -460,8 +460,7 @@ namespace DAL
                     userlist.Add(ms);
                 }
             }
-            catch (Exception ex)
-            { }
+            catch (Exception )            { }
             finally
             { //ConnectionUtil.Close(con); 
             }
@@ -574,7 +573,7 @@ namespace DAL
                     objBECommon.strResult = "newsession";
                 }
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
             }
         }
@@ -600,7 +599,7 @@ namespace DAL
                 }
 
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
             }
         }
@@ -621,7 +620,7 @@ namespace DAL
 
                 SQLHelper.ExecuteNonQuery(DConConfig.ConnectionString, CommandType.StoredProcedure, StoredProcedures.USP_OpenTok_SaveArchiveID, objSqlParam);
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
             }
         }
@@ -640,7 +639,7 @@ namespace DAL
 
                 objBECommon.strArchiveId = (String)SQLHelper.ExecuteScalar(DConConfig.ConnectionString, CommandType.StoredProcedure, StoredProcedures.USP_OpenTok_GetArchiveID, objSqlParam);
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
             }
         }

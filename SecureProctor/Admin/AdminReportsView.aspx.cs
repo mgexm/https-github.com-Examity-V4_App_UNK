@@ -524,10 +524,10 @@ namespace SecureProctor.Admin
             using (System.IO.MemoryStream memoryStream = new System.IO.MemoryStream())
             {
                 PdfWriter writer = PdfWriter.GetInstance(document, memoryStream);
-                Phrase phrase = null;
+                //Phrase phrase = null;
                 PdfPCell cell = null;
                 PdfPTable table = null;
-                Color color = null;
+                //Color color = null;
 
                 document.Open();
 

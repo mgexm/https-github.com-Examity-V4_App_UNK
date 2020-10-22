@@ -44,7 +44,7 @@ namespace SecureProctor.CourseAdmin
                 objBCourseAdmin.BGetStudentTransactionsByLoggedInCourseAdminCourses(objBECourseAdmin);
                 gvTransDetails.DataSource = objBECourseAdmin.DtResult;
             }
-            catch (Exception Ex) { }
+            catch (Exception ) { }
         }
 
         #endregion

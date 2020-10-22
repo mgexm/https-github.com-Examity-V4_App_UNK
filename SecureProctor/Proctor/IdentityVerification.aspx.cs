@@ -6,8 +6,6 @@ using BusinessEntities;
 using BLL;
 using Telerik.Web.UI;
 using Telerik.Web.UI.Skins;
-using BusinessEntities;
-using BLL;
 
 namespace SecureProctor.Proctor
 {

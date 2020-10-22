@@ -37,7 +37,7 @@ namespace SecureProctor.Provider
             {
                 this.BindExams();
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
 
             }

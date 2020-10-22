@@ -44,7 +44,7 @@ namespace SecureProctor
 
                 }
 
-                catch (Exception e)
+                catch (Exception )
                 {
 
                     objBECommon.iID = Convert.ToInt32(Request.QueryString["ExamID"].ToString());

@@ -232,7 +232,7 @@ document.oncontextmenu = contextMenu;
                                                                     <asp:Image ID="Image8" runat="server" ImageUrl="~/Images/Imgsystem_requirements.png" AlternateText="Exam Requirements" TabIndex="17" />
                                                                 </td>
                                                                 <td align="right" class="boreder_home_pro">
-                                                                    <asp:HyperLink ID="hlkSystemReadyness" Target="_blank" NavigateUrl="https://test.examity.com/systemcheck/check.aspx" runat="server" Text="Computer Requirements Check" Font-Underline="true" ForeColor="Blue" Font-Size="Medium"></asp:HyperLink>
+                                                                    <asp:HyperLink ID="hlkSystemReadyness" Target="_blank" NavigateUrl="https://Prod.examity.com/systemcheck/check.aspx" runat="server" Text="Computer Requirements Check" Font-Underline="true" ForeColor="Blue" Font-Size="Medium"></asp:HyperLink>
                                                                 </td>
                                                             </tr>
                                                             <tr>

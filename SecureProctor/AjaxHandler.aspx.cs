@@ -8,24 +8,34 @@ using System.IO;
 using System.Collections.Generic;
 using Newtonsoft.Json;
 using System.Configuration;
+using System.Web;
 
 namespace SecureProctor
 {
     public partial class AjaxHandler : System.Web.UI.Page
     {
-
+        Int64 TransID;
         protected void Page_Load(object sender, EventArgs e)
         {
             if (Request.Form["method"] != null)
             {
+                BEStudent objBEStudent = new BEStudent();
+                BStudent objBStudent = new BStudent();
+                BEProctor objBEProctor = new BEProctor();
+                BProctor objBProctor = new BProctor();
+                if (Request.Form["TransID"] != null)
+                {
+                    TransID = Convert.ToInt64(AppSecurity.Decrypt(HttpUtility.UrlDecode(Request.Form["TransID"].ToString())));
+                }
                 switch (Request.Form["method"].ToString())
                 {
                     case "GetIdentityValidation":
                         {
-                            BEStudent objBEStudent = new BEStudent();
-                            BStudent objBStudent = new BStudent();
+                            //BEStudent objBEStudent = new BEStudent();
+                            //BStudent objBStudent = new BStudent();
 
-                            objBEStudent.IntTransID = Convert.ToInt64(AppSecurity.Decrypt(Request.Form["TransID"].ToString()));
+                            //objBEStudent.IntTransID = Convert.ToInt64(AppSecurity.Decrypt(Request.Form["TransID"].ToString()));
+                            objBEStudent.IntTransID = TransID;
 
                             objBStudent.BGetIdentityValidation(objBEStudent);
 
@@ -34,10 +44,11 @@ namespace SecureProctor
                         break;
                     case "ValidateStep1":
                         {
-                            BEStudent objBEStudent = new BEStudent();
-                            BStudent objBStudent = new BStudent();
+                            //BEStudent objBEStudent = new BEStudent();
+                            //BStudent objBStudent = new BStudent();
 
-                            objBEStudent.IntTransID = Convert.ToInt64(AppSecurity.Decrypt(Request.Form["TransID"].ToString()));
+                            //objBEStudent.IntTransID = Convert.ToInt64(AppSecurity.Decrypt(Request.Form["TransID"].ToString()));
+                            objBEStudent.IntTransID = TransID;
 
                             objBStudent.BGetIdentityValidation(objBEStudent);
 
@@ -64,8 +75,8 @@ namespace SecureProctor
                     //    break;
                     case "ValidateStep2":
                         {
-                            BStudent objBStudent = new BStudent();
-                            BEStudent objBEStudent = new BEStudent();
+                            //BStudent objBStudent = new BStudent();
+                            //BEStudent objBEStudent = new BEStudent();
                             objBEStudent.IntUserID = Convert.ToInt32(Session[BaseClass.EnumPageSessions.USERID].ToString());
                             objBEStudent.strAnswer1 = Request.Form["Answer"].ToString().Trim().ToString();
                             objBEStudent.strQuestion1 = Request.Form["Question"].ToString().Trim().ToString();
@@ -92,9 +103,10 @@ namespace SecureProctor
 
                     case "setStatus":
                         {
-                            BEProctor objBEProctor = new BEProctor();
-                            BProctor objBProctor = new BProctor();
-                            objBEProctor.IntTransID = Convert.ToInt64(AppSecurity.Decrypt(Request.Form["TransID"].ToString()));
+                            //BEProctor objBEProctor = new BEProctor();
+                            //BProctor objBProctor = new BProctor();
+                            //objBEProctor.IntTransID = Convert.ToInt64(AppSecurity.Decrypt(Request.Form["TransID"].ToString()));
+                            objBEProctor.IntTransID = TransID;
                             objBEProctor.strStatus = "STARTEXAM";
                             objBEProctor.IntResult = 0;
                             objBProctor.BSetTransactionFlags(objBEProctor);
@@ -102,18 +114,20 @@ namespace SecureProctor
                         break;
                     case "setexamiFACEStatus":
                         {
-                            BEProctor objBEProctor = new BEProctor();
-                            BProctor objBProctor = new BProctor();
-                            objBEProctor.IntTransID = Convert.ToInt64(AppSecurity.Decrypt(Request.Form["TransID"].ToString()));
+                            //BEProctor objBEProctor = new BEProctor();
+                            //BProctor objBProctor = new BProctor();
+                            //objBEProctor.IntTransID = Convert.ToInt64(AppSecurity.Decrypt(Request.Form["TransID"].ToString()));
+                            objBEProctor.IntTransID = TransID;
 
                             objBProctor.BSetexamiFACETransactionStatus(objBEProctor);
                         }
                         break;
                     case "setexamiFACEDownLoadStatus":
                         {
-                            BEProctor objBEProctor = new BEProctor();
-                            BProctor objBProctor = new BProctor();
-                            objBEProctor.IntTransID = Convert.ToInt64(AppSecurity.Decrypt(Request.Form["TransID"].ToString()));
+                            //BEProctor objBEProctor = new BEProctor();
+                            //BProctor objBProctor = new BProctor();
+                            //objBEProctor.IntTransID = Convert.ToInt64(AppSecurity.Decrypt(Request.Form["TransID"].ToString()));
+                            objBEProctor.IntTransID = TransID;
                             objBEProctor.strStatus = Request.Form["Status"].ToString().Trim().ToString();
 
                             objBProctor.BSetexamiFACEDownLoadStatus(objBEProctor);
@@ -131,7 +145,8 @@ namespace SecureProctor
                             BECommon objBECommon = new BECommon();
                             BCommon objBCommon = new BCommon();
 
-                            objBECommon.IntTransID = Convert.ToInt64(AppSecurity.Decrypt(Request.Form["TransID"].ToString()));
+                            //objBECommon.IntTransID = Convert.ToInt64(AppSecurity.Decrypt(Request.Form["TransID"].ToString()));
+                            objBECommon.IntTransID = TransID;
                             objBECommon.IntstatusFlag = Convert.ToInt32(Request.Form["Status"].ToString().Trim().ToString());
                             objBCommon.BReenableBeginExamstatus(objBECommon);
                         }
@@ -139,10 +154,11 @@ namespace SecureProctor
 
                     case "ValidateStep3":
                         {
-                            BEStudent objBEStudent = new BEStudent();
-                            BStudent objBStudent = new BStudent();
+                            //BEStudent objBEStudent = new BEStudent();
+                            //BStudent objBStudent = new BStudent();
 
-                            objBEStudent.IntTransID = Convert.ToInt64(AppSecurity.Decrypt(Request.Form["TransID"].ToString()));
+                            //objBEStudent.IntTransID = Convert.ToInt64(AppSecurity.Decrypt(Request.Form["TransID"].ToString()));
+                            objBEStudent.IntTransID = TransID;
                             objBEStudent.IntstatusFlag = 2;
 
                             objBStudent.BUpdateExamStatus(objBEStudent);
@@ -151,9 +167,10 @@ namespace SecureProctor
                         break;
                     case "ValidateStep4":
                         {
-                            BEStudent objBEStudent = new BEStudent();
-                            BStudent objBStudent = new BStudent();
-                            objBEStudent.IntTransID = Convert.ToInt64(AppSecurity.Decrypt(Request.Form["TransID"].ToString()));
+                            //BEStudent objBEStudent = new BEStudent();
+                            //BStudent objBStudent = new BStudent();
+                            //objBEStudent.IntTransID = Convert.ToInt64(AppSecurity.Decrypt(Request.Form["TransID"].ToString()));
+                            objBEStudent.IntTransID = TransID;
                             objBEStudent.IntFlag = 0;
                             objBStudent.BSetExamStartandEndTime(objBEStudent);
 
@@ -163,9 +180,10 @@ namespace SecureProctor
                         break;
                     case "GetSessionID":
                         {
-                            BEStudent objBEStudent = new BEStudent();
-                            BStudent objBStudent = new BStudent();
-                            objBEStudent.IntTransID = Convert.ToInt64(AppSecurity.Decrypt(Request.Form["TransID"].ToString()));
+                            //BEStudent objBEStudent = new BEStudent();
+                            //BStudent objBStudent = new BStudent();
+                            //objBEStudent.IntTransID = Convert.ToInt64(AppSecurity.Decrypt(Request.Form["TransID"].ToString()));
+                            objBEStudent.IntTransID = TransID;
                             objBStudent.BGetExamSessionIDWithPrefix(objBEStudent);
                             if (objBEStudent.strSessionID.Length != 0)
                             {
@@ -196,9 +214,10 @@ namespace SecureProctor
                         break;
                     case "UpdateNextButtonTime":
                         {
-                            BEStudent objBEStudent = new BEStudent();
-                            BStudent objBStudent = new BStudent();
-                            objBEStudent.IntTransID = Convert.ToInt64(AppSecurity.Decrypt(Request.Form["TransID"].ToString()));
+                            //BEStudent objBEStudent = new BEStudent();
+                            //BStudent objBStudent = new BStudent();
+                            //objBEStudent.IntTransID = Convert.ToInt64(AppSecurity.Decrypt(Request.Form["TransID"].ToString()));
+                            objBEStudent.IntTransID = TransID;
                             objBStudent.BUpdateNextButtonTime(objBEStudent);
 
                             Response.Write("true");
@@ -210,10 +229,12 @@ namespace SecureProctor
                         }
                         break;
 
-
-
-
                 }
+
+                objBEStudent = null;
+                objBStudent = null;
+                objBEProctor = null;
+                objBProctor = null;
             }
         }
 
@@ -224,7 +245,7 @@ namespace SecureProctor
             string firstname = Request["firstname"];
             string firstnamelastname = Request["firstNameLastName"];
 
-            BEUser objBEUser = new BEUser() { IntTransID = Convert.ToInt64(AppSecurity.Decrypt(Request.Form["TransID"].ToString())) };
+            BEUser objBEUser = new BEUser() { IntTransID = TransID };
             BUser objBUser = new BUser();
             objBUser.BGetProfileExamiKeyDetails(objBEUser);
             string FirstName = objBEUser.DtResult.Rows[0]["FName"].ToString();
@@ -274,7 +295,7 @@ namespace SecureProctor
 
                             BEStudent objBEStudent = new BEStudent()
                             {
-                                IntTransID = Convert.ToInt64(AppSecurity.Decrypt(Request.Form["TransID"].ToString())),
+                                IntTransID = TransID,
                                 intExamiKeyScore = score,
                                 IntType = 26
                             };

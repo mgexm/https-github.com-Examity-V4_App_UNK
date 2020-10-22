@@ -53,7 +53,7 @@ namespace SecureProctor.CourseAdmin
             {
                 this.BindExams();
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
 
             }

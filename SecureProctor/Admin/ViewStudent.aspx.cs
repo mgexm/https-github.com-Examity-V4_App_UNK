@@ -81,7 +81,7 @@ namespace SecureProctor.Admin
                 objBAdmin.BGetStudentTransactionsForAllProviders(objBEAdmin);
                 gvTransDetails.DataSource = objBEAdmin.DtResult;
             }
-            catch (Exception Ex) { }
+            catch (Exception ) { }
         }
 
         protected void gvTransDetails_SortCommand(object sender, GridSortCommandEventArgs e)

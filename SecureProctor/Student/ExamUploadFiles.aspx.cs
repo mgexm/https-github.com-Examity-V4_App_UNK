@@ -8,7 +8,6 @@ using System.Web.UI.WebControls;
 using BusinessEntities;
 using BLL;
 using Telerik.Web.UI;
-using System.IO;
 
 namespace SecureProctor.Student
 {

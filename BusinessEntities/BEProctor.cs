@@ -7,8 +7,8 @@ namespace BusinessEntities
     {
         public DateTime dtDate { get; set; }
         public string StrDate { get; set; }
-        public string strExamName { get; set; }
-        public string strStudentName { get; set; }
+        //public string strExamName { get; set; }
+        //public string strStudentName { get; set; }
         public int iStudentID { get; set; }
         public int ExamTime { get; set; }
         public string strOriginalFileName { get; set; }

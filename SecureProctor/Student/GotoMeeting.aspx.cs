@@ -45,7 +45,7 @@ namespace SecureProctor.Student
 
             }
 
-            catch (Exception Ex)
+            catch (Exception )
             {
 
 

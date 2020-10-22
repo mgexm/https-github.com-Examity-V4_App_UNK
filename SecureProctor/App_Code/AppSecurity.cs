@@ -55,24 +55,49 @@ namespace SecureProctor
         }
         public static string Decrypt(string srtDecrypt)
         {
-            return (Decryption(srtDecrypt.Replace(" ", "+"), System.Configuration.ConfigurationManager.AppSettings["SaltKey"].ToString()));
+            //return (Decryption(srtDecrypt.Replace(" ", "+"), System.Configuration.ConfigurationManager.AppSettings["SaltKey"].ToString()));
+            srtDecrypt = srtDecrypt.Replace(" ", "+");
+            int mod4 = srtDecrypt.Length % 4;
+            if (mod4 > 0)
+            {
+                srtDecrypt += new string('=', 4 - mod4);
+            }
+            return (Decryption(srtDecrypt, System.Configuration.ConfigurationManager.AppSettings["SaltKey"].ToString()));
+
         }
+        //public string ImageToBase64(string strImgeName)
+        //{
+        //    try
+        //    {
+        //        strImgeName = System.Web.HttpContext.Current.Server.MapPath("~/Student\\Student_Identity\\") + strImgeName;
+        //        string base64String = string.Empty;
+        //        using (System.Drawing.Image image = System.Drawing.Image.FromFile(strImgeName))
+        //        {
+        //            using (MemoryStream m = new MemoryStream())
+        //            {
+        //                image.Save(m, image.RawFormat);
+        //                byte[] imageBytes = m.ToArray();
+        //                base64String = Convert.ToBase64String(imageBytes);
+        //                return "data:image/png;base64," + base64String;
+        //            }
+        //        }
+        //    }
+        //    catch
+        //    {
+        //        return string.Empty;
+        //    }
+        //}
+
         public string ImageToBase64(string strImgeName)
         {
             try
             {
                 strImgeName = System.Web.HttpContext.Current.Server.MapPath("~/Student\\Student_Identity\\") + strImgeName;
                 string base64String = string.Empty;
-                using (System.Drawing.Image image = System.Drawing.Image.FromFile(strImgeName))
-                {
-                    using (MemoryStream m = new MemoryStream())
-                    {
-                        image.Save(m, image.RawFormat);
-                        byte[] imageBytes = m.ToArray();
-                        base64String = Convert.ToBase64String(imageBytes);
-                        return "data:image/png;base64," + base64String;
-                    }
-                }
+
+                byte[] imageArray = System.IO.File.ReadAllBytes(strImgeName);
+                base64String = System.Convert.ToBase64String(imageArray);
+                return "data:image/png;base64," + base64String;
             }
             catch
             {

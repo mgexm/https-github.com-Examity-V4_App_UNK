@@ -550,7 +550,7 @@ namespace SecureProctor.Admin
                 gvExamDetails.DataSource = objBEAdmin.DtResult;
                 gvExamDetails.Rebind();
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
 
             }
@@ -630,7 +630,7 @@ namespace SecureProctor.Admin
                     objBExamProvider = null;
                 }
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
 
             }

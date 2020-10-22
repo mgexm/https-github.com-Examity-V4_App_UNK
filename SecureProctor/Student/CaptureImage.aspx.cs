@@ -8,7 +8,7 @@ using System.IO;
 using System.Web.Services;
 using BusinessEntities;
 using BLL;
-
+using System.Text.RegularExpressions;
 
 namespace SecureProctor.Student
 {
@@ -29,8 +29,11 @@ namespace SecureProctor.Student
                     using (StreamReader reader = new StreamReader(Request.InputStream))
                     {
                         string hexString = Server.UrlEncode(reader.ReadToEnd());
+                        if (Regex.IsMatch(hexString, @"\A\b[0-9a-fA-F]+\b\Z"))
+                        {
 
-                        Session["CapturedBytes"] = ConvertHexToBytes(hexString);
+                            Session["CapturedBytes"] = ConvertHexToBytes(hexString);
+                        }
                     }
                 }
 
@@ -48,7 +51,7 @@ namespace SecureProctor.Student
         protected void btnUpload_Click(object sender, EventArgs e)
         {
             //new code added by adarsh for video playeer tag
-            if (Session["IsHmlCompliant"] == "Yes")
+            if (Session["IsHmlCompliant"].ToString() == "Yes")
                 Session["CapturedBytes"] = Convert.FromBase64String(txtimgvalue.Value);
 
 

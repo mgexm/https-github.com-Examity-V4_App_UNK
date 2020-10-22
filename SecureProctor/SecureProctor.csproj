@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -13,17 +13,13 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SecureProctor</RootNamespace>
     <AssemblyName>SecureProctor</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <TargetFrameworkProfile />
-    <SccProjectName>
-    </SccProjectName>
-    <SccLocalPath>
-    </SccLocalPath>
-    <SccAuxPath>
-    </SccAuxPath>
-    <SccProvider>
-    </SccProvider>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
     <SilverlightApplicationList>
     </SilverlightApplicationList>
     <FileUpgradeFlags>
@@ -96,7 +92,7 @@
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>DLLs\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\..\Desktop\Latest Zoom Dll\bin\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="RestSharp, Version=104.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -555,20 +551,36 @@
       <DependentUpon>AjaxHandler.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Code\ErrorMessages.cs" />
-    <Compile Include="App_GlobalResources\AppConfigurations.Designer.cs" />
+    <Compile Include="App_GlobalResources\AppConfigurations1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppConfigurations.resx</DependentUpon>
+    </Compile>
     <Compile Include="App_GlobalResources\AppControls.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>AppControls.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\AppHelpContent.Designer.cs" />
+    <Compile Include="App_GlobalResources\AppHelpContent1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppHelpContent.resx</DependentUpon>
+    </Compile>
     <Compile Include="App_GlobalResources\AppMessages.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>AppMessages.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\AppOpenTok.Designer.cs" />
-    <Compile Include="App_GlobalResources\AppSkins.Designer.cs" />
+    <Compile Include="App_GlobalResources\AppOpenTok1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppOpenTok.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\AppSkins1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppSkins.resx</DependentUpon>
+    </Compile>
     <Compile Include="App_GlobalResources\ResMessages.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

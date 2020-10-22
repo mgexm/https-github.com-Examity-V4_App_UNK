@@ -86,7 +86,7 @@ namespace SecureProctor.CourseAdmin
                 }
 
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
                 //ErrorLog.WriteError(Ex);
             }
@@ -396,7 +396,7 @@ namespace SecureProctor.CourseAdmin
 
                 }
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
                 // ErrorLog.WriteError(Ex);
             }

@@ -70,7 +70,7 @@ namespace SecureProctor.Student
                     objBECommon.iTypeID = 2;// sending ExamID
                 }
 
-                catch (Exception e)
+                catch (Exception )
                 {
                     objBECommon.iID = Convert.ToInt32(Request.QueryString["ExamID"].ToString());
                     objBECommon.iTypeID = 2;// sending ExamID

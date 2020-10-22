@@ -29,7 +29,7 @@ namespace SecureProctor.Admin
                     BindProviderNames();
                 }
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
             }
         }
@@ -155,7 +155,7 @@ namespace SecureProctor.Admin
 
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
 
             }
@@ -172,7 +172,7 @@ namespace SecureProctor.Admin
 
                 Response.Redirect("ViewUserDetails.aspx?Type=R&" + AppSecurity.Encrypt("StudentID=" + StudentID), false);
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
             }
         }
@@ -186,7 +186,7 @@ namespace SecureProctor.Admin
 
                 Response.Redirect("AdminEditEnrollment.aspx?EnrollID=" + AppSecurity.Encrypt(StudentID.ToString()), false);
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
             }
         }
@@ -200,7 +200,7 @@ namespace SecureProctor.Admin
 
                 Response.Redirect("AdminDeleteEnrollment.aspx?EnrollID=" + AppSecurity.Encrypt(StudentID.ToString()), false);
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
             }
         }

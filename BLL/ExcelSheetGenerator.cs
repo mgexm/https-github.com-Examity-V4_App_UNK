@@ -1139,10 +1139,10 @@ public class ExcelSheetGenerator
         int intGraphSPacing = 2;
         int intGraphWidth = 600;
         int intGraphHeight = 160;
-        int intPieHeight = 400;
+        //int intPieHeight = 400;
         int intColCount = 0;
-        int intMaxColCount = 1;
-        int intMaxRowCount = 1;
+        //int intMaxColCount = 1;
+        //int intMaxRowCount = 1;
         int intCellPosition = 2;
 
         //BEExcelStyles objBEExcelStyles = GetExcelStyles();

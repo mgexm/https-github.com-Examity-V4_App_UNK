@@ -124,12 +124,12 @@ namespace SecureProctor.Provider
 
                     }
                 }
-                catch (Exception Ex)
+                catch (Exception )
                 {
                     // ErrorLog.WriteError(Ex);
                 }
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
                 //ErrorLog.WriteError(Ex);
             }

@@ -11,7 +11,7 @@ namespace SecureProctor.Student
 {
     public partial class Systemreadiness : BaseClass
     {
-        Int64 transid = 0;
+        //Int64 transid = 0;
         protected void Page_Load(object sender, EventArgs e)
         {
             this.Page.Title = EnumPageTitles.APPNAME + EnumPageTitles.STUDENT_SYSTEMREADINESS;

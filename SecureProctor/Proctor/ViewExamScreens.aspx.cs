@@ -475,7 +475,7 @@ namespace SecureProctor.Proctor
                     Response.Redirect("ViewUserDetails.aspx?Type=E&" + AppSecurity.Encrypt("StudentID=" + Session[BaseClass.EnumPageSessions.StudentID].ToString()), false);
                 }
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
                 //ErrorLog.WriteError(Ex);
             }

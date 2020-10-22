@@ -80,7 +80,7 @@ namespace SecureProctor.Student
                                 //}
                                
                             }
-                            catch (Exception ex)
+                            catch (Exception )
                             {
                             }
                             this.BindExamDetails(Convert.ToInt64(objBEStudent.DsResult.Tables[0].Rows[0]["ID"].ToString()));

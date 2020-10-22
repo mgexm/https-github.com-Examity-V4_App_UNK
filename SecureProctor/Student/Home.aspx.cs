@@ -51,7 +51,7 @@ namespace SecureProctor.Student
                     img.Src = "../Images/noimage.png";
                 }
             }
-            catch (Exception e)
+            catch (Exception )
             {
 
             }

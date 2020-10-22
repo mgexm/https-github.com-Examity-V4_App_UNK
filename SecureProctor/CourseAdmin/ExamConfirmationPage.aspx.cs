@@ -274,7 +274,7 @@ namespace SecureProctor.CourseAdmin
                 fi.Delete();
             }
 
-            catch (Exception e) { }
+            catch (Exception ) { }
         }
 
         public static string MimeType(string Extension)

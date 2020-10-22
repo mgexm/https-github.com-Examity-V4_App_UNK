@@ -785,7 +785,7 @@ namespace SecureProctor.Student
                         objBEMail.StrTemplateName = BaseClass.EnumEmails.StudentExamReceipt.ToString();
                         objBMail.BSendEmail(objBEMail);
                     }
-                    catch (Exception ex)
+                    catch (Exception )
                     {
                     }
                     this.LogPayments(Convert.ToInt64(objBEStudent.DsResult.Tables[0].Rows[0]["ID"].ToString()), objBEStudent.decExamFee + objBEStudent.PerHourFee, objBEStudent.decOnDemandFee, EnumPayment.ExamType_Scheduled);
@@ -1887,7 +1887,7 @@ namespace SecureProctor.Student
                         objBEMail.StrTemplateName = BaseClass.EnumEmails.StudentExamReceipt.ToString();
                         objBMail.BSendEmail(objBEMail);
                     }
-                    catch (Exception ex)
+                    catch (Exception )
                     {
                     }
 

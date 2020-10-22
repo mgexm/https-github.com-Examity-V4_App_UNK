@@ -30,7 +30,7 @@ namespace SecureProctor.Provider
             {
                 GetStudents();
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
                 //ErrorHandlers.ErrorLog.WriteError(Ex);
             }

@@ -427,7 +427,7 @@ namespace SecureProctor.Provider
                 gvExamDetails.DataSource = objBEExamProvider.DtResult;
 
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
 
             }
@@ -536,7 +536,7 @@ namespace SecureProctor.Provider
                     objBExamProvider = null;
                 }
             }
-            catch (Exception Ex)
+            catch (Exception )
             {
 
             }

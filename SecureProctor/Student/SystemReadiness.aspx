@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Student/Student.Master" AutoEventWireup="true" CodeBehind="SystemReadiness.aspx.cs" Inherits="SecureProctor.Student.SystemReadiness" %>
+<%@ Page Title="" Language="C#" MasterPageFile="~/Student/Student.Master" AutoEventWireup="true" CodeBehind="SystemReadiness.aspx.cs" Inherits="SecureProctor.Student.SystemReadiness" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="StudentContent" runat="server">
 
@@ -18,9 +18,9 @@
 
     <link href="../CSS/help.css" rel="stylesheet" type="text/css" />
 
-    <link href="https://cdn.desk.com/assets/widget_embed_191.css" media="screen" rel="stylesheet" type="text/css" />
+    <%--<link href="https://cdn.desk.com/assets/widget_embed_191.css" media="screen" rel="stylesheet" type="text/css" />--%>
     <!--If you already have fancybox on the page this script tag should be omitted-->
-    <script src="https://desk-customers.s3.amazonaws.com/shared/widget_embed_libraries_191.js" type="text/javascript"></script>
+    <%--<script src="https://desk-customers.s3.amazonaws.com/shared/widget_embed_libraries_191.js" type="text/javascript"></script>--%>
 
     <script src="../SystemReadiness/speedcheck.js" type="text/javascript"></script>
 

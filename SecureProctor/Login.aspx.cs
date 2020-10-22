@@ -168,7 +168,7 @@ namespace SecureProctor
                     else
                     {
                         Session["DUALROLE"] = objBEUser.DsResult;
-                        Response.Redirect("switchrole.aspx?ID=1");
+                        Response.Redirect("switchrole.aspx?ID=1",false);
                     }
                 }
                 else
